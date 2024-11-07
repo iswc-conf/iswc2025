@@ -1,0 +1,32 @@
+.scroll-container {
+    overflow-y: hidden;
+    height :380px
+  }
+  
+  .scroll-content {
+    animation: scroll 60s linear infinite; /* Adjust the animation duration and timing function as needed */
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateY(0%);
+    }
+    to {
+      transform: translateY(-100%);
+    }
+  }
+  
+  .paused {
+    animation-play-state: paused;
+  }
+  
+  .scroll-item {
+    display: block;
+    padding: 10px;
+  }
+  .swiper-wrapper {
+    justify-content: space-between;
+  }
+  .swiper-pagination{
+    position: static !important;
+  }

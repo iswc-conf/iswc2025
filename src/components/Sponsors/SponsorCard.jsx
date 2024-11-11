@@ -1,6 +1,6 @@
 import React from 'react'
 
-function SponsorCard({ img, name,detail}) {
+function SponsorCard({ img, name, role, detail}) {
   return (
     <>
       {' '}
@@ -8,16 +8,16 @@ function SponsorCard({ img, name,detail}) {
         <img
           src={img}
           alt=""
-          className="w-36 h-36 mx-auto rounded-full dark:bg-gray-500 aspect-square"
+          className="w-36 h-36 mx-auto rounded-full dark:bg-gray-500 object-cover"
         />
         <div className="space-y-4 text-center divide-y dark:divide-gray-300">
           <div className="my-2 space-y-1">
-            <h2 className="text-lg font-semibold sm:text-md" >{name }</h2>
-            <i><p className="px-0.5 text-xs sm:text-base dark:text-gray-600 font-[300]">
-             {detail}
-            </p></i>
+            <h2 className="text-lg font-semibold sm:text-md">{name}</h2>
+            <h4 className="text-lg font-semibold sm:text-md">{role}</h4>
+            <i>
+              <p className="px-0.5 text-xs sm:text-base dark:text-gray-600 font-[300]">{detail}</p>
+            </i>
           </div>
-         
         </div>
       </div>
 

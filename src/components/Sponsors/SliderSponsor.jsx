@@ -55,7 +55,8 @@ function SliderSponsor({ users }) {
             <AvatarCard
               img={user.img}
               name={user.name}
-              detail={user.detail}
+              role={user.role}
+              detail={`${user.institution}, ${user.country}`}
             />
           </SwiperSlide>
         );

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import logo from "./assests/logo.png";
+import logo from "./assests/logo.webp";
 import { Link, useLocation } from "react-router-dom";
 
 export const NavBar = () => {
@@ -33,7 +33,7 @@ export const NavBar = () => {
         <Link to="/">
           <div className="flex items-center justify-center flex-shrink-0 mr-2 md:mr-14 ">
             <img src={logo} className="w-[74px] h-[74px]  mr-4" alt="Logo" />
-            <p className=" font-bold text-xl lg:text-3xl tracking-wide">
+            <p style={{ color: '#e94607' }} className=" font-bold text-xl lg:text-3xl tracking-wide">
               ISWC 2025
             </p>
           </div>
@@ -70,70 +70,22 @@ export const NavBar = () => {
                   class="py-2 text-sm text-[#33358c] "
                   aria-labelledby="dropdownDefaultButton"
                 >
-                  <li>
+                  {/* <li>
                     <Link
                       to="/about"
                       class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
                     >
                       About
                     </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/cfp"
-                      class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
-                    >
-                      CFP
-                    </Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <a
                       href="/"
                       class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
                     >
                       Important Dates
                     </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
-                    >
-                      Submission Guidelines
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      class="block px-4 py-2hover:text-[#33358c] hover:bg-gray-200"
-                    >
-                      Conference Tracks
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
-                    >
-                      Publishing and Indexing
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
-                    >
-                      Special Session
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
-                    >
-                      Important Links
-                    </a>
-                  </li>
+                  </li> */}
                 </ul>
               )
             }
@@ -146,111 +98,48 @@ export const NavBar = () => {
                 class="py-2 text-sm text-[#33358c] "
                 aria-labelledby="dropdownDefaultButton"
               >
-                <li>
+                {/* <li>
                   <Link
                     to="/about"
                     class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
                   >
                     About
                   </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/cfp"
-                    class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
-                  >
-                    CFP
-                  </Link>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <a
                     href="/"
                     class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
                   >
                     Important Dates
                   </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
-                  >
-                    Submission Guidelines
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    class="block px-4 py-2hover:text-[#33358c] hover:bg-gray-200"
-                  >
-                    Conference Tracks
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
-                  >
-                    Publishing and Indexing
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
-                  >
-                    Special Session
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
-                  >
-                    Important Links
-                  </a>
-                </li>
+                </li> */}
               </ul>
             </div>
 
-            <Link
-              to="/author-guide"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
-            >
-              Guideline
-              <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
-            </Link>
-
-            <Link
-              to="/agenda"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
-            >
-              Agenda
-              <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
-            </Link>
 
 
             <Link
               to="/committees"
               className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
             >
-              Committees
-              <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+              Organizing Committee
+              <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>
             </Link>
-            <Link
+            {/* <Link
               to="/contact"
               className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
             >
               Contact
               <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               to="/register"
               className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
             >
               Submit Paper
               <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
-            </Link>
+            </Link> */}
             {/* {
               isMainPage ? 
               <a
@@ -270,13 +159,13 @@ export const NavBar = () => {
 
             } */}
 
-            <Link
+            {/* <Link
               to="/participation-policy"
               className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200  group"
             >
               Participation Policy
               <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
-            </Link>
+            </Link> */}
 
           </div>
         </div>

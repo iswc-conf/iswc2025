@@ -7,6 +7,15 @@ body {
   font-family: "Montserrat", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #e94607;
+}
+
+nav {
+  color: #e94607;
+}
+
+.custom-Link {
+  color: #e94607;
 }
 
 code {

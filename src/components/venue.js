@@ -12,7 +12,7 @@ export const Venue = () => {
         <div className="flex items-center justify-center flex-col">
           <div className="mb-4 ">
             <p className="font-semibold text-2xl text-center  mb-4">
-              Tokyo{" "}
+              Nara,Japan{" "}
             </p>
             <p className="text-md text-center px-4">
             

@@ -13,12 +13,8 @@ function Sponsor({word, users}) {
           {word.substring(3)}
         </p>
         
-        <div className="grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 gap-8">
-          <AvatarSlider users={users.slice(0, 5)} />
-          <AvatarSlider users={users.slice(5, 10)} />
-          <AvatarSlider users={users.slice(10, 15)} />
-          <AvatarSlider users={users.slice(15, 20)} />
-          <AvatarSlider users={users.slice(20, 25)} />
+        <div className="lg:mx-24 mx-6 mt-2">
+          <AvatarSlider users={users} />
           {/* Add more AvatarSlider components as needed */}
         </div>
       </section>

@@ -6,7 +6,7 @@
       "Name_of_Faculty": "Anna Lisa Gentile",
       "Institution": "IBM Research",
       "Country": "US",
-      "Image": "./OC_photos/gentile_annalisa.jpeg"
+      "Image": "./organizing/gentile_annalisa.jpeg"
     },
     {
       "Sr.No.": 2,
@@ -14,7 +14,7 @@
       "Name_of_Faculty": "Kouji Kozaki",
       "Institution": "Osaka Electro-Communication University",
       "Country": "Japan",
-      "Image": "./OC_photos/Kouji_Kozaki.png"
+      "Image": "./organizing/Kouji_Kozaki.png"
     },
     {
       "Sr.No.": 3,
@@ -22,7 +22,7 @@
       "Name_of_Faculty": "Ken Fukuda",
       "Institution": "National Institute of Advanced Industrial Science and Technology (AIST)",
       "Country": "Japan",
-      "Image": "./OC_photos/Ken_Fukuda.jpg"
+      "Image": "./organizing/Ken_Fukuda.jpg"
     },
     {
       "Sr.No.": 4,
@@ -46,7 +46,7 @@
       "Name_of_Faculty": "Daniel Garijo",
       "Institution": "Universidad Politécnica de Madrid",
       "Country": "Spain",
-      "Image": "./OC_photos/Garijo_Daniel.png"
+      "Image": "./organizing/Garijo_Daniel.png"
     },
     {
       "Sr.No.": 7,
@@ -54,7 +54,7 @@
       "Name_of_Faculty": "Sabrina Kirrane",
       "Institution": "Vienna University of Economics and Business",
       "Country": "Austria",
-      "Image": "./OC_photos/kirrane_sabrina.jpg"
+      "Image": "./organizing/kirrane_sabrina.jpg"
     },
     {
       "Sr.No.": 8,
@@ -62,7 +62,7 @@
       "Name_of_Faculty": "Maribel Acosta Deibe",
       "Institution": "Ruhr-Universität Bochum",
       "Country": "Germany",
-      "Image": "./OC_photos/Acosta_Maribel.jpg"
+      "Image": "./organizing/Acosta_Maribel.jpg"
     },
     {
       "Sr.No.": 9,
@@ -78,7 +78,7 @@
       "Name_of_Faculty": "Cogan Shimizu",
       "Institution": "Wright State University",
       "Country": "US",
-      "Image": "./OC_photos/shimizu_cogan.jpg"
+      "Image": "./organizing/shimizu_cogan.jpg"
     },
     {
       "Sr.No.": 11,
@@ -86,7 +86,7 @@
       "Name_of_Faculty": "Angelo Salatino",
       "Institution": "KMi, The Open University",
       "Country": "United Kingdom",
-      "Image": "./OC_photos/Salatino_Angelo.png"
+      "Image": "./organizing/Salatino_Angelo.png"
     },
     {
       "Sr.No.": 12,
@@ -94,7 +94,7 @@
       "Name_of_Faculty": "Blerina Spahiu",
       "Institution": "Università di Milano-Bicocca",
       "Country": "Italy",
-      "Image": "./OC_photos/spahiu_blerina.jpeg"
+      "Image": "./organizing/spahiu_blerina.jpeg"
     },
     {
       "Sr.No.": 13,
@@ -102,7 +102,7 @@
       "Name_of_Faculty": "Juan Sequeda",
       "Institution": "data.world",
       "Country": "US",
-      "Image": "./OC_photos/Sequeda_Juan.jpg"
+      "Image": "./organizing/Sequeda_Juan.jpg"
     },
     {
       "Sr.No.": 14,
@@ -118,7 +118,7 @@
       "Name_of_Faculty": "Natasha Noy",
       "Institution": "Google",
       "Country": "US",
-      "Image": "./OC_photos/Noy_Natasha.jpg"
+      "Image": "./organizing/Noy_Natasha.jpg"
     },
     {
       "Sr.No.": 16,
@@ -126,7 +126,7 @@
       "Name_of_Faculty": "Abraham Bernstein",
       "Institution": "University of Zurich",
       "Country": "Switzerland",
-      "Image": "./OC_photos/Abraham_Bernstein.jpeg"
+      "Image": "./organizing/Abraham_Bernstein.jpeg"
     },
     {
       "Sr.No.": 17,
@@ -198,7 +198,7 @@
       "Name_of_Faculty": "Tetsuya Mihara",
       "Institution": "University of Tsukuba",
       "Country": "Japan",
-      "Image": "./OC_photos/Mihara_Tetsuya.jpg"
+      "Image": "./organizing/Mihara_Tetsuya.jpg"
     },
     {
       "Sr.No.": 26,
@@ -206,7 +206,7 @@
       "Name_of_Faculty": "Genet-Asefa Gesese",
       "Institution": "FIZ Karlsruhe, Karlsruhe Institute of Technology (KIT)",
       "Country": "Germany",
-      "Image": "./OC_photos/genet_asefa_gesese.jpg"
+      "Image": "./organizing/genet_asefa_gesese.jpg"
     }
   ]
 }

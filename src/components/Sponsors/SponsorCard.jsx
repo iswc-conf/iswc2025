@@ -4,7 +4,7 @@ function SponsorCard({ img, name, role, detail}) {
   return (
     <>
       {' '}
-     <div className="flex flex-col justify-center max-w-xs py-1  w-[300px] md:w-[250px] lg:w-[300px] h-[350px] shadow-md rounded-xl sm:px-12 dark:bg-gray-50 dark:text-gray-800">
+     <div className="flex flex-col justify-center max-w-xs py-1  w-[500px] md:w-[450px] lg:w-[500px] h-[350px] shadow-md rounded-xl sm:px-12 dark:bg-gray-50 dark:text-gray-800">
         <img
           src={img}
           alt=""

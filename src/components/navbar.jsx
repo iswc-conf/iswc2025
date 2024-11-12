@@ -121,6 +121,7 @@ export const NavBar = () => {
 
             <Link
               to="/committees"
+              style={{ color: '#e94607' }} 
               className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
             >
               Organizing Committee

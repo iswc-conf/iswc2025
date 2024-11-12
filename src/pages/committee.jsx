@@ -1,14 +1,12 @@
 import React from "react";
 import Sponsor from "../components/Sponsors/Sponsor";
-import organizingC from "../components/assests/organizing/organizing"
-import data from "../components/assests/committee.json";
+import organizers from "../components/assests/organizing/organizing"
 
 const Committees = () => {
-  const committee = data.committee_members;
   return (
-    <div className="my-36 px-4 lg:px-36 ">
-      <div className="m-2 lg:col-span-8 justify-center items-center]" id="img">
-            <Sponsor users={organizingC} word="Organizing Committee" />
+    <div className="my-36 lg:px-36 ">
+      <div className="flex justify-center item-center flex-col lg:mx-24 mx-6 mt-2" id="img">
+            <Sponsor users={organizers} word="Organizing Committee" />
       </div>
     </div>
   );

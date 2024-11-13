@@ -1,28 +1,26 @@
-import React from 'react'
+import React from 'react';
 
-function SponsorCard({ img, name, role, detail}) {
+function SponsorCard({ img, name, role, detail }) {
   return (
-    <>
-      {' '}
-     <div className="flex flex-col justify-center max-w-xs py-1  w-[500px] md:w-[450px] lg:w-[500px] h-[350px] shadow-md rounded-xl sm:px-12 dark:bg-gray-50 dark:text-gray-800">
+    <div className="flex flex-col items-center w-60 h-auto p-4 shadow-md rounded-lg bg-white">
+      {img ? (
         <img
           src={img}
-          alt=""
-          className="w-36 h-36 mx-auto rounded-full dark:bg-gray-500 object-cover"
+          alt={name}
+          className="w-24 h-24 rounded-full object-cover mb-4"
         />
-        <div className="space-y-4 text-center divide-y dark:divide-gray-300">
-          <div className="my-2 space-y-1">
-            <h2 className="text-lg font-semibold sm:text-md">{name}</h2>
-            <h4 className="text-lg font-semibold sm:text-md">{role}</h4>
-            <i>
-              <p className="px-0.5 text-xs sm:text-base dark:text-gray-600 font-[300]">{detail}</p>
-            </i>
-          </div>
+      ) : (
+        <div className="w-24 h-24 rounded-full bg-gray-200 mb-4 flex items-center justify-center text-gray-500">
+          <span className="text-sm">No Image</span>
         </div>
+      )}
+      <div className="text-center">
+        <h3 className="text-lg font-semibold truncate w-full">{name}</h3>
+        <p className="text-sm font-medium text-gray-600">{role}</p>
+        <p className="text-sm text-gray-500 mt-2 break-words">{detail}</p>
       </div>
-
-    </>
-  )
+    </div>
+  );
 }
 
 export default SponsorCard;

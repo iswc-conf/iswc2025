@@ -1,31 +1,32 @@
 import React from 'react';
-import AvatarCard from './SponsorCard';
+import SponsorCard from './SponsorCard';
 
 function SliderSponsor({ users }) {
   return (
-    <div className="d-flex justify-content-center align-items-center vh-100">
-      <div className="container text-center">
-        {Object.keys(users).map((role, idx) => (
-          <div className="mb-8" key={role}>
-            {/* Centered Role Title */}
-            <p className="text-3xl font-bold mb-4">{role}</p>
+    <div className="container mx-auto px-4 lg:px-8 mt-12">
+      {Object.keys(users).map((role) => (
+        <div className="mb-12" key={role}>
+          {/* Role Title */}
+          <p className="text-2xl font-bold text-left mb-6 lg:mb-8">
+            <span className="tracking-wide underline underline-offset-8 decoration-4 decoration-[#E30022]">
+              {role}
+            </span>
+          </p>
 
-            {/* Centered Cards for Each User */}
-            <div className="flex flex-col items-center space-y-6">
-              {users[role].map((user) => (
-                <div key={user.name} className="flex justify-center w-full">
-                  <AvatarCard
-                    img={user.img}
-                    name={user.name}
-                    role={role}
-                    detail={`${user.institution}, ${user.country}`}
-                  />
-                </div>
-              ))}
-            </div>
+          {/* Responsive Flex Container for Cards */}
+          <div className="flex flex-wrap gap-8 justify-center lg:justify-start">
+            {users[role].map((user) => (
+              <SponsorCard
+                key={user.name}
+                img={user.img}
+                name={user.name}
+                role={role}
+                detail={`${user.institution}, ${user.country}`}
+              />
+            ))}
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   );
 }

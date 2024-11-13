@@ -1,6 +1,6 @@
 import React from "react";
 import Body from "./pages/body";
-
+import About from "./pages/about_page"
 import { Routes ,Route } from "react-router-dom";
 import Registration from "./pages/registration";
 import { NavBar } from "./components/navbar";
@@ -18,7 +18,8 @@ export default function HeroComponent() {
       <Routes>
         <Route path="/" element={<Body/>}/>
         {/* <Route path="/register" element={<Registration/>}/> */}
-        <Route path="/committees" element={<Committees/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/organizing_committee" element={<Committees/>} />
         <Route path="/cfp" element={<Cfp/>} />
         {/* <Route path="/author-guide" element={<AuthorGuidelines/>}/> */}
         {/* <Route path="/contact" element={<Contact/>}/> */}

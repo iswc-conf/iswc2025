@@ -1,28 +1,45 @@
 import React from 'react';
-import SponsorCard from './SponsorCard';
+import { Autoplay, Pagination } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import AvatarCard from './SponsorCard';
 
 function SliderSponsor({ users }) {
   return (
-    <div className="container mx-auto px-4 lg:px-8 mt-12">
-      {Object.keys(users).map((role) => (
-        <div className="mb-12" key={role}>
-          {/* Role Title */}
-          <p className="text-2xl font-bold text-left mb-6 lg:mb-8">{role}</p>
+    <div className="d-flex justify-content-center align-items-center vh-100 w-[80%]">
+      <div className="container text-center">
+        {Object.keys(users).map((role, idx) => {
+          const members = users[role];
+          const justifyContent =
+            members.length === 1
+              ? 'justify-center'
+              : members.length === 2
+              ? 'justify-center'
+              : 'justify-center';
 
-          {/* Responsive Flex Container for Cards */}
-          <div className="flex flex-wrap gap-8 justify-center lg:justify-start">
-            {users[role].map((user) => (
-              <SponsorCard
-                key={user.name}
-                img={user.img}
-                name={user.name}
-                role={role}
-                detail={`${user.institution}, ${user.country}`}
-              />
-            ))}
-          </div>
-        </div>
-      ))}
+          return (
+            <div className="mb-8" key={role}>
+              <p className="text-2xl font-bold mb-4 decoration-red-500">
+                {role}
+              </p>
+              <div
+                className={`flex ${justifyContent} gap-4 flex-wrap`}
+              >
+                {members.map((user) => (
+                  <div key={user.name} className="max-w-xs">
+                    <AvatarCard
+                      img={user.img}
+                      name={user.name}
+                      role={role}
+                      detail={`${user.institution}, ${user.country}`}
+                      className="p-3"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }

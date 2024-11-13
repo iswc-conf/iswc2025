@@ -7,11 +7,7 @@ function SliderSponsor({ users }) {
       {Object.keys(users).map((role) => (
         <div className="mb-12" key={role}>
           {/* Role Title */}
-          <p className="text-2xl font-bold text-left mb-6 lg:mb-8">
-            <span className="tracking-wide underline underline-offset-8 decoration-4 decoration-[#E30022]">
-              {role}
-            </span>
-          </p>
+          <p className="text-2xl font-bold text-left mb-6 lg:mb-8">{role}</p>
 
           {/* Responsive Flex Container for Cards */}
           <div className="flex flex-wrap gap-8 justify-center lg:justify-start">

@@ -33,9 +33,9 @@ export const NavBar = () => {
         <Link to="/">
           <div className="flex items-center justify-center flex-shrink-0 mr-2 md:mr-14 ">
             <img src={logo} className="w-[74px] h-[74px]  mr-4" alt="Logo" />
-            <p style={{ color: '#e94607' }} className=" font-bold text-xl lg:text-3xl tracking-wide">
+            {/* <p style={{ color: '#e94607' }} className=" font-bold text-xl lg:text-3xl tracking-wide">
               ISWC 2025
-            </p>
+            </p> */}
           </div>
         </Link>
         <div className="block lg:hidden">

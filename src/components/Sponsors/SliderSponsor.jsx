@@ -5,7 +5,7 @@ import AvatarCard from './SponsorCard';
 
 function SliderSponsor({ users }) {
   return (
-    <div className="d-flex justify-content-center align-items-center vh-100 w-[80%]">
+    <div className="d-flex justify-content-center align-items-center">
       <div className="container text-center">
         {Object.keys(users).map((role, idx) => {
           const members = users[role];

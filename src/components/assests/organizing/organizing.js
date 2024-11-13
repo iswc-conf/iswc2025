@@ -1,18 +1,26 @@
-import anna from "./gentile_annalisa.jpeg";
-import kouji from "./Kouji_Kozaki.png";
-import ken from "./Ken_Fukuda.jpg";
-import maribel from "./Acosta_Maribel.jpg";
-import sabrina from "./kirrane_sabrina.jpg";
-import daniel from "./Garijo_Daniel.png";
-import angelo from "./Salatino_Angelo.png";
-import blerina from "./spahiu_blerina.jpeg";
-import juan from "./Sequeda_Juan.jpg";
-import natasha from "./Noy_Natasha.jpg";
-import abraham from "./Abraham_Bernstein.jpeg";
-import tetsuya from "./Mihara_Tetsuya.jpg";
-import genet from "./genet_asefa_gesese.jpg";
-import cogan from "./shimizu_cogan.jpg";
-import jenifer from "./jenifer_tabita_ciuciu_kiss.jpg";
+import anna from "./anna_lisa_gentile.png";
+import kouji from "./kouji_kozaki.png";
+import ken from "./ken_fukuda.png";
+import maribel from "./maribel_acosta.png";
+import sabrina from "./sabrina_kirrane.png";
+import daniel from "./daniel_garijo.png";
+import angelo from "./angelo_salatino.png";
+import blerina from "./blerina_sphaiu.png";
+import juan from "./juan_sequeda.png";
+import natasha from "./natasha_noy.png";
+import abraham from "./abraham_bernstein.png";
+import tetsuya from "./tetsuya_mihara.png";
+import genet from "./genet_asefa_gesese .png";
+import cogan from "./cogan_shimizu.png";
+import jenifer from "./jenifer_tabita_ciuciu_kiss.png";
+import ikki from "./ikki_ohmukai.png";
+import hideaki from "./hideaki_takeda.png";
+import andrea from "./andrea_nuzzolese.png";
+import sebastian from "./sebastian_ferrada.png";
+import thibaut from "./thibaut_soulard.png";
+import oktie from "./oktie_hassanzadeh.png";
+import shenghui from "./shenghui_wang.png";
+import pablo from "./pablo_mendez.png";
 
 const organizers = {
   "General Chair": [
@@ -40,13 +48,13 @@ const organizers = {
     },
     {
       name: 'Ikki Ohmukai',
-      img: '', // No image available
+      img: ikki,
       institution: 'The University of Tokyo',
       country: 'Japan',
     },
     {
       name: 'Hideaki Takeda',
-      img: '', // No image available
+      img: hideaki,
       institution: 'National Institute of Informatics',
       country: 'Japan',
     },
@@ -74,7 +82,7 @@ const organizers = {
     },
     {
       name: 'Andrea Giovanni Nuzzolese',
-      img: '', // No image available
+      img: andrea,
       institution: 'CNR - Institute of Cognitive Sciences and Technologies',
       country: 'Italy',
     },
@@ -110,7 +118,7 @@ const organizers = {
   "Industry Track Chair": [
     {
       name: 'Oktie Hassanzadeh',
-      img: '', // No image available
+      img: oktie,
       institution: 'IBM Research',
       country: 'US',
     },
@@ -132,7 +140,7 @@ const organizers = {
   "Poster, Demo & Lightning Talk Chair": [
     {
       name: 'Shenghui Wang',
-      img: '', // No image available
+      img: shenghui,
       institution: 'Universiteit Twente',
       country: 'Netherlands',
     },
@@ -140,7 +148,7 @@ const organizers = {
   "Semantic Web Challenge Chair": [
     {
       name: 'Pablo Mendez',
-      img: '', // No image available
+      img: pablo,
       institution: '',
       country: 'US',
     },
@@ -162,13 +170,13 @@ const organizers = {
   "Proceedings & Metadata Chair": [
     {
       name: 'Sebastian Ferrada',
-      img: '', // No image available
+      img: sebastian,
       institution: 'University of Chile',
       country: 'Chile',
     },
     {
       name: 'Thibaut Soulard',
-      img: '', // No image available
+      img: thibaut,
       institution: 'University Paris-Saclay',
       country: 'France',
     },

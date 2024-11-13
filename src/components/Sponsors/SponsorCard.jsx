@@ -2,7 +2,7 @@ import React from 'react';
 
 function SponsorCard({ img, name, role, detail }) {
   return (
-    <div className="flex flex-col items-center w-60 h-auto p-4 shadow-md rounded-lg bg-white">
+    <div className="max-w-xs w-72 h-64 shadow-md rounded-lg overflow-hidden flex flex-col items-center bg-white p-4">
       {img ? (
         <img
           src={img}

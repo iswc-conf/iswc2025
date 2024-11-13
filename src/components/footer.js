@@ -65,9 +65,6 @@ export const Footer = () => {
 	{/* </div> */}
 
 	<div className="py-4 text-sm text-center dark:text-gray-600">©2025 ISWC.
-	<br />
-	Developed by <a href="https://www.linkedin.com/in/jenifer-tabita-ciuciu-kiss/" className="hover:underline ml-2">Jenifer Tabita Ciuciu-Kiss</a>  
-
 </div>
 
 </footer>

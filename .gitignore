@@ -1,4 +1,9 @@
-
-*.pack
+/node_modules/*
 /node_modules
+/node_modules/.cache
+package-lock.json
 .DS_Store
+package-lock.json
+/build/*
+/build
+*.pack

@@ -1,14 +1,6 @@
 import React from "react";
-import { Venue } from "../components/venue";
-import { Guidelines } from "../components/Guidelines";
 import { About } from "../components/about";
-import { Timeline } from "../components/timeline";
-import Sponsor from "../components/Sponsors/Sponsor";
-import notableSpeakers from "../components/assests/notable speakers/notableSpeakers"
-import organizingC from "../components/assests/organizing/organizing"
 import { Hero } from "../components/Hero";
-import { Link } from "react-router-dom";
-import logo from "../components/assests/logo.webp";
 
 const Body = () => {
   return (

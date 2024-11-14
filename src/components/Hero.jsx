@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import img1 from "./assests/nara.jpg"
 export const Hero = () => {
   return (

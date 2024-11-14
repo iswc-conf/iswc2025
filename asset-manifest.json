@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "./static/css/main.712706a6.css",
+    "main.js": "./static/js/main.2b520f31.js",
+    "static/js/453.33a3e8e3.chunk.js": "./static/js/453.33a3e8e3.chunk.js",
+    "static/media/nara.jpg": "./static/media/nara.f23252a86df90f0e41a6.jpg",
+    "static/media/tetsuya_mihara.jpg": "./static/media/tetsuya_mihara.7e1bc80d0522cec2d3e1.jpg",
+    "static/media/logo.webp": "./static/media/logo.6b455403899ff8e8b18d.webp",
+    "static/media/ISWC2025banner.webp": "./static/media/ISWC2025banner.07da39f4a9b0c9e3a353.webp",
+    "static/media/blerina_sphaiu.png": "./static/media/blerina_sphaiu.1d2199a9c9ff151fe8ca.png",
+    "static/media/abraham_bernstein.png": "./static/media/abraham_bernstein.ee373ea16edb96da2d55.png",
+    "static/media/genet_asefa_gesese .png": "./static/media/genet_asefa_gesese .1296d2c4fc6ac7a4a559.png",
+    "static/media/thibaut_soulard.png": "./static/media/thibaut_soulard.60ae7a5bc358498892e8.png",
+    "static/media/angelo_salatino.png": "./static/media/angelo_salatino.b2e16917c75db6b5aef8.png",
+    "static/media/pablo_mendez.png": "./static/media/pablo_mendez.6ad8bc1737f07f826dba.png",
+    "static/media/daniel_garijo.png": "./static/media/daniel_garijo.b36e4ff7c5732dfdb9c8.png",
+    "static/media/ikki_ohmukai.png": "./static/media/ikki_ohmukai.2cb3a52c5176fc9587bc.png",
+    "static/media/sebastian_ferrada.png": "./static/media/sebastian_ferrada.d826184bacca845e5812.png",
+    "static/media/kouji_kozaki.png": "./static/media/kouji_kozaki.dd4b445a943886a1b2b8.png",
+    "static/media/natasha_noy.png": "./static/media/natasha_noy.a45f10fe30e4af3fd37b.png",
+    "static/media/andrea_nuzzolese.png": "./static/media/andrea_nuzzolese.ea6082e238bf95c7e8d8.png",
+    "static/media/jenifer_tabita_ciuciu_kiss.png": "./static/media/jenifer_tabita_ciuciu_kiss.94fea9b446bfc31f86d4.png",
+    "static/media/oktie_hassanzadeh.png": "./static/media/oktie_hassanzadeh.db8a06cc165c73ce8d48.png",
+    "static/media/maribel_acosta.png": "./static/media/maribel_acosta.c0a65197da010100c85f.png",
+    "static/media/hideaki_takeda.png": "./static/media/hideaki_takeda.949906fb96c0d613441a.png",
+    "static/media/juan_sequeda.png": "./static/media/juan_sequeda.b71003c3bde3dfb6e51f.png",
+    "static/media/sabrina_kirrane.jpg": "./static/media/sabrina_kirrane.740762fc0db9613575e2.jpg",
+    "static/media/shenghui_wang.png": "./static/media/shenghui_wang.da5f84e19c2f2c87ebb2.png",
+    "static/media/anna_lisa_gentile.png": "./static/media/anna_lisa_gentile.cd65048aac4029634f75.png",
+    "static/media/cogan_shimizu.png": "./static/media/cogan_shimizu.e435636e93228e66ffa1.png",
+    "static/media/ken_fukuda.png": "./static/media/ken_fukuda.22c7d8382ad53a504a95.png",
+    "index.html": "./index.html",
+    "main.712706a6.css.map": "./static/css/main.712706a6.css.map",
+    "main.2b520f31.js.map": "./static/js/main.2b520f31.js.map",
+    "453.33a3e8e3.chunk.js.map": "./static/js/453.33a3e8e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.712706a6.css",
+    "static/js/main.2b520f31.js"
+  ]
+}

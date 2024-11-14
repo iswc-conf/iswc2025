@@ -18,7 +18,7 @@ function SliderSponsor({ users }) {
 
           return (
             <div className="mb-8" key={role}>
-              <p className="text-2xl font-bold mb-4 decoration-red-500">
+              <p  style={{ color: '#e94607' }} className="text-2xl font-bold mb-4 decoration-red-500">
                 {role}
               </p>
               <div

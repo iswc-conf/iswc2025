@@ -3,7 +3,7 @@ export const About = () => {
     return (
         <>
             <div className="flex justify-center item-center flex-col pb-0 lg:pb-4 mb-4 lg:my-6  lg:h-[14rem] lg:px-16 px-6">
-                <p className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">About ISWC 2025</p>
+                <p style={{ color: '#e94607' }}  className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">About ISWC 2025</p>
                 {/* <p className=" text-md lg:text-lg font-[300] lg:mx-10 sm:mx-2">
                     ISWC2024 is the premier international forum, for the Semantic Web / Linked Data Community. ISWC2024 will bring together researchers, practitioners, and industry specialists to discuss, advance, and shape the future of semantic technologies. Every year ISWC offers five exciting and fruitful days that you definitely don’t want to miss!
                 </p>

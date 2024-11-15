@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "./static/css/main.d6a2abb8.css",
-    "main.js": "./static/js/main.d19b864d.js",
+    "main.js": "./static/js/main.92250fbb.js",
     "static/js/453.33a3e8e3.chunk.js": "./static/js/453.33a3e8e3.chunk.js",
     "static/media/nara.jpg": "./static/media/nara.f23252a86df90f0e41a6.jpg",
+    "static/media/ohmukai_ikki.jpg": "./static/media/ohmukai_ikki.d413b99e039dff003a8d.jpg",
     "static/media/tetsuya_mihara.jpg": "./static/media/tetsuya_mihara.7e1bc80d0522cec2d3e1.jpg",
     "static/media/logo.webp": "./static/media/logo.6b455403899ff8e8b18d.webp",
     "static/media/ISWC2025banner.webp": "./static/media/ISWC2025banner.07da39f4a9b0c9e3a353.webp",
@@ -14,7 +15,6 @@
     "static/media/angelo_salatino.png": "./static/media/angelo_salatino.b2e16917c75db6b5aef8.png",
     "static/media/pablo_mendez.png": "./static/media/pablo_mendez.6ad8bc1737f07f826dba.png",
     "static/media/daniel_garijo.png": "./static/media/daniel_garijo.b36e4ff7c5732dfdb9c8.png",
-    "static/media/ikki_ohmukai.png": "./static/media/ikki_ohmukai.2cb3a52c5176fc9587bc.png",
     "static/media/sebastian_ferrada.png": "./static/media/sebastian_ferrada.d826184bacca845e5812.png",
     "static/media/kouji_kozaki.png": "./static/media/kouji_kozaki.dd4b445a943886a1b2b8.png",
     "static/media/natasha_noy.png": "./static/media/natasha_noy.a45f10fe30e4af3fd37b.png",
@@ -31,11 +31,11 @@
     "static/media/ken_fukuda.png": "./static/media/ken_fukuda.22c7d8382ad53a504a95.png",
     "index.html": "./index.html",
     "main.d6a2abb8.css.map": "./static/css/main.d6a2abb8.css.map",
-    "main.d19b864d.js.map": "./static/js/main.d19b864d.js.map",
+    "main.92250fbb.js.map": "./static/js/main.92250fbb.js.map",
     "453.33a3e8e3.chunk.js.map": "./static/js/453.33a3e8e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6a2abb8.css",
-    "static/js/main.d19b864d.js"
+    "static/js/main.92250fbb.js"
   ]
 }

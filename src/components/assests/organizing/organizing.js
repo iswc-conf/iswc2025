@@ -23,6 +23,7 @@ import shenghui from "./shenghui_wang.png";
 import pablo from "./pablo_mendez.png";
 import irene from "./irene_celino.png";
 import mayank from "./mayank_kejriwal.png";
+import neha from "./neha_keshan.png";
 
 const organizers = {
   "General Chair": [
@@ -176,8 +177,8 @@ const organizers = {
     },
     {
       name: 'Neha Keshan',
-      img: '', // No image available
-      institution: '',
+      img: neha,
+      institution: 'Rensselaer Polytechnic Institute',
       country: 'US',
     },
   ],

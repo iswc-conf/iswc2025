@@ -13,7 +13,7 @@ import tetsuya from "./tetsuya_mihara.jpg";
 import genet from "./genet_asefa_gesese .png";
 import cogan from "./cogan_shimizu.png";
 import jenifer from "./jenifer_tabita_ciuciu_kiss.png";
-import ikki from "./ikki_ohmukai.png";
+import ikki from "./ohmukai_ikki.jpg";
 import hideaki from "./hideaki_takeda.png";
 import andrea from "./andrea_nuzzolese.png";
 import sebastian from "./sebastian_ferrada.png";
@@ -149,7 +149,7 @@ const organizers = {
     {
       name: 'Pablo Mendez',
       img: pablo,
-      institution: '',
+      institution: 'Objective',
       country: 'US',
     },
   ],
@@ -181,7 +181,7 @@ const organizers = {
       country: 'France',
     },
   ],
-  "Student Grants Chair": [
+  "Students Grants and Activities Chair": [
     {
       name: 'Atsuko Yamaguchi',
       img: '', // No image available

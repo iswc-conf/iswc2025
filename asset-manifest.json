@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "./static/css/main.d6a2abb8.css",
-    "main.js": "./static/js/main.712c446d.js",
+    "main.js": "./static/js/main.fac66e1e.js",
     "static/js/453.33a3e8e3.chunk.js": "./static/js/453.33a3e8e3.chunk.js",
     "static/media/nara.jpg": "./static/media/nara.f23252a86df90f0e41a6.jpg",
+    "static/media/neha_keshan.png": "./static/media/neha_keshan.7c28c9cce493fb847f18.png",
     "static/media/mayank_kejriwal.png": "./static/media/mayank_kejriwal.d1ffd68992c662777dbe.png",
     "static/media/ohmukai_ikki.jpg": "./static/media/ohmukai_ikki.d413b99e039dff003a8d.jpg",
     "static/media/tetsuya_mihara.jpg": "./static/media/tetsuya_mihara.7e1bc80d0522cec2d3e1.jpg",
@@ -33,11 +34,11 @@
     "static/media/ken_fukuda.png": "./static/media/ken_fukuda.22c7d8382ad53a504a95.png",
     "index.html": "./index.html",
     "main.d6a2abb8.css.map": "./static/css/main.d6a2abb8.css.map",
-    "main.712c446d.js.map": "./static/js/main.712c446d.js.map",
+    "main.fac66e1e.js.map": "./static/js/main.fac66e1e.js.map",
     "453.33a3e8e3.chunk.js.map": "./static/js/453.33a3e8e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6a2abb8.css",
-    "static/js/main.712c446d.js"
+    "static/js/main.fac66e1e.js"
   ]
 }

@@ -22,6 +22,7 @@ import oktie from "./oktie_hassanzadeh.png";
 import shenghui from "./shenghui_wang.png";
 import pablo from "./pablo_mendez.png";
 import irene from "./irene_celino.png";
+import mayank from "./mayank_kejriwal.png";
 
 const organizers = {
   "General Chair": [
@@ -157,6 +158,12 @@ const organizers = {
       name: 'Pablo Mendez',
       img: pablo,
       institution: 'Objective',
+      country: 'US',
+    },
+    {
+      name: 'Mayank Kejriwal',
+      img: mayank,
+      institution: 'University of Southern California',
       country: 'US',
     },
   ],

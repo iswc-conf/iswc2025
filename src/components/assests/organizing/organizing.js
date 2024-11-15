@@ -21,6 +21,7 @@ import thibaut from "./thibaut_soulard.png";
 import oktie from "./oktie_hassanzadeh.png";
 import shenghui from "./shenghui_wang.png";
 import pablo from "./pablo_mendez.png";
+import irene from "./irene_celino.png";
 
 const organizers = {
   "General Chair": [
@@ -121,6 +122,12 @@ const organizers = {
       img: oktie,
       institution: 'IBM Research',
       country: 'US',
+    },
+    {
+      name: 'Irene Celino',
+      img: irene,
+      institution: 'Cefriel',
+      country: 'Italy',
     },
   ],
   "Doctoral Consortium Chair": [

@@ -24,6 +24,7 @@ import pablo from "./pablo_mendez.png";
 import irene from "./irene_celino.png";
 import mayank from "./mayank_kejriwal.png";
 import neha from "./neha_keshan.png";
+import ray from "./ray_atarashi.png";
 
 const organizers = {
   "General Chair": [
@@ -171,8 +172,8 @@ const organizers = {
   "Sponsorship Chair": [
     {
       name: 'Ray Atarashi',
-      img: '', // No image available
-      institution: '',
+      img: ray,
+      institution: 'Internet Initiative Japan',
       country: 'Japan',
     },
     {
@@ -200,7 +201,7 @@ const organizers = {
     {
       name: 'Atsuko Yamaguchi',
       img: '', // No image available
-      institution: '',
+      institution: 'Tokyo City University',
       country: 'Japan',
     },
   ],

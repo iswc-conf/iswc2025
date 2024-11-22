@@ -185,7 +185,7 @@ const organizers = {
   ],
   "Proceedings & Metadata Chair": [
     {
-      name: 'Sebastian Ferrada',
+      name: 'Sebastián Ferrada',
       img: sebastian,
       institution: 'University of Chile',
       country: 'Chile',

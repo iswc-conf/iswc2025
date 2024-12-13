@@ -28,7 +28,19 @@ export const About = () => {
                 <p className="text-md lg:text-lg font-[300] lg:mx-10 sm:mx-2">
                     ISWC2025 will be an in-person conference. We look forward to meeting you in Nara, Japan, in November 2025.
                 </p>
-
+                
+                <br />
+                <br />
+                
+                <p className="text-md lg:text-md font-[300] lg:mx-10 sm:mx-2">
+                    Initiative for making the conference more environmentally friendly and 
+                    SWSA is offsetting the carbon footprint of ISWC 2025. Read more on the sustainability initiative&nbsp;
+                    <a href="https://swsa.semanticweb.org/content/sustainability#:~:text=At%20ISWC2023%20SWSA%20announced%20the%20launch%20of,while%20recognising%20the%20significance%20of%20scientific%20networking" 
+                        target="_blank"
+                        style={{'color': '#e94607', 'text-decoration': 'underline'}}>
+                        here
+                    </a>.
+                </p>
             </div>
         </>
     );

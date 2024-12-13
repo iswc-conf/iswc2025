@@ -154,6 +154,12 @@ const organizers = {
       institution: 'Universiteit Twente',
       country: 'Netherlands',
     },
+    {
+      name: 'Gong Cheng',
+      img: '',
+      institution: 'Nanjing University',
+      country: 'China',
+    },
   ],
   "Semantic Web Challenge Chair": [
     {
@@ -202,6 +208,12 @@ const organizers = {
       name: 'Atsuko Yamaguchi',
       img: '', // No image available
       institution: 'Tokyo City University',
+      country: 'Austria',
+    },
+    {
+      name: 'Ines Akaichi',
+      img: '', // No image available
+      institution: 'Vienna University of Economics and Business',
       country: 'Japan',
     },
   ],

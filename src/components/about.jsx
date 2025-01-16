@@ -33,8 +33,7 @@ export const About = () => {
                 <br />
                 
                 <p className="text-md lg:text-md font-[300] lg:mx-10 sm:mx-2">
-                    Initiative for making the conference more environmentally friendly and 
-                    SWSA is offsetting the carbon footprint of ISWC 2025. Read more on the sustainability initiative&nbsp;
+                To make the conference more environmentally friendly the Semantic Web Association (SWSA) is offsetting the carbon footprint of ISWC 2025. Read more on the sustainability initiative&nbsp;
                     <a href="https://swsa.semanticweb.org/content/sustainability#:~:text=At%20ISWC2023%20SWSA%20announced%20the%20launch%20of,while%20recognising%20the%20significance%20of%20scientific%20networking" 
                         target="_blank"
                         style={{'color': '#e94607', 'text-decoration': 'underline'}}>

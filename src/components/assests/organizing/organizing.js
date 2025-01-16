@@ -79,9 +79,9 @@ const organizers = {
   ],
   "In-Use Application Track Chair": [
     {
-      name: 'Maribel Acosta Deibe',
+      name: 'Maribel Acosta',
       img: maribel,
-      institution: 'Ruhr-Universität Bochum',
+      institution: 'Technical University of Munich',
       country: 'Germany',
     },
     {
@@ -208,13 +208,13 @@ const organizers = {
       name: 'Atsuko Yamaguchi',
       img: '', // No image available
       institution: 'Tokyo City University',
-      country: 'Austria',
+      country: 'Japan',
     },
     {
       name: 'Ines Akaichi',
       img: '', // No image available
       institution: 'Vienna University of Economics and Business',
-      country: 'Japan',
+      country: 'Austria',
     },
   ],
   "Web Presence & Publicity Chair": [

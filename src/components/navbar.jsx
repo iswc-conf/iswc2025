@@ -5,6 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 export const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState({ calls: false, guidelines: false });
   const location = useLocation();
 
   // Close the navbar when navigating to another page
@@ -26,6 +27,10 @@ export const NavBar = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
+  const toggleDropdown = (key) => {
+    setDropdownOpen((prev) => ({ ...prev, [key]: !prev[key] }));
+  };
 
   return (
     <nav className="absolute top-0 left-0 w-full z-50 bg-[#FEFFFE] text-[#000080]  shadow-md ">
@@ -63,34 +68,34 @@ export const NavBar = () => {
           className={`w-full lg:flex lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"
             }`}
         >
-          <div className="text-md font-medium lg:flex-wrap ">
+          <div className="text-md font-medium lg:flex-wrap relative">
             {
               isMobile && (
                 <ul
                   class="py-2 text-sm text-[#33358c] "
                   aria-labelledby="dropdownDefaultButton"
                 >
-                  {/* <li>
+                  <li>
                     <Link
                       to="/about"
-                      class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
+                      class="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group  hover:text-[#33358c] hover:bg-gray-200"
                     >
                       About
                     </Link>
-                  </li> */}
-                  {/* <li>
+                  </li>
+                  <li>
                     <a
                       href="/"
-                      class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
+                      class="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group hover:text-[#33358c] hover:bg-gray-200"
                     >
                       Important Dates
                     </a>
-                  </li> */}
+                  </li>
                 </ul>
               )
             }
 
-            <div
+            {/* <div
               id="dropdownHover"
               class="z-20 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44  "
             >
@@ -98,24 +103,24 @@ export const NavBar = () => {
                 class="py-2 text-sm text-[#33358c] "
                 aria-labelledby="dropdownDefaultButton"
               >
-                {/* <li>
+                <li>
                   <Link
                     to="/about"
                     class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
                   >
                     About
                   </Link>
-                </li> */}
-                {/* <li>
+                </li>
+                <li>
                   <a
                     href="/"
                     class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
                   >
                     Important Dates
                   </a>
-                </li> */}
+                </li>
               </ul>
-            </div>
+            </div> */}
 
 
             <Link
@@ -133,6 +138,77 @@ export const NavBar = () => {
               className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
             >
               Organizing Committee
+              <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>
+            </Link>
+
+            <Link to="#" onClick={(e) => { e.preventDefault(); toggleDropdown('calls'); }} style={{ color: '#e94607' }} className="inline-flex items-center mt-4 lg:mt-0 text-[#e94607] mr-4 group">
+              Calls
+              <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>
+            </Link>
+            {dropdownOpen.calls && (
+              <div className="absolute left-auto right-0 top-full mt-2 bg-white shadow-md rounded-md z-50">
+                <Link to="/calls/research" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                  Research
+                  <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>
+                </Link>
+                <Link to="/calls/resource" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                  Resource
+                  <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>
+                </Link>
+                <Link to="/calls/in-use" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                  In Use
+                  <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>  
+                </Link>
+                <Link to="/calls/posters" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                  Posters and Demos
+                  <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>  
+                </Link>
+                <Link to="/calls/semantic" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                  Semantic Web
+                  <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>  
+                </Link>
+                <Link to="/calls/industry" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                  Industry Track
+                  <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>  
+                </Link>
+                <Link to="/calls/doctoral" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                  Doctoral Consortium
+                  <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>  
+                </Link>
+              </div>
+            )}
+
+              <Link to="#" onClick={(e) => { e.preventDefault(); toggleDropdown('guidelines'); }} style={{ color: '#e94607' }} className="inline-flex items-center mt-4 lg:mt-0 text-[#e94607] mr-4 group">
+                Guidelines
+                <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>
+              </Link>
+              {dropdownOpen.guidelines && (
+                <div className="absolute left-auto right-0 top-full mt-2 bg-white shadow-md rounded-md z-50">
+                  <Link to="/guidelines/html-submission" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                    HTML Submission Guide
+                    <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>    
+                  </Link>
+                  <Link to="/guidelines/review" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                    Review Guidelines
+                    <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>  
+                  </Link>
+                  <Link to="/guidelines/supplemental" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                    Supplemental Materials
+                    <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>  
+                  </Link>
+                  <Link to="/guidelines/resources" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                    Resources Availability
+                    <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>  
+                  </Link>
+                </div>
+              )}
+
+            <Link
+              to="/sponsorship"
+              style={{ color: '#e94607' }} 
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
+            >
+              Sponsorship
               <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>
             </Link>
             {/* <Link

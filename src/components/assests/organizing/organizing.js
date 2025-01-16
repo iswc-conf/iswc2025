@@ -25,6 +25,7 @@ import irene from "./irene_celino.png";
 import mayank from "./mayank_kejriwal.png";
 import neha from "./neha_keshan.png";
 import ray from "./ray_atarashi.png";
+import ines from "./akaichi_ines.png"
 
 const organizers = {
   "General Chair": [
@@ -212,7 +213,7 @@ const organizers = {
     },
     {
       name: 'Ines Akaichi',
-      img: '', // No image available
+      img: ines,
       institution: 'Vienna University of Economics and Business',
       country: 'Austria',
     },

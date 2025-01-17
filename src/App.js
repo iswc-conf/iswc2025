@@ -18,6 +18,7 @@ import ReviewGuidelines from "./components/guidelines/ReviewGuidelines";
 import SupplementalMaterials from "./components/guidelines/SupplementalMaterials";
 import ResourcesAvailability from "./components/guidelines/ResourcesAvailability";
 import Sponsorship from "./components/Sponsorship";
+import ImportantDates from "./components/importantdates"
 import WorkshopsTutorials from "./components/calls/WorkshopsTutorials";
 
 
@@ -30,6 +31,7 @@ export default function HeroComponent() {
         {/* <Route path="/register" element={<Registration/>}/> */}
         <Route path="/about" element={<About/>} />
         <Route path="/organizing_committee" element={<Committees/>} />
+        {/* <Route path="/importantdates" element={<ImportantDates/>} /> */}
         <Route path="/cfp" element={<Cfp/>} />
         {/* <Route path="/author-guide" element={<AuthorGuidelines/>}/> */}
         {/* <Route path="/contact" element={<Contact/>}/> */}

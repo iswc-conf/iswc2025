@@ -140,6 +140,15 @@ export const NavBar = () => {
               <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>
             </Link>
 
+            {/* <Link
+              to="/importantdates"
+              style={{ color: '#e94607' }} 
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
+            >
+              Important Dates
+              <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>
+            </Link> */}
+
             <Link
               to="/organizing_committee"
               style={{ color: '#e94607' }} 
@@ -249,14 +258,6 @@ export const NavBar = () => {
               <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>
             </Link>
 
-            <Link
-              to="/importantdates"
-              style={{ color: '#e94607' }} 
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
-            >
-              Important Dates
-              <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>
-            </Link>
             {/* <Link
               to="/contact"
               className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"

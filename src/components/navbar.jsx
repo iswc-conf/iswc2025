@@ -7,13 +7,25 @@ export const NavBar = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState({ calls: false, guidelines: false });
   const location = useLocation();
+  let mouseLeaveTimeout; 
 
-  const handleMouseEnter = (menu) => {
-    setDropdownOpen({ ...dropdownOpen, [menu]: true });
+  const handleMouseEnter = (key) => {
+    //clearTimeout(mouseLeaveTimeout);
+    setDropdownOpen((prev) => {
+      const newState = { calls: false, guidelines: false }; // Reset all dropdowns
+      newState[key] = true;
+      return newState;
+    });
   };
 
-  const handleMouseLeave = (menu) => {
-    setDropdownOpen({ ...dropdownOpen, [menu]: false });
+  const handleMouseLeave = () => {
+    // Set a timeout to delay the execution of the dropdown closing logic
+    mouseLeaveTimeout = setTimeout(() => {
+      setDropdownOpen(() => {
+        const newState = { calls: false, guidelines: false }; // Reset all dropdowns
+        return newState;
+      });
+    }, 3000); // 3 seconds delay
   };
 
   // Close the navbar when navigating to another page
@@ -36,12 +48,12 @@ export const NavBar = () => {
     };
   }, []);
 
-  const toggleDropdown = (key) => {
-    setDropdownOpen((prev) => ({ ...prev, [key]: !prev[key] }));
-  };
+  // const toggleDropdown = (key) => {
+  //   setDropdownOpen((prev) => ({ ...prev, [key]: !prev[key] }));
+  // };
 
   return (
-    <nav className="absolute top-0 left-0 w-full z-50 bg-[#FEFFFE] text-[#000080]  shadow-md ">
+    <nav onMouseLeave={() => handleMouseLeave()} className="absolute top-0 left-0 w-full z-50 bg-[#FEFFFE] text-[#000080]  shadow-md ">
       <div className="flex items-center justify-between lg:justify-between   flex-wrap p-2 pb-0 mx-0 lg:mr-4">
         <Link to="/">
           <div className="flex items-center justify-center flex-shrink-0 mr-2 md:mr-14 ">
@@ -158,13 +170,12 @@ export const NavBar = () => {
               <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>
             </Link>
 
-            <div onMouseEnter={() => handleMouseEnter('calls')} onMouseLeave={() => handleMouseLeave('calls')} className="relative inline-block">
-              <Link to="#" style={{ color: '#e94607' }} className="inline-flex items-center mt-4 lg:mt-0 text-[#e94607] mr-4 group">
+            <div onMouseEnter={() => handleMouseEnter('calls')}  className="relative inline-block">
+              <Link to="#" style={{ color: '#e94607' }} className="relative inline-flex items-center mt-4 lg:mt-0 text-[#e94607] mr-4 group">
                 Calls
-                <div className="bg-[#E30022] h-[1px] w-0 group-hover:w-full transition-all duration-500"></div>
-              </Link>
+                <div className="bg-[#E30022] h-[1px] w-0 group-hover:w-full transition-all duration-500">
               {dropdownOpen.calls && (
-                <div className="absolute left-auto right-0 top-full mt-2 bg-white shadow-md rounded-md z-50">
+                <div className="absolute right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50">
                   <Link to="/calls/research" className="block px-4 py-2" style={{ color: '#e94607' }}>
                     Research
                     <div className="bg-[#E30022] h-[1px] w-0 group-hover:w-full transition-all duration-500"></div>
@@ -196,14 +207,15 @@ export const NavBar = () => {
                 </div>
               )}
             </div>
+            </Link>
+            </div>
 
-            <div onMouseEnter={() => handleMouseEnter('guidelines')} onMouseLeave={() => handleMouseLeave('guidelines')} className="relative inline-block">
-              <Link to="#" style={{ color: '#e94607' }} className="inline-flex items-center mt-8 lg:mt-0 text-[#e94607] mr-8 group">
+            <div onMouseEnter={() => handleMouseEnter('guidelines')} className="relative inline-block">
+              <Link to="#" style={{ color: '#e94607' }} className="relative inline-flex items-center mt-8 lg:mt-0 text-[#e94607] mr-8 group">
                 Guidelines
-                <div className="bg-[#E30022] h-[1px] w-0 group-hover:w-full transition-all duration-500"></div>
-              </Link>
+                <div className="bg-[#E30022] h-[1px] w-0 group-hover:w-full transition-all duration-500">
               {dropdownOpen.guidelines && (
-                <div className="absolute left-auto right-0 top-full mt-2 bg-white shadow-md rounded-md z-50">
+                <div className="absolute right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50">
                   <Link to="/guidelines/html-submission" className="block px-4 py-2" style={{ color: '#e94607' }}>
                     HTML Submission Guide
                     <div className="bg-[#E30022] h-[1px] w-0 group-hover:w-full transition-all duration-500"></div>
@@ -222,6 +234,8 @@ export const NavBar = () => {
                   </Link>
                 </div>
               )}
+              </div>
+              </Link>
             </div>
 
               {/* <Link to="#" onClick={(e) => { e.preventDefault(); toggleDropdown('guidelines'); }} style={{ color: '#e94607' }} className="inline-flex items-center mt-4 lg:mt-0 text-[#e94607] mr-4 group">

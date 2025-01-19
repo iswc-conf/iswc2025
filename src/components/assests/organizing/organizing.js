@@ -25,6 +25,7 @@ import irene from "./irene_celino.png";
 import mayank from "./mayank_kejriwal.png";
 import neha from "./neha_keshan.png";
 import ray from "./ray_atarashi.png";
+import ines from "./akaichi_ines.png"
 
 const organizers = {
   "General Chair": [
@@ -79,9 +80,9 @@ const organizers = {
   ],
   "In-Use Application Track Chair": [
     {
-      name: 'Maribel Acosta Deibe',
+      name: 'Maribel Acosta',
       img: maribel,
-      institution: 'Ruhr-Universität Bochum',
+      institution: 'Technical University of Munich',
       country: 'Germany',
     },
     {
@@ -208,13 +209,13 @@ const organizers = {
       name: 'Atsuko Yamaguchi',
       img: '', // No image available
       institution: 'Tokyo City University',
-      country: 'Austria',
+      country: 'Japan',
     },
     {
       name: 'Ines Akaichi',
-      img: '', // No image available
+      img: ines,
       institution: 'Vienna University of Economics and Business',
-      country: 'Japan',
+      country: 'Austria',
     },
   ],
   "Web Presence & Publicity Chair": [

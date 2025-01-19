@@ -26,6 +26,9 @@ import mayank from "./mayank_kejriwal.png";
 import neha from "./neha_keshan.png";
 import ray from "./ray_atarashi.png";
 import ines from "./akaichi_ines.png"
+import cheng from "./Cheng_Gong.jpg";
+import armando from "./stellato_armando.jpg";
+import sun from "./Sun_Zequn.jpg"
 
 const organizers = {
   "General Chair": [
@@ -157,7 +160,7 @@ const organizers = {
     },
     {
       name: 'Gong Cheng',
-      img: '',
+      img: cheng,
       institution: 'Nanjing University',
       country: 'China',
     },
@@ -188,6 +191,12 @@ const organizers = {
       img: neha,
       institution: 'Rensselaer Polytechnic Institute',
       country: 'US',
+    },
+    {
+      name: 'Armando Stellato',
+      img: armando,
+      institution: 'University of Rome Tor Vergata',
+      country: 'Italy',
     },
   ],
   "Proceedings & Metadata Chair": [
@@ -236,6 +245,12 @@ const organizers = {
       img: genet,
       institution: 'FIZ Karlsruhe, Karlsruhe Institute of Technology (KIT)',
       country: 'Germany',
+    },
+    {
+      name: 'Zequn Sun',
+      img: sun,
+      institution: 'Nanjing University',
+      country: 'China',
     },
   ],
 };

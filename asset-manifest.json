@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "./static/css/main.23a9c1c6.css",
-    "main.js": "./static/js/main.e78d8e78.js",
+    "main.js": "./static/js/main.d105a6a1.js",
     "static/js/453.33a3e8e3.chunk.js": "./static/js/453.33a3e8e3.chunk.js",
     "static/media/nara.jpg": "./static/media/nara.f23252a86df90f0e41a6.jpg",
     "static/media/neha_keshan.png": "./static/media/neha_keshan.7c28c9cce493fb847f18.png",
     "static/media/akaichi_ines.png": "./static/media/akaichi_ines.898232d136ad299c2f44.png",
     "static/media/mayank_kejriwal.png": "./static/media/mayank_kejriwal.d1ffd68992c662777dbe.png",
     "static/media/ray_atarashi.png": "./static/media/ray_atarashi.4f76c7bc9b628e63cd57.png",
+    "static/media/Sun_Zequn.jpg": "./static/media/Sun_Zequn.e4c9ac092fa505ef1f01.jpg",
+    "static/media/Cheng_Gong.jpg": "./static/media/Cheng_Gong.2d1a83898e12a36312ab.jpg",
     "static/media/ohmukai_ikki.jpg": "./static/media/ohmukai_ikki.d413b99e039dff003a8d.jpg",
     "static/media/tetsuya_mihara.jpg": "./static/media/tetsuya_mihara.7e1bc80d0522cec2d3e1.jpg",
     "static/media/irene_celino.png": "./static/media/irene_celino.bdb3285806e56a4d3334.png",
@@ -27,6 +29,7 @@
     "static/media/jenifer_tabita_ciuciu_kiss.png": "./static/media/jenifer_tabita_ciuciu_kiss.94fea9b446bfc31f86d4.png",
     "static/media/oktie_hassanzadeh.png": "./static/media/oktie_hassanzadeh.db8a06cc165c73ce8d48.png",
     "static/media/maribel_acosta.png": "./static/media/maribel_acosta.c0a65197da010100c85f.png",
+    "static/media/stellato_armando.jpg": "./static/media/stellato_armando.3bbf6bc248e9cc4595c7.jpg",
     "static/media/hideaki_takeda.png": "./static/media/hideaki_takeda.949906fb96c0d613441a.png",
     "static/media/juan_sequeda.png": "./static/media/juan_sequeda.b71003c3bde3dfb6e51f.png",
     "static/media/sabrina_kirrane.jpg": "./static/media/sabrina_kirrane.740762fc0db9613575e2.jpg",
@@ -36,11 +39,11 @@
     "static/media/ken_fukuda.png": "./static/media/ken_fukuda.22c7d8382ad53a504a95.png",
     "index.html": "./index.html",
     "main.23a9c1c6.css.map": "./static/css/main.23a9c1c6.css.map",
-    "main.e78d8e78.js.map": "./static/js/main.e78d8e78.js.map",
+    "main.d105a6a1.js.map": "./static/js/main.d105a6a1.js.map",
     "453.33a3e8e3.chunk.js.map": "./static/js/453.33a3e8e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.23a9c1c6.css",
-    "static/js/main.e78d8e78.js"
+    "static/js/main.d105a6a1.js"
   ]
 }

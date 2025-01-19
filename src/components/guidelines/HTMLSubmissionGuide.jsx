@@ -3,13 +3,16 @@ import React from "react";
 export const HTMLSubmissionGuide = () => {
     return (
         <>
-            <div className="flex justify-start items-start flex-col pt-10 pb-0 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:h-auto lg:px-64 px-8 overflow-visible">
+            <div className="mt-[74px] px-4 pt-2 bg-white flex items-center justify-center">
+            </div>
+            <br/>
+            <div className="flex justify-start items-start flex-col pt-10 pb-0 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:h-auto lg:px-32 px-8 overflow-visible">
                 <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 tracking-wide">
                     HTML Submission Guide
                 </p>
 
                 <p className="text-md lg:text-lg font-[300]">
-                ISWC 2025 welcomes research articles employing the Open Web Platform. This document provides guidance to authors who wish to make their contributions available in HTML and related technology stack.
+                    ISWC 2025 welcomes research articles employing the Open Web Platform. This document provides guidance to authors who wish to make their contributions available in HTML and related technology stack.
                 </p>
 
                 <h2 style={{ color: '#e94607' }} className="text-xl font-semibold mt-6">General Guidance</h2>
@@ -42,6 +45,7 @@ export const HTMLSubmissionGuide = () => {
                     <li>Before sharing your article with ISWC, self-publish your HTML version, eg. at a repository, personal or institution website that’s publicly accessible and archivable from a URL.</li>
                     <li>Include the URL of your self-published article along the lines of: “Identifier: http://example.org/article “ after the list of authors and/or include the URL in the abstract of your article.</li>
                     <li>Make sure to preserve this information in your camera-ready version.</li>
+                    {/* <a href="" target="_blank" style={{ color: '#e94607' }}> */}
                     <li>Consider using a <a href="https://creativecommons.org/" target="_blank" style={{ color: '#e94607' }}>Creative Commons</a> license like <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style={{ color: '#e94607' }}>CC BY 4.0</a> on the self-published version.</li>
                     <li>Create multiple archived copies of the self-published version using on-demand free archive services like <a href="https://web.archive.org/" target="_blank" style={{ color: '#e94607' }}>archive.org</a>, <a href="https://archive.is/" target="_blank" style={{ color: '#e94607' }}>archive.is</a>.</li>
                     <li>If you intend to also publish the “Author’s Accepted Manuscript” version following peer-review, note Springer’s <a href="https://www.springernature.com/gp/open-research/policies/journal-policies" target="_blank" style={{ color: '#e94607' }}>self-archiving policy</a>.</li>
@@ -69,7 +73,7 @@ export const HTMLSubmissionGuide = () => {
                 <p className="text-md lg:text-lg font-[300]">
                     To get started, follow the <a href="https://github.com/rubensworks/ScholarMarkdown#quick-start" target="_blank" style={{ color: '#e94607' }}>quick start guide</a>, which provides the required LNCS template in Markdown. After compiling your Markdown files to HTML, an output directory will be created. This folder contains a standalone version of your article in HTML, and this is the folder that must be submitted on EasyChair. Further details on ScholarMarkdown can be found on the <a href="https://github.com/rubensworks/ScholarMarkdown/wiki" target="_blank" style={{ color: '#e94607' }}>wiki</a>.
                 </p>
-                
+
                 {/* <a href="" target="_blank" style={{ color: '#e94607' }}> */}
                 <p className="text-md lg:text-lg font-[300]">
                     The Markdown-based source files enables straightforward versioning and collaborative editing with version-control systems such as git, and integrates nicely with automated <a href="https://github.com/rubensworks/ScholarMarkdown/wiki/Self-publishing" target="_blank" style={{ color: '#e94607' }}>self-publishing via solutions such as GitHub pages</a>, as demonstrated by the <a href="https://github.com/rubensworks/ScholarMarkdown/wiki/Examples" target="_blank" style={{ color: '#e94607' }}>examples in the wild</a>.

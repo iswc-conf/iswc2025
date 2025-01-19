@@ -3,6 +3,9 @@ import React from "react";
 export const ResourcesAvailability = () => {
     return (
         <>
+            <div className="mt-[74px] px-4 pt-2 bg-white flex items-center justify-center">
+            </div>
+            <br/>
             <div className="flex justify-start items-start flex-col pt-10 pb-0 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:h-auto lg:px-32 px-8 overflow-visible">
                 <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 tracking-wide">
                     Resources Availability Statement Guide
@@ -67,7 +70,7 @@ export const ResourcesAvailability = () => {
 
                 <h2 style={{ color: '#e94607' }} className="text-xl font-semibold mt-6">Examples of Resource Availability Statements</h2>
                 <p>Resource Availability Statement: Source code for OurX and the queries used in Section 4 are available from Github1. The OurOntoX ontology is available from Zenodo [4]. The MyHealth dataset cannot be made available as it incorporates private user data.</p>
-                <hr/>
+                <hr />
                 <p>1 https://github.com/ThisIsUs/OurX</p>
                 <p>References</p>
                 <p>...</p>

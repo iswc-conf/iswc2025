@@ -31,7 +31,7 @@ export default function HeroComponent() {
         {/* <Route path="/register" element={<Registration/>}/> */}
         <Route path="/about" element={<About/>} />
         <Route path="/organizing_committee" element={<Committees/>} />
-        {/* <Route path="/importantdates" element={<ImportantDates/>} /> */}
+        <Route path="/importantdates" element={<ImportantDates/>} />
         <Route path="/cfp" element={<Cfp/>} />
         {/* <Route path="/author-guide" element={<AuthorGuidelines/>}/> */}
         {/* <Route path="/contact" element={<Contact/>}/> */}

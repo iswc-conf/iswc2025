@@ -152,14 +152,14 @@ export const NavBar = () => {
               <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>
             </Link>
 
-            {/* <Link
+            <Link
               to="/importantdates"
               style={{ color: '#e94607' }} 
               className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
             >
               Important Dates
               <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>
-            </Link> */}
+            </Link>
 
             <Link
               to="/organizing_committee"
@@ -173,36 +173,36 @@ export const NavBar = () => {
             <div onMouseEnter={() => handleMouseEnter('calls')}  className="relative inline-block">
               <Link to="#" style={{ color: '#e94607' }} className="relative inline-flex items-center mt-4 lg:mt-0 text-[#e94607] mr-4 group">
                 Calls
-                <div className="bg-[#E30022] h-[1px] w-0 group-hover:w-full transition-all duration-500">
+                <div className="bg-[#E30022] w-0 group-hover:w-full">
               {dropdownOpen.calls && (
                 <div className="absolute right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50">
                   <Link to="/calls/research" className="block px-4 py-2" style={{ color: '#e94607' }}>
                     Research
-                    <div className="bg-[#E30022] h-[1px] w-0 group-hover:w-full transition-all duration-500"></div>
+                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
                   <Link to="/calls/resource" className="block px-4 py-2" style={{ color: '#e94607' }}>
                     Resource
-                    <div className="bg-[#E30022] h-[1px] w-0 group-hover:w-full transition-all duration-500"></div>
+                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
                   <Link to="/calls/in-use" className="block px-4 py-2" style={{ color: '#e94607' }}>
                     In Use
-                    <div className="bg-[#E30022] h-[1px] w-0 group-hover:w-full transition-all duration-500"></div>
+                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
                   <Link to="/calls/posters" className="block px-4 py-2" style={{ color: '#e94607' }}>
                     Posters and Demos
-                    <div className="bg-[#E30022] h-[1px] w-0 group-hover:w-full transition-all duration-500"></div>
+                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
                   <Link to="/calls/semantic" className="block px-4 py-2" style={{ color: '#e94607' }}>
                     Semantic Web
-                    <div className="bg-[#E30022] h-[1px] w-0 group-hover:w-full transition-all duration-500"></div>
+                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
                   <Link to="/calls/industry" className="block px-4 py-2" style={{ color: '#e94607' }}>
                     Industry Track
-                    <div className="bg-[#E30022] h-[1px] w-0 group-hover:w-full transition-all duration-500"></div>
+                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
                   <Link to="/calls/doctoral" className="block px-4 py-2" style={{ color: '#e94607' }}>
                     Doctoral Consortium
-                    <div className="bg-[#E30022] h-[1px] w-0 group-hover:w-full transition-all duration-500"></div>
+                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
                 </div>
               )}
@@ -213,24 +213,24 @@ export const NavBar = () => {
             <div onMouseEnter={() => handleMouseEnter('guidelines')} className="relative inline-block">
               <Link to="#" style={{ color: '#e94607' }} className="relative inline-flex items-center mt-8 lg:mt-0 text-[#e94607] mr-8 group">
                 Guidelines
-                <div className="bg-[#E30022] h-[1px] w-0 group-hover:w-full transition-all duration-500">
+                <div className="bg-[#E30022] w-0 group-hover:w-full">
               {dropdownOpen.guidelines && (
                 <div className="absolute right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50">
                   <Link to="/guidelines/html-submission" className="block px-4 py-2" style={{ color: '#e94607' }}>
                     HTML Submission Guide
-                    <div className="bg-[#E30022] h-[1px] w-0 group-hover:w-full transition-all duration-500"></div>
+                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
                   <Link to="/guidelines/review" className="block px-4 py-2" style={{ color: '#e94607' }}>
                     Review Guidelines
-                    <div className="bg-[#E30022] h-[1px] w-0 group-hover:w-full transition-all duration-500"></div>
+                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
                   <Link to="/guidelines/supplemental" className="block px-4 py-2" style={{ color: '#e94607' }}>
                     Supplemental Materials
-                    <div className="bg-[#E30022] h-[1px] w-0 group-hover:w-full transition-all duration-500"></div>
+                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
                   <Link to="/guidelines/resources" className="block px-4 py-2" style={{ color: '#e94607' }}>
                     Resources Availability
-                    <div className="bg-[#E30022] h-[1px] w-0 group-hover:w-full transition-all duration-500"></div>
+                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
                 </div>
               )}

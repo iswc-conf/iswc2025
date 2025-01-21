@@ -43,39 +43,41 @@ export const Research = () => {
 
                     <h3 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Topics of Interest</h3>
                     <p>We encourage papers that directly contribute to the advancement of the Semantic Web area. The relationship to the core area of the conference needs to be clearly described in the submitted work. Submissions beyond the scope will be desk-rejected. Topics in the Semantic Web area include, but are not limited to:</p>
-                    <ul className="list-disc list-inside text-md lg:text-lg font-[300]">
-                        <li>Ontologies and capturing knowledge including:
+                    <div style={{ marginBottom: '20px' }}></div>
+                    <ul className="space-y-4 list-disc list-inside text-md lg:text-lg font-[300]">
+                        <li className="list-none">Ontologies and capturing knowledge including:
                             <ul className="list-disc ml-16 text-md lg:text-lg font-[300]">
                                 <li>Ontology Engineering and ontology patterns</li>
                                 <li>Ontology modularity, mapping, merging, and alignment</li>
                                 <li>Information extraction, knowledge graph construction</li>
                             </ul>
                         </li>
-                        <li>Representation, management, and applications of Knowledge Graphs (including RDF and property graphs):
+                        <li className="list-none">Representation, management, and applications of Knowledge Graphs (including RDF and property graphs) including:
                             <ul className="list-disc ml-16 text-md lg:text-lg font-[300]">
                                 <li>Knowledge Representation and Reasoning</li>
                                 <li>Search, query, integration, and analysis</li>
                                 <li>Robust and scalable management</li>
                                 <li>Information visualization and exploratory analysis</li>
+                                <li>Databases and ontology-based data access, integration and exchange on the Web</li>
+                                <li>Knowledge graph centered Natural Language Processing, information retrieval, semantic analysis, and Large Language Models</li>
                             </ul>
-                        </li>
-                        <li>Databases and ontology-based data access, integration and exchange on the Web</li>
-                        <li>Knowledge graph centered Natural Language Processing, information retrieval, semantic analysis, and Large Language Models</li>
-                        <li>Integration of the Semantic Web with:
+                        </li> 
+                        <li className="list-none">Integration of the Semantic Web with:
                             <ul className="list-disc ml-16 text-md lg:text-lg font-[300]">
                                 <li>Machine learning, data mining, and neural symbolic reasoning</li>
                                 <li>Generative AI (Large Language Models)</li>
                                 <li>User interfaces, usability, and accessibility</li>
                                 <li>Data integration, quality assurance, and data provenance</li>
                                 <li>Social issues including trust, bias, fairness, privacy, security, and policy</li>
+                                <li>Web services, process management, social Web, and Internet of Things</li>
+                                <li>Dynamic and streaming data, including complex event processing and stream reasoning</li>
+                                <li>Software engineering, algorithms, and decentralized architectures</li>
+                                <li>Specialized domains (geographical, biomedical, e-Science, multimedia, performing arts, public administration, cultural heritage, law, etc.)</li>
+                                <li>Artificial Intelligence and hybrid approaches (including human-machine intelligence)</li>
                             </ul>
                         </li>
-                        <li>Web services, process management, social Web, and Internet of Things</li>
-                        <li>Dynamic and streaming data, including complex event processing and stream reasoning</li>
-                        <li>Software engineering, algorithms, and decentralized architectures</li>
-                        <li>Specialized domains (geographical, biomedical, e-Science, multimedia, performing arts, public administration, cultural heritage, law, etc.)</li>
-                        <li>Artificial Intelligence and hybrid approaches (including human-machine intelligence)</li>
-                        <li>Semantic Web Agents including:
+                        
+                        <li className="list-none">Semantic Web Agents including:
                             <ul className="list-disc ml-16 text-md lg:text-lg font-[300]">
                                 <li>Autonomous systems, including multi-agent systems and robotics</li>
                                 <li>Architecture characteristics for autonomy exploiting KGs</li>
@@ -87,6 +89,10 @@ export const Research = () => {
                             </ul>
                         </li>
                     </ul>
+
+                    <div style={{ marginBottom: '20px' }}></div>
+
+                    <p>We welcome descriptions of contributions that leverage knowledge representation based on Semantic Web standards or other graph data models to improve the acquisition, processing, and sharing of data on the Web. We require authors to explicitly highlight how their work could be applied in a Semantic Web setting.</p>
 
                     <h3 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Review Criteria</h3>
                     <p>Papers in this track will be reviewed according to the following criteria:</p>

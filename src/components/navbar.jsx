@@ -192,8 +192,8 @@ export const NavBar = () => {
                     Posters and Demos
                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
-                  <Link to="/calls/semantic" className="block px-4 py-2" style={{ color: '#e94607' }}>
-                    Semantic Web
+                  <Link to="/calls/challenges" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                    Challenges
                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
                   <Link to="/calls/industry" className="block px-4 py-2" style={{ color: '#e94607' }}>
@@ -202,6 +202,10 @@ export const NavBar = () => {
                   </Link>
                   <Link to="/calls/doctoral" className="block px-4 py-2" style={{ color: '#e94607' }}>
                     Doctoral Consortium
+                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                  </Link>
+                  <Link to="/calls/workshopstutorials" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                    Workshops and Tutorials
                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
                 </div>

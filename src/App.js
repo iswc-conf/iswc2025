@@ -10,7 +10,7 @@ import Research from "./components/calls/Research";
 import Resource from "./components/calls/Resource";
 import InUse from "./components/calls/InUse";
 import Posters from "./components/calls/Posters";
-import SemanticWeb from "./components/calls/SemanticWeb";
+import Challenges from "./components/calls/Challenges";
 import IndustryTrack from "./components/calls/IndustryTrack";
 import DoctoralConsortium from "./components/calls/DoctoralConsortium";
 import HTMLSubmissionGuide from "./components/guidelines/HTMLSubmissionGuide";
@@ -44,7 +44,7 @@ export default function HeroComponent() {
         <Route path="/calls/resource" element={<Resource />} />
         <Route path="/calls/in-use" element={<InUse />} />
         <Route path="/calls/posters" element={<Posters />} />
-        <Route path="/calls/semantic" element={<SemanticWeb />} />
+        <Route path="/calls/challenges" element={<Challenges />} />
         <Route path="/calls/industry" element={<IndustryTrack />} />
         <Route path="/calls/doctoral" element={<DoctoralConsortium />} />
         <Route path="/calls/workshopstutorials" element={<WorkshopsTutorials />} />

@@ -6,10 +6,10 @@ export const Resource = () => {
       <div className="mt-[74px] px-4 pt-2 bg-white flex items-center justify-center">
       </div>
       <br />
-      <div className="flex justify-center item-center flex-col pb-0 lg:pb-4 mb-4 lg:my-6 lg:h-[14rem] lg:px-16 px-6">
-        <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">Resource Track at ISWC 2025</p>
+      <div className="flex justify-start items-start flex-col pt-10 pb-0 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:h-auto lg:px-32 px-8 overflow-visible">
+        <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">Call for Resource Track Papers</p>
         <div className="text-md lg:text-lg font-[300] lg:mx-10 sm:mx-2">
-          <h2 style={{ color: '#e94607' }} className="text-xl font-semibold mt-6">Call for Resource Track Papers</h2>
+
           <p>
             Resources are of paramount importance as they foster scientific advancement and the development of novel applications. Sharing resources is key to ensuring reproducibility, allowing other researchers to leverage FAIR principles for scientific data management to compare results and methods or to explore new lines of research, and supporting practitioners in reusing research outputs.
           </p>

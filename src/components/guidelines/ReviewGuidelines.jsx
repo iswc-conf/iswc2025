@@ -3,6 +3,9 @@ import React from "react";
 export const ReviewGuidelines = () => {
     return (
         <>
+            <div className="mt-[74px] px-4 pt-2 bg-white flex items-center justify-center">
+            </div>
+            <br/>
             <div className="flex justify-start items-start flex-col pt-10 pb-0 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:h-auto lg:px-32 px-8 overflow-visible">
                 <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 tracking-wide">
                     Review Guidelines
@@ -51,9 +54,9 @@ export const ReviewGuidelines = () => {
                             <td className="border border-gray-400 px-4 py-2">“The paper is poorly written”(No justification or details provided.)</td>
                             <td className="border border-gray-400 px-4 py-2">
                                 “I found the paper difficult to follow; for example:
-                                <br/>
+                                <br />
                                 – The novel concept of ‘logical transmogrification’ plays a central role in this paper, but only on page 8 is it actually discussed or defined. This left me lost for the first half of the paper. The concept should be clearly described in the introduction.
-                                <br/>
+                                <br />
                                 – Section 3 defines the proposed method, but provides no examples nor intuition to aid readability. Some examples would greatly improve this section….”
                             </td>
                         </tr>
@@ -134,62 +137,62 @@ export const ReviewGuidelines = () => {
                 </ul>
 
                 <p>We also ask reviewers to refrain from later changing (only) their recommendation to “follow the crowd” or to “seek consensus”, particularly when the new recommendation is no longer justified by the review text. However, if during the discussion phase with other reviewers and chairs you see something in a new light, or agree with another reviewer regarding a certain positive or negative aspect, you may of course change your recommendation, and modify your review text accordingly. We aim for real consensus on papers where the reviewers stand by their recommendations. Failing that, we prefer no consensus to an artificial consensus where recommendations are changed just for the sake of aligning them.</p>
-                
+
                 <h3 style={{ color: '#e94607' }} className="text-lg font-semibold mt-4">EXAMPLES TO FOLLOW</h3>
                 <p>“This paper must be rejected due to having multiple typos, missing references to similar works in related areas, and bugs in Equation 1.”</p>
                 <p>(All such issues have clear resolutions that could be easily addressed for the camera-ready version. Few specific details are provided to justify the recommendation or improve the work.)</p>
                 <p>“For a future version of this paper (potentially the camera-ready version, if accepted), the authors should be sure to address the following minor comments:</p>
                 <p>Please spell-check, e.g., ‘qeury’, ‘frgment’, etc.The authors should acknowledge similar works in relational databases, e.g., by pointing to the survey of Roe et al. [A]. In Equation 1, max should be replaced by arg max.”</p>
 
-                <br/>
+                <br />
                 <p>OR</p>
-                <br/>
+                <br />
 
                 <p>“The paper has many grammatical errors and notational bugs that made it difficult for me to follow and review. I fear that other readers, even experts in the area, would likewise have difficulty understanding the work. For this reason I recommend a reject. Below I will provide some illustrative examples of these issues, which should be addressed for a future version”</p>
                 <p>“I am rejecting this paper because one could obviously achieve better performance in Algorithm 1 by parallelising the branches.”</p>
                 <p>(This is speculative. It is best offered as a suggestion for future work, rather than a reason to reject. The suggestion might only be obvious after reading the paper.)</p>
                 <p>“As part of future work, I think it would be interesting to explore the idea of parallelising the branches in Algorithm 1, which may lead to further performance improvements.”</p>
-                <p>“One argument for rejecting the paper is that the current approach does not support updates, which are crucial in practice.”</p>                
+                <p>“One argument for rejecting the paper is that the current approach does not support updates, which are crucial in practice.”</p>
                 <p>(Even though updates are important and not considered, the approach could be extended in future. The justification for rejection should consider what is presented, not what is not presented.)</p>
                 <p>“The work achieves impressive results for the read-only case. Though a complete solution would require support for updates, the authors discuss how such features could be combined with the proposed approach in future.”</p>
-                
-                <br/>
+
+                <br />
                 <p>OR</p>
-                <br/>
-                
+                <br />
+
                 <p>“One reason for rejecting the paper is that the current approach does not support updates, and there is no clear way in which the method could be extended to support updates due to the nature of the data structure proposed. The paper does not discuss this issue. While a highly-optimised read-only index might still be a useful contribution, the approach proves to be only marginally faster than baselines that do support updates.”</p>
                 <p>“The paper does not deal with the case of cyclic graphs, and hence I recommend rejection.”</p>
                 <p>(Even without considering the cyclic case, the results for acyclic cases might be an important contribution. The justification for rejection should consider what is presented, not what is not presented.)</p>
                 <p>“The paper proves a novel tractability result for the case of acyclic graphs using new techniques. This begs the question of what happens in the cyclic case, which seems an interesting direction for future research based on these results.”</p>
-                
-                <br/>
+
+                <br />
                 <p>OR</p>
-                <br/>
-                
+                <br />
+
                 <p>“While the paper proves a novel tractability result for the case of directed acyclic graphs, it is a minor extension of a similar result by Boe et al. [A] for trees, and uses the same techniques.”</p>
                 <p>“I recommend rejecting the paper as the benchmark from Doe et al. [A] is not used and the authors include only two baselines.”</p>
                 <p>(It is not clear what the additional benchmark would add to the discussion. The baselines the reviewer wishes to see are not specified, nor why these particular baselines are specified. It is not made clear why extra baselines are needed or what they would add to the discussion. It is not clear that it would be feasible to run them. It is not clear what claims are not properly validated, but would be validated with these additional experiments.)</p>
                 <p>“The paper’s selection of baselines and experiments, though incomplete, provides strong evidence for the claims of improved performance for path queries.”</p>
-                
-                <br/>
+
+                <br />
                 <p>OR</p>
-                <br/>
-                
+                <br />
+
                 <p>“I recommend a reject because the paper claims to provide superior performance versus the state of the art for SPARQL queries, with a main contribution being the optimisation of path queries. However, the benchmarks tested include very few path queries. To validate these claims, it would be necessary to include a benchmark with more (diverse) path queries, such as proposed by Poe et al. [A], in order to better understand the performance of such queries. Also, the baselines included run on disk while the proposed approach runs in memory. A fairer and stronger baseline would be to compare with the in-memory database proposed by Joe et al. [B], which is optimised for path queries, and has a code repository linked from the paper.”</p>
                 <p>“The paper reports a precision measure of 46%, which is far too low for the approach to be applicable in practice.”</p>
                 <p>(While this may be true, the paper may still improve upon the state of the art for a challenging and important problem. It may lead to further developments that, in turn, lead to approaches applicable in practice. Alternatively, the paper may be reporting an interesting negative result that refutes a commonly held belief/misconception within the community.)</p>
                 <p>“The paper reports a precision measure of 46%, which though still too low for most practical applications, is a significant improvement with respect to the state of the art on this challenging and important problem. I think that further improvements can follow from this work, and can eventually yield more precise techniques that are applicable in practice.”</p>
-                
-                <br/>
+
+                <br />
                 <p>OR</p>
-                <br/>
-                
+                <br />
+
                 <p>“The paper reports a precision measure of 46%, indicating that Deep Learning methods are outperformed by much simpler classifiers for this task. This is quite a surprising negative result! The ablation study provides very useful insights into why this is the case.”</p>
-                
-                <br/>
+
+                <br />
                 <p>OR</p>
-                <br/>
-                
+                <br />
+
                 <p>“The paper reports a precision measure of 46%, which is too imprecise to be useful in practice, and offers only a single percentage point improvement over the baselines tested. On the other hand, recall drops by several percentage points compared to these baselines. Given the somewhat incremental nature of the proposal, and the arguable performance improvement over the baseline method, I lean towards rejecting this paper.”</p>
                 <p>“I recommend rejecting the paper. Though the approach is new and proves effective, it is also trivial and fairly obvious. It was not difficult to come up with this approach.”</p>
                 <p>(Exploring and reporting on “obvious” lines of research is important to advance the community, and often an approach that appears “obvious” is only so in retrospect. Such ideas that provide new insights through simplification are often crucial ideas for advancement. How easy or difficult it was to come up with the approach is subjective and speculative.)</p>
@@ -201,7 +204,7 @@ export const ReviewGuidelines = () => {
 
 
                 <h3 style={{ color: '#e94607' }} className="text-lg font-semibold mt-4">Do not try to de-anonymize authors</h3>
-                <p>We ask reviewers not to go out of their way to try to specifically deanonymize authors. Such examples include reviewing commit histories on repositories, looking up owners or web domains, looking up metadata in documents provided in repositories, searching for unpublished versions of the papers, etc. If the paper reveals any of the authors’ identities or affiliations, or strongly hints at the same, or links to resources claimed to be theirs that are published under their authorship, this may become grounds for rejection. This may include referencing their previous publications in the first person, using examples in the paper involving their affiliation, referencing supplemental material directly from the paper that directly indicates their identity, etc. If you are unsure if something is a breach of the dual anonymous(i.e, both authors and reviewers are anonymous) review process, please note it in your review and discuss it with other PC/SPC/Chairs.</p>
+                <p>We ask reviewers not to go out of their way to try to specifically deanonymize authors. Such examples include reviewing commit histories on repositories, looking up owners or web domains, looking up metadata in documents provided in repositories, searching for unpublished versions of the papers, etc. If the paper reveals any of the authors’ identities or affiliations, or strongly hints at the same, or links to resources claimed to be theirs that are published under their authorship, this may become grounds for rejection. This may include referencing their previous publications in the first person, using examples in the paper involving their affiliation, referencing supplemental material directly from the paper that directly indicates their identity, etc. If you are unsure if something is a breach of the <a href="https://www.acm.org/diversity-inclusion/words-matter" target="_blank" style={{ color: '#e94607' }}>dual anonymous</a> (i.e, both authors and reviewers are anonymous) review process, please note it in your review and discuss it with other PC/SPC/Chairs.</p>
 
                 <p>EXAMPLES TO AVOID</p>
                 <p>“Performing a WHOIS request on the domain of the website linked from the paper, I found out that the author is Jane Doe, whose DBLP profile suggests that she has worked in related areas. Thus I am rejecting the paper for breaching the dual anonymous policy.”</p>
@@ -222,7 +225,7 @@ export const ReviewGuidelines = () => {
                     <li>How well you know the literature in the area.</li>
                     <li>How certain you are about your recommendation.</li>
                 </ul>
-                <p>Please try to be honest and fair when selecting your confidence, which is intended to be a measure of the previous three points only (and not your repute as a researcher). The scores can be interpreted as follows (based on guidelines for ACL 2014).</p>
+                <p>Please try to be honest and fair when selecting your confidence, which is intended to be a measure of the previous three points only (and not your repute as a researcher). The scores can be interpreted as follows (<a href="https://brenocon.com/blog/2014/02/what-the-acl-2014-review-scores-mean/" target="_blank" style={{ color: '#e94607' }}>based on guidelines for ACL 2014</a>).</p>
 
                 <ul className="list-disc list-inside">
                     <li>5: (expert) Positive that my evaluation is correct. I read the paper very carefully and am familiar with related work and have published on this topic.</li>
@@ -247,7 +250,7 @@ export const ReviewGuidelines = () => {
 
 
                 <p>Please note that the ISWC 2025 review form will include an explicit section in which you can summarise the strengths and weaknesses of the paper, and justify your recommendation.</p>
-                </div>
+            </div>
         </>
     );
 }

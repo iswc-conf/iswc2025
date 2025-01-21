@@ -3,6 +3,9 @@ import React from "react";
 export const SupplementalMaterials = () => {
     return (
         <>
+            <div className="mt-[74px] px-4 pt-2 bg-white flex items-center justify-center">
+            </div>
+            <br/>
             <div className="flex justify-start items-start flex-col pt-10 pb-0 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:h-auto lg:px-32 px-8 overflow-visible">
                 <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 tracking-wide">
                     Supplemental Material Statement Guide
@@ -19,13 +22,13 @@ export const SupplementalMaterials = () => {
 
                 <h2 style={{ color: '#e94607' }} className="text-xl font-semibold mt-6">Reproducibility</h2>
                 <p>Reproducibility is a key goal of scientific research, referring to the ability to independently replicate or verify the results presented in scholarly publications. In the context of computer science, providing access to supplemental material, such as code, datasets, proofs, etc., greatly facilitates reproducibility. This not only supports the independent verification of results but can also increase the impact of a work by allowing other researchers to reuse and build upon such supplemental material. An important goal for ISWC is thus to continue improving the reproducibility of all papers.</p>
-                
+
                 <h2 style={{ color: '#e94607' }} className="text-xl font-semibold mt-6">Supplemental vs. Paper Content</h2>
                 <p>We expect all submissions to be self-contained to be self-contained, meaning that the body of the paper should provide a clear statement of their claims and clear argumentation regarding how these claims are substantiated by the results or theoretical arguments. This includes any details that are important for interpreting the results, which may include the specifications of the machines used for experiments, key statistics about datasets, important configurations or hyper-parameter settings, details about the metrics used, etc. In the case of theoretical papers, this would include proofs or sketches thereof for all theorems, lemmas, etc.</p>
                 <p>Supplemental material then includes the resources needed to reproduce and verify the results reported in the paper that cannot feasibly be included in the paper itself. This may include source code, datasets, models, full versions of proofs, unaggregated experimental results, detailed configurations, documentation, and more besides.</p>
                 <p>We strongly encourage authors to make supplemental material available under open licenses and in repositories that provide long-term availability (arXiv, Github, Zenodo, Figshare, etc.).</p>
 
-                
+
                 <h2 style={{ color: '#e94607' }} className="text-xl font-semibold mt-6">Purpose of the Supplemental Material Statement</h2>
                 <p>While it has become increasingly common for papers to include links to supplemental material to help verify the results they present, often this is done in an ad hoc manner that differs from paper to paper. In cases where supplemental material is not provided, it is sometimes not explicitly stated why this is the case.</p>
 
@@ -90,7 +93,7 @@ export const SupplementalMaterials = () => {
                 <p><b>Example 1:</b></p>
                 <p>Supplemental Material Statement: Source code for MyRDF and the queries used in Section 4 are available from Github1. Full proofs of Theorems 1 and 2 are attached with the submission on EasyChair and, if accepted, will be published on arXiv in an extended version of the paper. The MyPublications ontology is available from Zenodo [4]. The MyHealth dataset cannot be made available as it incorporates private user data.</p>
 
-                <hr/>
+                <hr />
 
                 <p>1 https://github.com/anonauthor/MyRDF</p>
                 <p>References</p>
@@ -106,7 +109,7 @@ export const SupplementalMaterials = () => {
                 <p>Papers without a supplemental material statement may be rejected without review.</p>
                 <p>Reviewers will be asked to review the supplemental material statement in order to verify that it does not omit discussion of any resources that would be necessary to reproduce or verify the results of the paper, that the resources are indeed available at the locations indicated, and that all reasonable efforts have been made to make all supplemental material available.</p>
                 <p>Reviewers are not obliged to review the content of the supplemental material in detail; for this reason, it is important that the paper be self-contained. However, reviewers should be able to access the supplemental material during the review process and are welcome to make comments about the material. This means that authors must provide reviewers access to the supplemental material from the original submission. This supplemental material should not reveal the identity of the authors.</p>
-                <p>There are multiple ways in which supplemental material can be made available anonymously, including uploading the material to EasyChair (up to 100MB), using anonymous Github accounts,  suppressing author details from Figshare or Zenodo repositories until after review, etc.</p>
+                <p>There are multiple ways in which supplemental material can be made available anonymously, including uploading the material to EasyChair (up to 100MB), using anonymous Github accounts, <a href="https://ineed.coffee/post/how-to-disclose-data-for-double-blind-review-and-make-it-archived-open-data-upon-acceptance" target="_blank" style={{ color: '#e94607' }}>suppressing author details from Figshare or Zenodo repositories until after review</a>, etc.</p>
 
             </div>
         </>

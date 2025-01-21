@@ -7,11 +7,10 @@ export const Research = () => {
             </div>
             <br/>
             <div className="flex justify-start items-start flex-col pt-10 pb-0 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:h-auto lg:px-32 px-8 overflow-visible">
-                <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">Call for Resource Track Papers
+                <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">Call for Research Track Papers
                 </p>
 
                 <div className="text-md lg:text-lg font-[300] lg:mx-10 sm:mx-2 overflow-auto">
-                    <h2 style={{ color: '#e94607' }} className="text-xl font-semibold mt-6">Call for Research Track Papers</h2>
                     <p>
                         The International Semantic Web Conference is the premier venue for presenting fundamental research, innovative technology, and applications concerning semantics, data, and the Web.
                     </p>

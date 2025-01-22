@@ -23,11 +23,16 @@ export const Posters = () => {
                     <h2 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Topics of Interest</h2>
                     <p>We invite submissions relevant to the areas of Semantic Web, Knowledge Graphs, and Linked Data, which address, but are not limited to, the topics of the Research Track, the Resources Track, the In-Use Track, and the Industry Track. Visionary ideas, position statements, negative results, and outrageous ideas are also welcome.</p>
 
-                    <h4 style={{ color: '#e94607' }} className="text-md font-medium mt-3">Posters:</h4>
-                    <p>Submissions should describe research work (ongoing or completed), resource projects, or systems (both academic and commercial) relevant to the topics above.</p>
+                    <div style={{ marginBottom: '20px' }}></div>
 
-                    <h4 style={{ color: '#e94607' }} className="text-md font-medium mt-3">Demos:</h4>
-                    <p>Submissions should showcase innovative implementations, tools, or technologies from academia or industry. Demos must highlight a novel solution to a well-defined problem and avoid being purely promotional or commercial.</p>
+                    <ul className="list-disc ml-16 text-md lg:text-lg font-[300]">
+                        <li> <strong>Posters</strong>:
+                        <p> Submissions should describe research work (ongoing or completed), resource projects, or systems (both academic and commercial) relevant to the topics above.</p>
+                        </li>
+                        <li> <strong>Demos</strong>:
+                        <p> Submissions should showcase innovative implementations, tools, or technologies from academia or industry. Demos must highlight a novel solution to a well-defined problem and avoid being purely promotional or commercial.</p>
+                        </li>
+                    </ul>
                     <br />
                     <p>We welcome submissions from Industry, provided they focus on technical contributions rather than product advertisements. Authors of full papers accepted in the Research, Resources, and In-Use Tracks are encouraged to submit a poster or a demonstration. The submission should be formatted as other submissions to this track. Still, it must cite the accepted full paper and include a description of how it complements or adds value to the full paper. The added value could include:</p>
                     <ul className="list-disc ml-16 text-md lg:text-lg font-[300]">
@@ -39,6 +44,10 @@ export const Posters = () => {
                     <p>Submissions must clearly demonstrate relevance to the aforementioned topics of interest of ISWC 2025. Decisions about acceptance will be based on the relevance to the topics of interest, originality, potential significance, topicality, and clarity. All submissions to the Posters & Demos Track will be reviewed by at least three program committee members, including those related to the already accepted full papers. The purpose of the track is to allow the presentation of preliminary results to the community, provided that originality and significance of the contribution are ensured.</p>
 
                     <h2 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Submission Details</h2>
+
+                    <p><strong>All submissions should follow the single anonymous submission policy (i.e., authors are named, reviewers are anonymous).</strong></p>
+
+                    <div style={{ marginBottom: '20px' }}></div>
 
                     <ul className="list-disc ml-16 text-md lg:text-lg font-[300]">
                         <li>
@@ -58,8 +67,9 @@ export const Posters = () => {
                             We require the authors to specify the submission type (poster or demo) in the submission form at the time of submission.
                         </li>
                     </ul>
+                    <div style={{ marginBottom: '20px' }}></div>
                     <p>
-                        All submissions must be made electronically via EasyChair at <a href="https://easychair.org/conferences/?conf=iswc2025" target="_blank" rel="noopener noreferrer">this link</a>.
+                        All submissions must be made electronically via EasyChair at <a href="https://easychair.org/conferences/?conf=iswc2025" target="_blank" rel="noopener noreferrer" style={{ color: '#e94607' }}>this link</a>.
                     </p>
 
                     <h2 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Conference Attendance and Presentation Format</h2>
@@ -77,7 +87,7 @@ export const Posters = () => {
                     <p>
                         <b>Shenghui Wang</b>, University of Twente, The Netherlands
                     </p>
-                    <p>Contact email: <a href="mailto:iswc2025-pd@easychair.org">iswc2025-pd@easychair.org</a></p>
+                    <p>Contact email: <a style={{ color: '#e94607' }} href="mailto:iswc2025-pd@easychair.org">iswc2025-pd@easychair.org</a></p>
 
                 </div>
             </div>

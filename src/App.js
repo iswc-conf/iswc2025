@@ -14,6 +14,7 @@ import Challenges from "./components/calls/Challenges";
 import IndustryTrack from "./components/calls/IndustryTrack";
 import DoctoralConsortium from "./components/calls/DoctoralConsortium";
 import HTMLSubmissionGuide from "./components/guidelines/HTMLSubmissionGuide";
+import PriorPublicationMultipleSubmission from "./components/guidelines/PriorPublicationMultipleSubmission";
 import ReviewGuidelines from "./components/guidelines/ReviewGuidelines";
 import SupplementalMaterials from "./components/guidelines/SupplementalMaterials";
 import ResourcesAvailability from "./components/guidelines/ResourcesAvailability";
@@ -54,6 +55,7 @@ export default function HeroComponent() {
         <Route path="/guidelines/review" element={<ReviewGuidelines />} />
         <Route path="/guidelines/supplemental" element={<SupplementalMaterials />} />
         <Route path="/guidelines/resources" element={<ResourcesAvailability />} />
+        <Route path="/guidelines/prior-publications" element={<PriorPublicationMultipleSubmission />} />
 
         {/* Sponsorship */}
         <Route path="/sponsorship" element={<Sponsorship />} />

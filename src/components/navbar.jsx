@@ -224,6 +224,10 @@ export const NavBar = () => {
                     HTML Submission Guide
                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
+                  <Link to="/guidelines/prior-publications" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                    Prior Publications and Simultaneous Submissions
+                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                  </Link>
                   <Link to="/guidelines/review" className="block px-4 py-2" style={{ color: '#e94607' }}>
                     Review Guidelines
                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>

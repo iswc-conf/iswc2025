@@ -159,7 +159,7 @@ export const Research = () => {
                     <p>In the case of both options, we strongly encourage making supplemental material available under open licenses and providing sufficient documentation to enable reproducibility.</p>
 
                     <h3 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Prior Publication and Multiple Submissions</h3>
-                    <p>ISWC 2025 will not accept research papers that, at the time of submission, are under review for or have already been published in, or accepted for publication, in a journal or another conference. Prior submissions to workshops are fine as long as the authors still hold sufficient rights to publish overlapping content in the proceedings. The conference organizers may share information on submissions with other venues to ensure that this rule is not violated. Submitting articles to preprint servers is allowed if it adheres to our Prior Publication Policy. It is the responsibility of the authors to review and ensure that they adhere to the ISWC Prior Publication and Multiple Submission Policy prior to submission.</p>
+                    <p>ISWC 2025 will not accept research papers that, at the time of submission, are under review for or have already been published in, or accepted for publication, in a journal or another conference. Please refer to and adhere to the ISWC Prior Publication and Multiple Submission Policy.</p>
 
                     <h3 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Research Track Chairs</h3>
                     <p>Contact: <a href="mailto:iswc2025-research@easychair.org">iswc2025-research@easychair.org</a></p>

@@ -14,6 +14,7 @@ export const NavBar = () => {
     setDropdownOpen((prev) => {
       const newState = { calls: false, guidelines: false }; // Reset all dropdowns
       newState[key] = true;
+      setIsOpen(true);
       return newState;
     });
   };
@@ -25,8 +26,15 @@ export const NavBar = () => {
         const newState = { calls: false, guidelines: false }; // Reset all dropdowns
         return newState;
       });
-    }, 3000); // 3 seconds delay
+    }, 2000); // 2 seconds delay
   };
+
+  const dropdownMenuClicked = () => {
+    setDropdownOpen(() => {
+      const newState = { calls: false, guidelines: false }; // Reset all dropdowns
+      return newState;
+    });  
+  }
 
   // Close the navbar when navigating to another page
   useEffect(() => {
@@ -89,7 +97,7 @@ export const NavBar = () => {
             }`}
         >
           <div className="text-md font-medium lg:flex-wrap relative">
-            {
+            {/* {
               isMobile && (
                 <ul
                   class="py-2 text-sm text-[#33358c] "
@@ -113,7 +121,7 @@ export const NavBar = () => {
                   </li>
                 </ul>
               )
-            }
+            } */}
 
             {/* <div
               id="dropdownHover"
@@ -170,41 +178,40 @@ export const NavBar = () => {
               <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>
             </Link>
 
-            <div onMouseEnter={() => handleMouseEnter('calls')}  className="relative inline-block">
-              <Link to="#" style={{ color: '#e94607' }} className="relative inline-flex items-center mt-4 lg:mt-0 text-[#e94607] mr-4 group">
+            <Link to="#" style={{ color: '#e94607' }} onMouseEnter={() => handleMouseEnter('calls')} className="relative block mt-4 lg:inline-block items-center text-[#e94607] mr-4 group lg:mr-4 lg:inline-flex lg:mt-0 mt-4">
                 Calls
                 <div className="bg-[#E30022] w-0 group-hover:w-full">
               {dropdownOpen.calls && (
                 <div className="absolute right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50">
-                  <Link to="/calls/research" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                  <Link to="/calls/research" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                     Research
                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
-                  <Link to="/calls/resource" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                  <Link to="/calls/resource" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                     Resource
                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
-                  <Link to="/calls/in-use" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                  <Link to="/calls/in-use" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                     In Use
                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
-                  <Link to="/calls/posters" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                  <Link to="/calls/posters" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                     Posters and Demos
                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
-                  <Link to="/calls/challenges" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                  <Link to="/calls/challenges" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                     Challenges
                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
-                  <Link to="/calls/industry" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                  <Link to="/calls/industry" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                     Industry Track
                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
-                  <Link to="/calls/doctoral" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                  <Link to="/calls/doctoral" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                     Doctoral Consortium
                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
-                  <Link to="/calls/workshopstutorials" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                  <Link to="/calls/workshopstutorials" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                     Workshops and Tutorials
                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
@@ -212,39 +219,36 @@ export const NavBar = () => {
               )}
             </div>
             </Link>
-            </div>
 
-            <div onMouseEnter={() => handleMouseEnter('guidelines')} className="relative inline-block">
-              <Link to="#" style={{ color: '#e94607' }} className="relative inline-flex items-center mt-8 lg:mt-0 text-[#e94607] mr-8 group">
+            <Link to="#" style={{ color: '#e94607' }} onMouseEnter={() => handleMouseEnter('guidelines')} className="relative block mt-4 lg:inline-block items-center text-[#e94607] mr-4 group lg:mr-4 lg:inline-flex lg:mt-0 mt-4">
                 Guidelines
                 <div className="bg-[#E30022] w-0 group-hover:w-full">
               {dropdownOpen.guidelines && (
                 <div className="absolute right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50">
-                  <Link to="/guidelines/html-submission" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                  <Link to="/guidelines/html-submission" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                     HTML Submission Guide
                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
-                  <Link to="/guidelines/prior-publications" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                  <Link to="/guidelines/prior-publications" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                     Prior Publications and Simultaneous Submissions
                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
-                  <Link to="/guidelines/review" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                  <Link to="/guidelines/review" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                     Review Guidelines
                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
-                  <Link to="/guidelines/supplemental" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                  <Link to="/guidelines/supplemental" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                     Supplemental Materials
                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
-                  <Link to="/guidelines/resources" className="block px-4 py-2" style={{ color: '#e94607' }}>
+                  <Link to="/guidelines/resources" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                     Resources Availability
                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                   </Link>
                 </div>
               )}
               </div>
-              </Link>
-            </div>
+            </Link>
 
               {/* <Link to="#" onClick={(e) => { e.preventDefault(); toggleDropdown('guidelines'); }} style={{ color: '#e94607' }} className="inline-flex items-center mt-4 lg:mt-0 text-[#e94607] mr-4 group">
                 Guidelines

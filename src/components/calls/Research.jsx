@@ -26,7 +26,7 @@ export const Research = () => {
 
                     <h3 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Important information for authors:</h3>
                     <ul className="list-disc list-inside text-md lg:text-lg font-[300]">
-                        <li>Submissions are double-blind.</li>
+                        <li>Submissions are dual anonymous.</li>
                         <li>Papers are limited to 15 pages excluding references. Supplemental materials and annexes count toward the established page limit.</li>
                         <li>All submissions are expected to include a mandatory Supplemental Material Statement - such material includes links to code and data repositories. In case this is not possible, the statement must provide a justification.</li>
                         <li>Unless otherwise justified in the Supplemental Material Statement, we expect supplemental material to be provided anonymously with the submitted paper.</li>
@@ -126,7 +126,7 @@ export const Research = () => {
                         <li>Submissions must be either in PDF or HTML, formatted in the style of the Springer Publications format for Lecture Notes in Computer Science (LNCS). For details on the LNCS style, see Springer’s Author Instructions. For HTML submission guidance, please see the HTML submission guide.</li>
                         <li>Each submission must be original. Authors need to authorize the organizer to perform a plagiarism check of the paper.</li>
                         <li>Papers that exceed the page limit, violate the style or show any kind of plagiarism will be rejected without review.</li>
-                        <li>Papers submitted to the research track will be subject to double-blind peer review and must conform to the instructions (detailed below) for double-blind review.</li>
+                        <li>Papers submitted to the research track will be subject to dual anonymous peer review and must conform to the instructions (detailed below) for dual anonymous review.</li>
                         <li>We encourage embedding metadata in the PDF/HTML to provide machine-readable links from the paper to resources.</li>
                         <li>Authors of accepted papers will be required to provide semantic annotations for the submission, which will be made available online. Details will be provided at the time of acceptance.</li>
                         <li>Accepted papers will be distributed to conference attendees and also published in the conference proceedings.</li>
@@ -138,7 +138,7 @@ export const Research = () => {
                     <h3 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Instructions for Dual Anonymous Reviewing</h3>
                     <p>Reviewing for ISWC 2025 is dual-anonymous, i.e., the identities of the authors and reviewers are hidden. Both authors and reviewers are expected to make every effort to honor this process. Authors should do their best to ensure that the submission can be evaluated without it being obvious who wrote the paper, and reviewers should not undertake any investigation with the specific goal of revealing the authors’ identity.</p>
 
-                    <p>To help with the double-blind reviewing process please ensure the following when submitting to ISWC 2025:</p>
+                    <p>To help with the dual anonymous reviewing process please ensure the following when submitting to ISWC 2025:</p>
                     <ul className="list-disc list-inside text-md lg:text-lg font-[300]">
                         <li>The first page, on which the paper body begins, should include the title and abstract but not the names or affiliations of the authors.</li>
                         <li>Remove any identifying information, including author names, from file names and ensure document properties are also anonymized.</li>
@@ -150,7 +150,7 @@ export const Research = () => {
 
                     <h3 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Supplemental Material</h3>
                     <p>The length of the main submission is strictly limited as indicated in the call for papers. However, authors may choose to also submit supplemental material, which may include proofs of theorems that are stated in the main paper, video demonstrations, data concerning experimental evaluations, source code, and so on. Note that submissions may reference the supplemental material for further details, but should be self-contained. Reviewers are instructed to make their evaluations based on the main submission and are not obligated to consult the supplemental material. Therefore, make sure that your submission stands on its own without them.</p>
-                    <p>Please take care not to violate the blind review requirements in the supplemental material. You may make supplemental material available per one of the following options:</p>
+                    <p>Please take care not to violate the dual anonymous review requirements in the supplemental material. You may make supplemental material available per one of the following options:</p>
                     <ul className="list-disc ml-16 text-md lg:text-lg font-[300]">
                         <li><strong>OPTION 1:</strong> As an anonymized link to supplemental material included in the paper. This option may be used, in particular, in case the total size of the submission (paper+supplemental materials) exceeds 100MB. We recommend the use of Github, Zenodo, Figshare, or Dryad. Anonymous dataset submissions can be managed through Zenodo and Figshare without additional accounts; see, for example, <a href="https://github.com/dgraziotin/disclose-data-dbr-first-then-opendata" target="_blank" style={{ color: '#e94607' }}>this guide</a> by Daniel Graziotin. Code repository submissions may be anonymized through platforms like <a href="https://anonymous.4open.science/" target="_blank" style={{ color: '#e94607' }}>https://anonymous.4open.science/</a>.</li>
                         <li><strong>OPTION 2:</strong> As a second zipped folder uploaded via the EasyChair system; note that the total size of the submission (paper+supplemental materials) must not exceed 100MB.</li>

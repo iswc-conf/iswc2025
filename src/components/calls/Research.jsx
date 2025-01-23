@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useRef } from "react";
 
 export const Research = () => {
+
+    const review_ref = useRef(null);
+
+    const scrollToSection = (ref) => {
+        ref.current.scrollIntoView({ behavior: 'smooth' });
+    };
+
+
     return (
         <>
             <div className="mt-[74px] px-4 pt-2 bg-white flex items-center justify-center">
@@ -18,7 +26,7 @@ export const Research = () => {
                         The research track of ISWC 2025 solicits novel and significant research contributions addressing theoretical, analytical, and empirical aspects of the Semantic Web. We welcome work describing original and replicable research showing evidence of significant contribution to the Semantic Web.
                     </p>
                     <p>
-                        All papers will be assessed by the track’s program committee. Each paper will be reviewed by at least three committee members, with a meta-review provided by a senior member. The review criteria used are outlined below.
+                        All papers will be assessed by the track’s program committee. Each paper will be reviewed by at least three committee members, with a meta-review provided by a senior member. The review criteria used are <span onClick={() => scrollToSection(review_ref)} style={{ color: '#e94607' }}>outlined below</span>.
                     </p>
                     <p>
                         As ISWC 2025 features multiple tracks, authors are asked to consult the calls of the other tracks to choose the track that best fits their contribution. The submission of the same work to multiple tracks (as well as other conferences) is not allowed and results in a rejection of the work without review.
@@ -28,7 +36,7 @@ export const Research = () => {
                     <ul className="list-disc list-inside text-md lg:text-lg font-[300]">
                         <li>Submissions are dual anonymous.</li>
                         <li>Papers are limited to 15 pages excluding references. Supplemental materials and annexes count toward the established page limit.</li>
-                        <li>All submissions are expected to include a mandatory Supplemental Material Statement - such material includes links to code and data repositories. In case this is not possible, the statement must provide a justification.</li>
+                        <li>All submissions are expected to include a mandatory <a href="https://iswc2025.semanticweb.org/#/guidelines/supplemental" target="_blank" style={{ color: '#e94607' }}>Supplemental Material Statement</a> - such material includes links to code and data repositories. In case this is not possible, the statement must provide a justification.</li>
                         <li>Unless otherwise justified in the Supplemental Material Statement, we expect supplemental material to be provided anonymously with the submitted paper.</li>
                         <li>Pre-submission of abstracts is a strict requirement.</li>
                     </ul>
@@ -94,7 +102,8 @@ export const Research = () => {
 
                     <p>We welcome descriptions of contributions that leverage knowledge representation based on Semantic Web standards or other graph data models to improve the acquisition, processing, and sharing of data on the Web. We require authors to explicitly highlight how their work could be applied in a Semantic Web setting.</p>
 
-                    <h3 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Review Criteria</h3>
+                    <div ref={review_ref}>
+                    <h3  style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Review Criteria</h3>
                     <p>Papers in this track will be reviewed according to the following criteria:</p>
                     <ul className="list-disc list-inside text-md lg:text-lg font-[300]">
                         <li>Originality and novelty</li>
@@ -106,15 +115,17 @@ export const Research = () => {
                         <li>Grounding in the literature</li>
                     </ul>
 
-                    <p>Any submissions that are clearly out of scope, or have significant omissions with respect to these criteria may be subject to desk-rejection prior to a full review. Guidelines for reviewers are available here.</p>
+                    <p>Any submissions that are clearly out of scope, or have significant omissions with respect to these criteria may be subject to desk-rejection prior to a full review. Guidelines for reviewers are available <a href="https://iswc2025.semanticweb.org/#/guidelines/review" target="_blank" style={{ color: '#e94607' }}>here</a>.</p>
 
                     <h3 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Rebuttal</h3>
                     <p>Authors will have the chance to provide a response to the reviews during a rebuttal period that precedes the reviewer discussion period. The SPCs and PC Chairs will consider the authors' responses to the points raised by the reviewers.</p>
 
                     <h3 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Supplemental Material Statement and Reproducibility</h3>
-                    <p>Reproducibility is a key goal of scientific research. We require authors of all papers to include a statement at the end of their submission that facilitates the independent reproducibility or verification of the results presented (where relevant), pointing to where supplemental material can be found. These resources may include datasets, queries, code, proofs of results, configuration details, hyperparameters, etc., depending on the contributions of the paper. The statement should cover all of the resources necessary to reproduce or verify the results presented in the paper, indicating their persistent identifiers (e.g., DOI). In case certain resources cannot be made available (e.g., due to privacy, ethical, or financial concerns), the statement should include a justification of why this is the case. In case the paper is fully self-contained and does not have additional resources associated (e.g., a theoretical paper with full proofs contained in the body of the paper), a short statement can be provided arguing that the paper is self-contained. Please see the Supplemental Material Statement Guide for more details.</p>
+                    <p>Reproducibility is a key goal of scientific research. We require authors of all papers to include a statement at the end of their submission that facilitates the independent reproducibility or verification of the results presented (where relevant), pointing to where supplemental material can be found. These resources may include datasets, queries, code, proofs of results, configuration details, hyperparameters, etc., depending on the contributions of the paper. The statement should cover all of the resources necessary to reproduce or verify the results presented in the paper, indicating their persistent identifiers (e.g., DOI). In case certain resources cannot be made available (e.g., due to privacy, ethical, or financial concerns), the statement should include a justification of why this is the case. In case the paper is fully self-contained and does not have additional resources associated (e.g., a theoretical paper with full proofs contained in the body of the paper), a short statement can be provided arguing that the paper is self-contained. Please see the  <a href="https://iswc2025.semanticweb.org/#/guidelines/supplemental" target="_blank" style={{ color: '#e94607' }}>Supplemental Material Statement Guide</a> for more details.</p>
 
                     <p>Reviewers will be asked to evaluate the statement. In particular, they will be asked to ensure that the statement convinces them that the results of the paper are reproducible, to ensure that the resources are indeed available and support reproducibility (both now and for the foreseeable future), and, in cases where resources are not provided, to verify that there is a reasonable justification. Unless otherwise justified, it is expected that access to resources is provided from the submitted paper since these resources may often play an important role in the review process. All resources must be provided anonymously; please see the “Supplemental Material” section for recommended options.</p>
+
+                    </div>
 
                     <h4 style={{ color: '#e94607' }} className="text-md font-medium mt-3">Submission Details</h4>
                     <ul className="list-disc ml-16 text-md lg:text-lg font-[300]">
@@ -159,7 +170,7 @@ export const Research = () => {
                     <p>In the case of both options, we strongly encourage making supplemental material available under open licenses and providing sufficient documentation to enable reproducibility.</p>
 
                     <h3 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Prior Publication and Multiple Submissions</h3>
-                    <p>ISWC 2025 will not accept research papers that, at the time of submission, are under review for or have already been published in, or accepted for publication, in a journal or another conference. Please refer to and adhere to the ISWC Prior Publication and Multiple Submission Policy.</p>
+                    <p>ISWC 2025 will not accept research papers that, at the time of submission, are under review for or have already been published in, or accepted for publication, in a journal or another conference. Please refer to and adhere to the <a href="https://iswc2025.semanticweb.org/#/guidelines/prior-publications" target="_blank" style={{ color: '#e94607' }}>ISWC Prior Publication and Multiple Submission Policy.</a></p>
 
                     <h3 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Research Track Chairs</h3>
                     <p>Contact: <a href="mailto:iswc2025-research@easychair.org">iswc2025-research@easychair.org</a></p>

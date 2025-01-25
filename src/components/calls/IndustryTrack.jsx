@@ -101,7 +101,7 @@ export const IndustryTrack = () => {
                     <p>Each abstract should describe the content of the proposed talk, which should be of a technical or strategic nature. Pure marketing/promotional material will not be accepted.</p>
                     <p>Submissions should be made via <a href="https://easychair.org/my/conference?conf=iswc2025" target="_blank" style={{ color: '#e94607' }}>EasyChair</a> and will be reviewed by a committee of practitioners from industry and academia. At least one author of each accepted paper must register for the conference and present the paper.</p>
                     <div style={{ marginBottom: '20px' }}></div>
-                    <p>Accepted extended abstracts will be published with CEUR-WS.org and will have a presentation slot at the main conference.</p>
+                    <p>Accepted extended abstracts will be published with <a href="https://ceur-ws.org/" target="_blank" style={{ color: '#e94607' }}>CEUR-WS.org</a> and will have a presentation slot at the main conference.</p>
 
                     <h3 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Format
                     </h3>

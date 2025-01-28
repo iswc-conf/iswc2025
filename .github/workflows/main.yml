@@ -25,7 +25,8 @@ jobs:
       run: CI=false npm run build
 
     - name: Add Google verification file
-      run: echo "google-site-verification: google172d625cbdc5c579.html" > ./build/google172d625cbdc5c579.html
+      run: |
+        echo "google-site-verification: google172d625cbdc5c579.html" > ./build/google172d625cbdc5c579.html
 
     - name: Add CNAME file for custom domain
       run: echo "iswc2025.semanticweb.org" > ./build/CNAME

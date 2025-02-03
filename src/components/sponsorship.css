@@ -1,0 +1,26 @@
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e94607;
+}
+
+.h2-border-bottom {
+    border-bottom: 2px solid #e94607;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #e94607;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 32px;
+}
+
+ol li::marker {
+    color: #e94607;
+    font-weight: bold;
+}

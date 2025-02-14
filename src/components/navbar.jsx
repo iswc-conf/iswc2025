@@ -12,6 +12,7 @@ export const NavBar = () => {
   const handleMouseEnter = (key) => {
     //clearTimeout(mouseLeaveTimeout);
     setDropdownOpen((prev) => {
+      if (isMobile) return;
       const newState = { calls: false, guidelines: false }; // Reset all dropdowns
       newState[key] = true;
       setIsOpen(true);
@@ -20,6 +21,7 @@ export const NavBar = () => {
   };
 
   const handleMouseLeave = () => {
+    if (isMobile) return;
     // Set a timeout to delay the execution of the dropdown closing logic
     mouseLeaveTimeout = setTimeout(() => {
       setDropdownOpen(() => {
@@ -43,8 +45,9 @@ export const NavBar = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
-      setIsOpen(false); // Close the dropdown when the window is resized
+      var isMobileSize = window.innerWidth <= 768
+      setIsMobile(isMobileSize);
+      if (!isMobileSize) setIsOpen(false); // Close the dropdown when the window is resized
     };
 
     handleResize(); // Initial check on component mount
@@ -180,9 +183,9 @@ export const NavBar = () => {
 
             <Link to="#" style={{ color: '#e94607' }} onMouseEnter={() => handleMouseEnter('calls')} className="relative block mt-4 lg:inline-block items-center text-[#e94607] mr-4 group lg:mr-4 lg:inline-flex lg:mt-0 mt-4">
                 Calls
-                <div className="bg-[#E30022] w-0 group-hover:w-full">
-              {dropdownOpen.calls && (
-                <div className="absolute right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50">
+                <div className="w-0 w-full">
+              {(isMobile || dropdownOpen.calls) && (
+                <div className={`${isMobile ? 'relative' : 'absolute'} right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50`}>
                   <Link to="/calls/research" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                     Research
                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
@@ -222,9 +225,9 @@ export const NavBar = () => {
 
             <Link to="#" style={{ color: '#e94607' }} onMouseEnter={() => handleMouseEnter('guidelines')} className="relative block mt-4 lg:inline-block items-center text-[#e94607] mr-4 group lg:mr-4 lg:inline-flex lg:mt-0 mt-4">
                 Guidelines
-                <div className="bg-[#E30022] w-0 group-hover:w-full">
-              {dropdownOpen.guidelines && (
-                <div className="absolute right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50">
+                <div className="w-0 w-full">
+              {(isMobile || dropdownOpen.guidelines) && (
+                <div className={`${isMobile ? 'relative' : 'absolute'} right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50`}>
                   <Link to="/guidelines/html-submission" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                     HTML Submission Guide
                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>

@@ -41,7 +41,7 @@ export const Host = () => {
                     <h2 style={{ color: '#e94607' }} className="text-xl font-semibold mt-6">Key Attractions for Attendees</h2>
 
                     <p>While attending ISWC 2025, take the opportunity to explore <b>Nara’s iconic landmarks:</b></p>
-                    <ul>
+                    <ul className="list-disc ml-16 text-md lg:text-lg font-[300]">
                         <li><b>Todaiji Temple & the Great Buddha</b> – One of Japan’s most famous temples, home to a massive bronze Buddha statue.</li>
                         <li><b>Nara Park</b> – Walk among the friendly, freely roaming deer, considered sacred messengers in Japanese culture.</li>
                         <li><b>Kasuga Taisha Shrine</b> – A beautiful Shinto shrine renowned for its atmospheric lantern-lit pathways.</li>

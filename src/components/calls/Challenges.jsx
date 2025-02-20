@@ -14,8 +14,8 @@ export const Challenges = () => {
 
                     <h2 style={{ color: '#e94607' }} className="text-xl font-semibold mt-6">Important Dates</h2>
                     <ul>
-                        <li>Challenge proposal submission due: <strong>February 18th, 2025</strong></li>
-                        <li>Notification of challenge acceptance: <strong>March 2nd, 2025</strong></li>
+                        <li>Challenge proposal submission due: <strong>March 4th, 2025</strong></li>
+                        <li>Notification of challenge acceptance: <strong>March 16th, 2025</strong></li>
                     </ul>
                     <p>All deadlines are 23:59 AoE (Anywhere on Earth).</p>
 

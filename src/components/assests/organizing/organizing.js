@@ -29,6 +29,7 @@ import ines from "./akaichi_ines.png"
 import cheng from "./Cheng_Gong.jpg";
 import armando from "./stellato_armando.jpg";
 import sun from "./Sun_Zequn.jpg"
+import nandana from "./nandana.jpeg"
 
 const organizers = {
   "General Chair": [
@@ -178,6 +179,14 @@ const organizers = {
       institution: 'University of Southern California',
       country: 'US',
     },
+  ],
+  "Job Fair Chair": [
+    {
+      name: 'Nandana Mihindukulasooriya',
+      img: nandana,
+      institution: 'IBM Research',
+      country: 'US',
+    }
   ],
   "Sponsorship Chair": [
     {

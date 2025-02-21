@@ -119,7 +119,7 @@ export const Resource = () => {
           </p>
 
           <p>
-            Regarding specific resource types, checklists of their quality attributes are available in a <a href="http://doi.org/10.21954/ou.se.28191170" target="_blank" style={{ color: '#e94607' }}>presentation</a>. Both authors and reviewers may make use of them when assessing the quality of a particular resource.
+            Regarding specific resource types, checklists of their quality attributes are available in a <a href="https://github.com/iswc-conf/iswc2025/blob/main/public/resource/calls/RESOURCES_TRACK_Instructions_for_Authors_and_Reviewer.pdf" target="_blank" style={{ color: '#e94607' }}>presentation</a>. Both authors and reviewers may make use of them when assessing the quality of a particular resource.
           </p>
 
 

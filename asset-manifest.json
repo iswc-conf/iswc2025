@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.1f7b9ac6.css",
-    "main.js": "./static/js/main.fc0823e8.js",
+    "main.css": "./static/css/main.ca79515d.css",
+    "main.js": "./static/js/main.de1070e4.js",
     "static/js/453.33a3e8e3.chunk.js": "./static/js/453.33a3e8e3.chunk.js",
     "static/media/nara.jpg": "./static/media/nara.f23252a86df90f0e41a6.jpg",
     "static/media/neha_keshan.png": "./static/media/neha_keshan.7c28c9cce493fb847f18.png",
@@ -39,12 +39,12 @@
     "static/media/cogan_shimizu.png": "./static/media/cogan_shimizu.e435636e93228e66ffa1.png",
     "static/media/ken_fukuda.png": "./static/media/ken_fukuda.22c7d8382ad53a504a95.png",
     "index.html": "./index.html",
-    "main.1f7b9ac6.css.map": "./static/css/main.1f7b9ac6.css.map",
-    "main.fc0823e8.js.map": "./static/js/main.fc0823e8.js.map",
+    "main.ca79515d.css.map": "./static/css/main.ca79515d.css.map",
+    "main.de1070e4.js.map": "./static/js/main.de1070e4.js.map",
     "453.33a3e8e3.chunk.js.map": "./static/js/453.33a3e8e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f7b9ac6.css",
-    "static/js/main.fc0823e8.js"
+    "static/css/main.ca79515d.css",
+    "static/js/main.de1070e4.js"
   ]
 }

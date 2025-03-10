@@ -1,0 +1,22 @@
+.h2-border-bottom {
+    border-bottom: 2px solid #e94607;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #e94607;
+}
+
+.ul-disc {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 32px;
+}
+
+ol li::marker {
+    color: #e94607;
+}

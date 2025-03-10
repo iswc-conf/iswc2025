@@ -22,6 +22,7 @@ import Sponsorship from "./components/Sponsorship";
 import ImportantDates from "./components/importantdates"
 import WorkshopsTutorials from "./components/calls/WorkshopsTutorials";
 import Host from "./components/blogs/host"
+import { Visa } from "./components/attending/visa";
 
 
 export default function HeroComponent() {
@@ -57,6 +58,9 @@ export default function HeroComponent() {
         <Route path="/guidelines/supplemental" element={<SupplementalMaterials />} />
         <Route path="/guidelines/resources" element={<ResourcesAvailability />} />
         <Route path="/guidelines/prior-publications" element={<PriorPublicationMultipleSubmission />} />
+
+        {/* Attendings */}
+        <Route path="/attending/visa" element={<Visa />} />
 
         {/* Blogs */}
         <Route path="/blogs/host" element={<Host />} />

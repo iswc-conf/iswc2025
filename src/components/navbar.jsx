@@ -7,13 +7,13 @@ export const NavBar = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState({ calls: false, guidelines: false });
   const location = useLocation();
-  let mouseLeaveTimeout; 
+  let mouseLeaveTimeout;
 
   const handleMouseEnter = (key) => {
     //clearTimeout(mouseLeaveTimeout);
     setDropdownOpen((prev) => {
       if (isMobile) return;
-      const newState = { calls: false, guidelines: false }; // Reset all dropdowns
+      const newState = { calls: false, guidelines: false, attendings: false }; // Reset all dropdowns
       newState[key] = true;
       setIsOpen(true);
       return newState;
@@ -25,7 +25,7 @@ export const NavBar = () => {
     // Set a timeout to delay the execution of the dropdown closing logic
     mouseLeaveTimeout = setTimeout(() => {
       setDropdownOpen(() => {
-        const newState = { calls: false, guidelines: false }; // Reset all dropdowns
+        const newState = { calls: false, guidelines: false, attendings: false }; // Reset all dropdowns
         return newState;
       });
     }, 2000); // 2 seconds delay
@@ -33,7 +33,7 @@ export const NavBar = () => {
 
   const dropdownMenuClicked = () => {
     setDropdownOpen(() => {
-      const newState = { calls: false, guidelines: false }; // Reset all dropdowns
+      const newState = { calls: false, guidelines: false, attendings: false }; // Reset all dropdowns
       return newState;
     });  
   }
@@ -253,6 +253,19 @@ export const NavBar = () => {
               </div>
             </Link>
 
+            <Link to="#" style={{ color: '#e94607' }} onMouseEnter={() => handleMouseEnter('attendings')} className="relative block mt-4 lg:inline-block items-center text-[#e94607] mr-4 group lg:mr-4 lg:inline-flex lg:mt-0 mt-4">
+              Attending
+              <div className="w-0 w-full">
+                {(isMobile || dropdownOpen.attendings) && (
+                  <div className={`${isMobile ? 'relative' : 'absolute'} right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50`}>
+                    <Link to="/attending/visa" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      VISA Information
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                  </div>
+                )}
+              </div>
+            </Link>
             <Link to="#" style={{ color: '#e94607' }} onMouseEnter={() => handleMouseEnter('blogs')} className="relative block mt-4 lg:inline-block items-center text-[#e94607] mr-4 group lg:mr-4 lg:inline-flex lg:mt-0 mt-4">
                 Blogs
                 <div className="w-0 w-full">

@@ -23,6 +23,9 @@ import ImportantDates from "./components/importantdates"
 import WorkshopsTutorials from "./components/calls/WorkshopsTutorials";
 import Host from "./components/blogs/host"
 import { Visa } from "./components/attending/visa";
+import KeynoteSpeakers from "./components/program/KeynoteSpeakers";
+import Workshops from "./components/program/Workshops";
+import ProgramChallenges from "./components/program/ProgramChallenges";
 
 
 export default function HeroComponent() {
@@ -58,6 +61,11 @@ export default function HeroComponent() {
         <Route path="/guidelines/supplemental" element={<SupplementalMaterials />} />
         <Route path="/guidelines/resources" element={<ResourcesAvailability />} />
         <Route path="/guidelines/prior-publications" element={<PriorPublicationMultipleSubmission />} />
+
+        {/* Program */}
+        <Route path="/program/keynotespeakers" element={<KeynoteSpeakers />} />
+        <Route path="/program/workshops" element={<Workshops />} />
+        <Route path="/program/challenges" element={<ProgramChallenges />} />
 
         {/* Attendings */}
         <Route path="/attending/visa" element={<Visa />} />

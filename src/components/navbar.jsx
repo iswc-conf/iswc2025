@@ -253,6 +253,28 @@ export const NavBar = () => {
               </div>
             </Link>
 
+            <Link to="#" style={{ color: '#e94607' }} onMouseEnter={() => handleMouseEnter('program')} className="relative block mt-4 lg:inline-block items-center text-[#e94607] mr-4 group lg:mr-4 lg:inline-flex lg:mt-0 mt-4">
+              Program
+              <div className="w-0 w-full">
+                {(isMobile || dropdownOpen.program) && (
+                  <div className={`${isMobile ? 'relative' : 'absolute'} right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50`}>
+                    <Link to="/program/keynotespeakers" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Keynote Speakers
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                    <Link to="/program/workshops" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Workshops
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                    <Link to="/program/challenges" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Challenges
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                  </div>
+                )}
+              </div>
+            </Link>
+
             <Link to="#" style={{ color: '#e94607' }} onMouseEnter={() => handleMouseEnter('attendings')} className="relative block mt-4 lg:inline-block items-center text-[#e94607] mr-4 group lg:mr-4 lg:inline-flex lg:mt-0 mt-4">
               Attending
               <div className="w-0 w-full">
@@ -266,6 +288,7 @@ export const NavBar = () => {
                 )}
               </div>
             </Link>
+
             <Link to="#" style={{ color: '#e94607' }} onMouseEnter={() => handleMouseEnter('blogs')} className="relative block mt-4 lg:inline-block items-center text-[#e94607] mr-4 group lg:mr-4 lg:inline-flex lg:mt-0 mt-4">
                 Blogs
                 <div className="w-0 w-full">

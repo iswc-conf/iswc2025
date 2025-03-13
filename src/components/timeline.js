@@ -5,7 +5,7 @@ export const Timeline = () => {
       { date: '18-Feb-25', title: 'Workshop proposals', color: '#57D131' },
       { date: '4-Mar-25', title: 'Semantic Web Challenge proposals', color: '#57D131' },
       { date: '11-Mar-25', title: 'Workshop notifications', color: '#4E84D8' },
-      { date: '16-Mar-25', title: 'Semantic Web Challenges notifications', color: '#4E84D8' },
+{ date: '16-Mar-25', title: 'Semantic Web Challenges notifications', color: '#4E84D8' },
       { date: '6-May-25', title: 'Abstracts (Research, In-use, and Resource tracks)', color: '#57D131' },
       { date: '13-May-25', title: 'Papers (Research, In-use, and Resource tracks)', color: '#57D131' },
       { date: '20-May-25', title: 'Tutorial proposals', color: '#57D131' },

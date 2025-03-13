@@ -26,6 +26,7 @@ import { Visa } from "./components/attending/visa";
 import KeynoteSpeakers from "./components/program/KeynoteSpeakers";
 import Workshops from "./components/program/Workshops";
 import ProgramChallenges from "./components/program/ProgramChallenges";
+import CodeOfConduct from "./components/attending/CodeOfConduct";
 
 
 export default function HeroComponent() {
@@ -69,6 +70,7 @@ export default function HeroComponent() {
 
         {/* Attendings */}
         <Route path="/attending/visa" element={<Visa />} />
+        <Route path="/attending/codeofconduct" element={<CodeOfConduct />} />
 
         {/* Blogs */}
         <Route path="/blogs/host" element={<Host />} />

@@ -64,7 +64,7 @@ export const Workshops = () => {
                             <tr className="bg-[#f8f8f8] text-[#e94607] font-bold border-b">
                                 <th className="p-4 border border-gray-300 w-1/4">Workshop Title</th>
                                 <th className="p-4 border border-gray-300 w-1/4">Organizers</th>
-                                <th className="p-4 border border-gray-300 w-1/2">Description</th>
+                                {/* <th className="p-4 border border-gray-300 w-1/2">Description</th> */}
                             </tr>
                         </thead>
                         <tbody>
@@ -72,7 +72,7 @@ export const Workshops = () => {
                                 <tr key={idx} className="border-b">
                                     <td className="align-top p-4 border border-gray-200 font-semibold">{ws.title}</td>
                                     <td className="align-top p-4 border border-gray-200">{ws.organizers}</td>
-                                    <td className="align-top p-4 border border-gray-200 whitespace-pre-line">{ws.description}</td>
+                                    {/* <td className="align-top p-4 border border-gray-200 whitespace-pre-line">{ws.description}</td> */}
                                 </tr>
                             ))}
                         </tbody>

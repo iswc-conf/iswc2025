@@ -1,4 +1,5 @@
 import React from "react";
+import { useState, useRef } from "react";
 
 export const Workshops = () => {
     const workshops = [
@@ -48,6 +49,22 @@ export const Workshops = () => {
             description: "The principled integration of Hybrid Intelligence (HI) -- which combines human and artificial intelligence -- with the Semantic Web presents novel opportunities for enhancing decision-making, knowledge representation, and collaborative problem-solving. This workshop promotes the exploration at the intersection of these domains, focusing on how semantic technologies (e.g., ontologies, knowledge graphs, and linked data) can improve the adaptability, explainability, and reasoning capabilities of hybrid intelligence systems. Topics include human-AI collaboration, trustworthy AI, context-aware knowledge management, and real-world applications in areas such as healthcare, finance, and smart cities. At \"Smarter Together: Bridging Hybrid Intelligence and the Semantic Web,\" participants will engage across disciplinary boundaries, fostering interdisciplinary collaboration toward more robust, intelligent, transparent, and ethical AI-driven systems. The workshop will generally consist of a keynote, interactive discussions and breakouts, and brief, but informative, state-of-the-art research presentations."
         }
     ];
+    const [openIndexes, setOpenIndexes] = useState([]);
+    const detailRefs = useRef([]);
+    const toggleDetail = (index) => {
+        setOpenIndexes((prev) =>
+            prev.includes(index)
+                ? prev.filter((i) => i !== index) // Close it if already open
+                : [...prev, index] // Open it if closed
+        );
+    };
+
+    const scrollToDetails = (idx) => {
+        if (detailRefs.current[idx]) {
+            detailRefs.current[idx].scrollIntoView({ behavior: "smooth", block: "start" });
+            toggleDetail(idx); // Open the details
+        }
+    };
 
     return (
         <>
@@ -70,7 +87,12 @@ export const Workshops = () => {
                         <tbody>
                             {workshops.map((ws, idx) => (
                                 <tr key={idx} className="border-b">
-                                    <td className="align-top p-4 border border-gray-200 font-semibold">{ws.title}</td>
+                                    <td className="align-top p-4 border border-gray-200 font-semibold">
+                                        <div onClick={() => scrollToDetails(idx)}
+                                            className="hover:underline text-[#e94607]">
+                                            {ws.title}
+                                        </div>
+                                    </td>
                                     <td className="align-top p-4 border border-gray-200">{ws.organizers}</td>
                                     {/* <td className="align-top p-4 border border-gray-200 whitespace-pre-line">{ws.description}</td> */}
                                 </tr>
@@ -78,6 +100,32 @@ export const Workshops = () => {
                         </tbody>
                     </table>
                 </div>
+
+                <br />
+                {workshops.map((ws, idx) => (
+                    <div key={idx} ref={(el) => (detailRefs.current[idx] = el)} id={`details-${idx}`} className="p-4 border rounded-lg">
+                        <div
+                            onClick={() => toggleDetail(idx)}
+                            className="flex items-center gap-2 p-2 rounded"
+                        >
+                            <span className={`transform transition-transform ${openIndexes.includes(idx) ? "rotate-90" : "rotate-0"}`} >
+                                »
+                            </span>
+                            <span className="font-bold text-[#e94607] hover:underline">
+                                {ws.title}
+                            </span>
+
+                        </div>
+                        {openIndexes.includes(idx) && <div className="mt-2">
+                            <h2>Organizers</h2>
+                            <p>{ws.organizers}</p>
+                            <br />
+                            <h2>Description</h2>
+                            <p>{ws.description}</p>
+                        </div>}
+                    </div>
+                ))}
+
             </div>
         </>
     );

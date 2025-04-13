@@ -1,7 +1,7 @@
 import React from "react";
 import './sponsorship.css';
 
-export const Sponsorship = () => {
+export const SponsorshipPackages = () => {
     return (
         <div>
             <div className="mt-[74px] px-4 pt-2 bg-white flex items-center justify-center">
@@ -99,4 +99,4 @@ export const Sponsorship = () => {
     );
 };
 
-export default Sponsorship;
+export default SponsorshipPackages;

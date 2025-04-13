@@ -18,7 +18,8 @@ import PriorPublicationMultipleSubmission from "./components/guidelines/PriorPub
 import ReviewGuidelines from "./components/guidelines/ReviewGuidelines";
 import SupplementalMaterials from "./components/guidelines/SupplementalMaterials";
 import ResourcesAvailability from "./components/guidelines/ResourcesAvailability";
-import Sponsorship from "./components/Sponsorship";
+import SponsorshipPackages from "./components/sponsorship/SponsorshipPackages";
+import Sponsors from "./components/sponsorship/Sponsors";
 import ImportantDates from "./components/importantdates"
 import WorkshopsTutorials from "./components/calls/WorkshopsTutorials";
 import Host from "./components/blogs/host"
@@ -77,7 +78,8 @@ export default function HeroComponent() {
         
 
         {/* Sponsorship */}
-        <Route path="/sponsorship" element={<Sponsorship />} />
+        <Route path="/sponsorship/sponsorshippackages" element={<SponsorshipPackages />} />
+        <Route path="/sponsorship/sponsors" element={<Sponsors />} />
       </Routes>
       <Footer/>
     </>

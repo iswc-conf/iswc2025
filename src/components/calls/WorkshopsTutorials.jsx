@@ -212,10 +212,10 @@ export const WorkshopsTutorials = () => {
                     <h3 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Important Dates</h3>
                     <p>All deadlines are 23:59 Anywhere on Earth (AoE).</p>
                     <ul className="list-disc ml-6">
-                        <li>Submission deadline: July 1, 2025</li>
-                        <li>Notification to proposers: July 11, 2025</li>
-                        <li>Workshop website online: July 25, 2025</li>
-                        <li>Workshop days: November 2-3, 2025</li>
+                        <li>Submission deadline: <b>July 1, 2025</b></li>
+                        <li>Notification to proposers: <b>July 11, 2025</b></li>
+                        <li>Workshop website online: <b>July 25, 2025</b></li>
+                        <li>Workshop days: <b>November 2-3, 2025</b></li>
                     </ul>
 
                     <h3 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Workshop Chairs</h3>

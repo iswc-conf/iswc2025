@@ -282,7 +282,7 @@ export const NavBar = () => {
                   <div className={`${isMobile ? 'relative' : 'absolute'} right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50`}>
                     <Link to="/attending/visa" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                       VISA Information
-                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                     </Link>
                     <Link to="/attending/codeofconduct" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                       Code of Conduct
@@ -332,14 +332,31 @@ export const NavBar = () => {
                 </div>
               )} */}
 
-            <Link
+            <Link to="#" style={{ color: '#e94607' }} onMouseEnter={() => handleMouseEnter('sponsorship')} className="relative block mt-4 lg:inline-block items-center text-[#e94607] mr-4 group lg:mr-4 lg:inline-flex lg:mt-0 mt-4">
+                Sponsorship
+                <div className="w-0 w-full">
+              {(isMobile || dropdownOpen.sponsorship) && (
+                <div className={`${isMobile ? 'relative' : 'absolute'} right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50`}>
+                  <Link to="/sponsorship/sponsorshippackages" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                    Sponsorship Packages
+                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                  </Link>
+                  <Link to="/sponsorship/sponsors" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                    Sponsors
+                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                  </Link>
+                </div>
+              )}
+              </div>
+            </Link>
+            {/* <Link
               to="/sponsorship"
               style={{ color: '#e94607' }} 
               className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
             >
               Sponsorship
               <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>
-            </Link>
+            </Link> */}
 
             {/* <Link
               to="/contact"

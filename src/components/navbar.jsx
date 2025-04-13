@@ -257,6 +257,10 @@ export const NavBar = () => {
                       ISWC 2025 Host
                       <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                     </Link>
+                    <Link to="/blogs/naturenavigator" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      ISWC 2025 Nature Navigator
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
                   </div>
                 )}
               </div>

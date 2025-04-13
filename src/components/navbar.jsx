@@ -35,7 +35,7 @@ export const NavBar = () => {
     setDropdownOpen(() => {
       const newState = { calls: false, guidelines: false, attendings: false }; // Reset all dropdowns
       return newState;
-    });  
+    });
   }
 
   // Close the navbar when navigating to another page
@@ -69,9 +69,6 @@ export const NavBar = () => {
         <Link to="/">
           <div className="flex items-center justify-center flex-shrink-0 mr-2 md:mr-14 ">
             <img src={logo} className="w-[74px] h-[74px]  mr-4" alt="Logo" />
-            {/* <p style={{ color: '#e94607' }} className=" font-bold text-xl lg:text-3xl tracking-wide">
-              ISWC 2025
-            </p> */}
           </div>
         </Link>
         <div className="block lg:hidden">
@@ -100,63 +97,10 @@ export const NavBar = () => {
             }`}
         >
           <div className="text-md font-medium lg:flex-wrap relative">
-            {/* {
-              isMobile && (
-                <ul
-                  class="py-2 text-sm text-[#33358c] "
-                  aria-labelledby="dropdownDefaultButton"
-                >
-                  <li>
-                    <Link
-                      to="/about"
-                      class="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group  hover:text-[#33358c] hover:bg-gray-200"
-                    >
-                      About
-                    </Link>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      class="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group hover:text-[#33358c] hover:bg-gray-200"
-                    >
-                      Important Dates
-                    </a>
-                  </li>
-                </ul>
-              )
-            } */}
-
-            {/* <div
-              id="dropdownHover"
-              class="z-20 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44  "
-            >
-              <ul
-                class="py-2 text-sm text-[#33358c] "
-                aria-labelledby="dropdownDefaultButton"
-              >
-                <li>
-                  <Link
-                    to="/about"
-                    class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
-                  >
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
-                  >
-                    Important Dates
-                  </a>
-                </li>
-              </ul>
-            </div> */}
-
 
             <Link
               to="/"
-              style={{ color: '#e94607' }} 
+              style={{ color: '#e94607' }}
               className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
             >
               About
@@ -165,91 +109,54 @@ export const NavBar = () => {
 
             <Link
               to="/importantdates"
-              style={{ color: '#e94607' }} 
+              style={{ color: '#e94607' }}
               className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
             >
               Important Dates
               <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>
             </Link>
 
-            <Link
-              to="/organizing_committee"
-              style={{ color: '#e94607' }} 
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
-            >
-              Organizing Committee
-              <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>
-            </Link>
+            
 
             <Link to="#" style={{ color: '#e94607' }} onMouseEnter={() => handleMouseEnter('calls')} className="relative block mt-4 lg:inline-block items-center text-[#e94607] mr-4 group lg:mr-4 lg:inline-flex lg:mt-0 mt-4">
-                Calls
-                <div className="w-0 w-full">
-              {(isMobile || dropdownOpen.calls) && (
-                <div className={`${isMobile ? 'relative' : 'absolute'} right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50`}>
-                  <Link to="/calls/research" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
-                    Research
-                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
-                  </Link>
-                  <Link to="/calls/resource" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
-                    Resource
-                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
-                  </Link>
-                  <Link to="/calls/in-use" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
-                    In Use
-                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
-                  </Link>
-                  <Link to="/calls/posters" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
-                    Posters and Demos
-                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
-                  </Link>
-                  <Link to="/calls/challenges" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
-                    Challenges
-                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
-                  </Link>
-                  <Link to="/calls/industry" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
-                    Industry Track
-                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
-                  </Link>
-                  <Link to="/calls/doctoral" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
-                    Doctoral Consortium
-                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
-                  </Link>
-                  <Link to="/calls/workshopstutorials" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
-                    Workshops and Tutorials
-                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
-                  </Link>
-                </div>
-              )}
-            </div>
-            </Link>
-
-            <Link to="#" style={{ color: '#e94607' }} onMouseEnter={() => handleMouseEnter('guidelines')} className="relative block mt-4 lg:inline-block items-center text-[#e94607] mr-4 group lg:mr-4 lg:inline-flex lg:mt-0 mt-4">
-                Guidelines
-                <div className="w-0 w-full">
-              {(isMobile || dropdownOpen.guidelines) && (
-                <div className={`${isMobile ? 'relative' : 'absolute'} right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50`}>
-                  <Link to="/guidelines/html-submission" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
-                    HTML Submission Guide
-                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
-                  </Link>
-                  <Link to="/guidelines/prior-publications" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
-                    Prior Publications and Simultaneous Submissions
-                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
-                  </Link>
-                  <Link to="/guidelines/review" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
-                    Review Guidelines
-                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
-                  </Link>
-                  <Link to="/guidelines/supplemental" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
-                    Supplemental Materials
-                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
-                  </Link>
-                  <Link to="/guidelines/resources" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
-                    Resources Availability
-                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
-                  </Link>
-                </div>
-              )}
+              Calls
+              <div className="w-0 w-full">
+                {(isMobile || dropdownOpen.calls) && (
+                  <div className={`${isMobile ? 'relative' : 'absolute'} right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50`}>
+                    <Link to="/calls/research" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Research
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                    <Link to="/calls/resource" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Resource
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                    <Link to="/calls/in-use" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      In Use
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                    <Link to="/calls/posters" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Posters and Demos
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                    <Link to="/calls/challenges" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Challenges
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                    <Link to="/calls/industry" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Industry Track
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                    <Link to="/calls/doctoral" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Doctoral Consortium
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                    <Link to="/calls/workshopstutorials" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Workshops and Tutorials
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                  </div>
+                )}
               </div>
             </Link>
 
@@ -275,6 +182,54 @@ export const NavBar = () => {
               </div>
             </Link>
 
+            <Link to="#" style={{ color: '#e94607' }} onMouseEnter={() => handleMouseEnter('guidelines')} className="relative block mt-4 lg:inline-block items-center text-[#e94607] mr-4 group lg:mr-4 lg:inline-flex lg:mt-0 mt-4">
+              Guidelines
+              <div className="w-0 w-full">
+                {(isMobile || dropdownOpen.guidelines) && (
+                  <div className={`${isMobile ? 'relative' : 'absolute'} right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50`}>
+                    <Link to="/guidelines/html-submission" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      HTML Submission Guide
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                    <Link to="/guidelines/prior-publications" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Prior Publications and Simultaneous Submissions
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                    <Link to="/guidelines/review" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Review Guidelines
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                    <Link to="/guidelines/supplemental" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Supplemental Materials
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                    <Link to="/guidelines/resources" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Resources Availability
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                  </div>
+                )}
+              </div>
+            </Link>
+
+            <Link to="#" style={{ color: '#e94607' }} onMouseEnter={() => handleMouseEnter('sponsorship')} className="relative block mt-4 lg:inline-block items-center text-[#e94607] mr-4 group lg:mr-4 lg:inline-flex lg:mt-0 mt-4">
+              Sponsorship
+              <div className="w-0 w-full">
+                {(isMobile || dropdownOpen.sponsorship) && (
+                  <div className={`${isMobile ? 'relative' : 'absolute'} right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50`}>
+                    <Link to="/sponsorship/sponsorshippackages" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Sponsorship Packages
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                    <Link to="/sponsorship/sponsors" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Sponsors
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                  </div>
+                )}
+              </div>
+            </Link>
+
             <Link to="#" style={{ color: '#e94607' }} onMouseEnter={() => handleMouseEnter('attendings')} className="relative block mt-4 lg:inline-block items-center text-[#e94607] mr-4 group lg:mr-4 lg:inline-flex lg:mt-0 mt-4">
               Attending
               <div className="w-0 w-full">
@@ -282,7 +237,7 @@ export const NavBar = () => {
                   <div className={`${isMobile ? 'relative' : 'absolute'} right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50`}>
                     <Link to="/attending/visa" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                       VISA Information
-                     <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                     </Link>
                     <Link to="/attending/codeofconduct" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                       Code of Conduct
@@ -294,110 +249,28 @@ export const NavBar = () => {
             </Link>
 
             <Link to="#" style={{ color: '#e94607' }} onMouseEnter={() => handleMouseEnter('blogs')} className="relative block mt-4 lg:inline-block items-center text-[#e94607] mr-4 group lg:mr-4 lg:inline-flex lg:mt-0 mt-4">
-                Blogs
-                <div className="w-0 w-full">
-              {(isMobile || dropdownOpen.blogs) && (
-                <div className={`${isMobile ? 'relative' : 'absolute'} right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50`}>
-                  <Link to="/blogs/host" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+              Blogs
+              <div className="w-0 w-full">
+                {(isMobile || dropdownOpen.blogs) && (
+                  <div className={`${isMobile ? 'relative' : 'absolute'} right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50`}>
+                    <Link to="/blogs/host" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                       ISWC 2025 Host
-                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
-                  </Link>
-                </div>
-              )}
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                  </div>
+                )}
               </div>
             </Link>
 
-              {/* <Link to="#" onClick={(e) => { e.preventDefault(); toggleDropdown('guidelines'); }} style={{ color: '#e94607' }} className="inline-flex items-center mt-4 lg:mt-0 text-[#e94607] mr-4 group">
-                Guidelines
-                <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>
-              </Link>
-              {dropdownOpen.guidelines && (
-                <div className="absolute left-auto right-0 top-full mt-2 bg-white shadow-md rounded-md z-50">
-                  <Link to="/guidelines/html-submission" className="block px-4 py-2" style={{ color: '#e94607' }}>
-                    HTML Submission Guide
-                    <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>    
-                  </Link>
-                  <Link to="/guidelines/review" className="block px-4 py-2" style={{ color: '#e94607' }}>
-                    Review Guidelines
-                    <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>  
-                  </Link>
-                  <Link to="/guidelines/supplemental" className="block px-4 py-2" style={{ color: '#e94607' }}>
-                    Supplemental Materials
-                    <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>  
-                  </Link>
-                  <Link to="/guidelines/resources" className="block px-4 py-2" style={{ color: '#e94607' }}>
-                    Resources Availability
-                    <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>  
-                  </Link>
-                </div>
-              )} */}
-
-            <Link to="#" style={{ color: '#e94607' }} onMouseEnter={() => handleMouseEnter('sponsorship')} className="relative block mt-4 lg:inline-block items-center text-[#e94607] mr-4 group lg:mr-4 lg:inline-flex lg:mt-0 mt-4">
-                Sponsorship
-                <div className="w-0 w-full">
-              {(isMobile || dropdownOpen.sponsorship) && (
-                <div className={`${isMobile ? 'relative' : 'absolute'} right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50`}>
-                  <Link to="/sponsorship/sponsorshippackages" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
-                    Sponsorship Packages
-                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
-                  </Link>
-                  <Link to="/sponsorship/sponsors" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
-                    Sponsors
-                    <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
-                  </Link>
-                </div>
-              )}
-              </div>
-            </Link>
-            {/* <Link
-              to="/sponsorship"
-              style={{ color: '#e94607' }} 
+            <Link
+              to="/organizing_committee"
+              style={{ color: '#e94607' }}
               className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
             >
-              Sponsorship
+              Organizing Committee
               <div class="bg-[#E30022] h-[px] w-0 group-hover:w-full transition-all duration-500"></div>
-            </Link> */}
+            </Link>
 
-            {/* <Link
-              to="/contact"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
-            >
-              Contact
-              <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
-            </Link> */}
-            {/* <Link
-              to="/register"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
-            >
-              Submit Paper
-              <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
-            </Link> */}
-            {/* {
-              isMainPage ? 
-              <a
-                href="#venue"
-                className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4"
-              >
-                Venue
-              </a>
-              :
-                <Link
-                to='/#venue'
-                className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4"
-              >
-                Venue
-              </Link>
-              
-
-            } */}
-
-            {/* <Link
-              to="/participation-policy"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200  group"
-            >
-              Participation Policy
-              <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
-            </Link> */}
 
           </div>
         </div>

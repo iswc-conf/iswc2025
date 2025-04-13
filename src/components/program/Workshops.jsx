@@ -25,7 +25,7 @@ export const Workshops = () => {
         },
         {
             title: "Wikidata Workshop",
-            organizers: "Nicolas Ferranti, Marcelo de Oliveira Costa Machado, Jorao Gomes Junior, Simon Razniewski and Axel Polleres",
+            organizers: "Nicolas Ferranti, Marcelo de Oliveira Costa Machado, Jorao Gomes Junior, Simon Raznievski, Axel Polleres, and Markus Krötzsch",
             description: "Wikidata, an open knowledge base maintained by the Wikimedia Foundation, plays a crucial role in structuring data for projects, such as Wikipedia and Wiktionary. Over the years, the Wikidata Workshop has addressed key challenges such as data quality, multilingualism, and collaborative knowledge graph dynamics. For its fifth edition, we expand the scope to include discussions on the intersection of Wikidata and Generative AI, while continuing to explore established topics. We welcome contributions on knowledge augmentation, data curation, reasoning, and the broader impact of generative AI on Wikidata. By bringing together researchers and practitioners, this workshop fosters discussions on the evolving role of knowledge graphs in an AI-driven world."
         },
         {

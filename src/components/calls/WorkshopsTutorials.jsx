@@ -25,7 +25,7 @@ export const WorkshopsTutorials = () => {
                         <li>Submission deadline: <b>February 18, 2025</b></li>
                         <li>Notification to proposers: <b>March 11, 2025</b></li>
                         <li>Workshop website and CfP available online: <b>April 8, 2025</b></li>
-                        <li>Workshop program with list of accepted papers available online: <b>July 29, 2025</b></li>
+                        <li>Workshop program with list of accepted papers available online: <b>August 29, 2025</b></li>
                         <li>Workshop days: <b>November 2-3, 2025</b></li>
                     </ul>
                     <h3 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">

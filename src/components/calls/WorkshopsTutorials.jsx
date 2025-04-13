@@ -141,9 +141,10 @@ export const WorkshopsTutorials = () => {
                         All workshops will adhere to a common timeline as follows (all deadlines are 23:59 AoE):
                     </p>
                     <ul className="list-disc list-inside text-md lg:text-lg font-[300]">
-                        <li><strong>Workshop website and CfP available online:</strong> May 2, 2025</li>
-                        <li><strong>Workshop paper submissions:</strong> July 11, 2025</li>
-                        <li><strong>Workshop paper acceptance notification and accepted papers published on website:</strong> August 28, 2025</li>
+                        <li>Workshop website and CfP available online: <b>April 8, 2025</b></li>
+                        <li>Workshop paper submissions: <b>August 2, 2025</b></li>
+                        <li>Workshop paper acceptance notification and accepted papers published on website: <b>August 29, 2025</b></li>
+                        <li>Workshop days: <b>November 2-3, 2025</b></li>
                     </ul>
 
                     <h3 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Workshop Chairs</h3>

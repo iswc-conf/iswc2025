@@ -83,7 +83,7 @@ const NatureNavigator = () => {
                     </table>
                 </div>
 
-                <p>The data showed that 2,985 unique researchers contributed to ISWC, from 616 unique organisations across 46 countries. The largest category was Semantic Web Technologies and Applications (1,050 authors, 35%), followed by Knowledge Graphs and Embedding Techniques (838 authors, 28%). A smaller but substantial number of researchers were categorized under SPARQL Query Processing (537 authors, 18%), Ontology and Reasoning in Knowledge Bases (526 authors, 18%), and Semantic Web and Information Retrieval (453 authors, 15%), and RDF Data. The smallest number of authors (224, 8%) contributed to the Semantic Web Services and Composition category.</p>>
+                <p>The data showed that 2,985 unique researchers contributed to ISWC, from 616 unique organisations across 46 countries. The largest category was Semantic Web Technologies and Applications (1,050 authors, 35%), followed by Knowledge Graphs and Embedding Techniques (838 authors, 28%). A smaller but substantial number of researchers were categorized under SPARQL Query Processing (537 authors, 18%), Ontology and Reasoning in Knowledge Bases (526 authors, 18%), and Semantic Web and Information Retrieval (453 authors, 15%), and RDF Data. The smallest number of authors (224, 8%) contributed to the Semantic Web Services and Composition category.</p>
 
                 <p>The top 50 authors in terms of publication numbers across all topics represent a wide range of countries. While Germany, the UK, and the US lead the way with multiple authors, they are closely followed by China, Italy, Spain, the Netherlands, Austria, Ireland, and Switzerland.</p>
                 

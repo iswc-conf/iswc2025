@@ -29,6 +29,8 @@ import KeynoteSpeakers from "./components/program/KeynoteSpeakers";
 import Workshops from "./components/program/Workshops";
 import ProgramChallenges from "./components/program/ProgramChallenges";
 import CodeOfConduct from "./components/attending/CodeOfConduct";
+import { VenueAndAccomodation } from "./components/attending/venue_and_accomodation";
+import { SwsaDistinguishedDissertationAward } from "./components/calls/SwsaDistinguishedDissertationAward";
 
 
 export default function HeroComponent() {
@@ -57,6 +59,7 @@ export default function HeroComponent() {
         <Route path="/calls/industry" element={<IndustryTrack />} />
         <Route path="/calls/doctoral" element={<DoctoralConsortium />} />
         <Route path="/calls/workshopstutorials" element={<WorkshopsTutorials />} />
+        <Route path="/calls/swsa" element={<SwsaDistinguishedDissertationAward />} />
 
         {/* Guidelines */}
         <Route path="/guidelines/html-submission" element={<HTMLSubmissionGuide />} />
@@ -73,6 +76,7 @@ export default function HeroComponent() {
         {/* Attendings */}
         <Route path="/attending/visa" element={<Visa />} />
         <Route path="/attending/codeofconduct" element={<CodeOfConduct />} />
+        <Route path="/atttending/venueandaccomodation" element={<VenueAndAccomodation />} />
 
         {/* Blogs */}
         <Route path="/blogs/host" element={<Host />} />

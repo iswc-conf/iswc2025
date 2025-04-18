@@ -20,3 +20,8 @@ ol {
 ol li::marker {
     color: #e94607;
 }
+
+ul.ul-disc {
+    list-style-type: disc;
+    font-size: 1.125rem; /* This is the default for lg:text-lg in Tailwind (18px) */
+}

@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "./static/css/main.613043ab.css",
-    "main.js": "./static/js/main.3cc3f677.js",
-    "static/js/453.33a3e8e3.chunk.js": "./static/js/453.33a3e8e3.chunk.js",
+    "main.css": "./static/css/main.33d8de90.css",
+    "main.js": "./static/js/main.261e321f.js",
+    "static/js/453.7e499361.chunk.js": "./static/js/453.7e499361.chunk.js",
     "static/media/nara.jpg": "./static/media/nara.f23252a86df90f0e41a6.jpg",
     "static/media/neha_keshan.png": "./static/media/neha_keshan.7c28c9cce493fb847f18.png",
+    "static/media/venue_map.png": "./static/media/venue_map.ab36a16addb7659cd7eb.png",
     "static/media/akaichi_ines.png": "./static/media/akaichi_ines.898232d136ad299c2f44.png",
     "static/media/mayank_kejriwal.png": "./static/media/mayank_kejriwal.d1ffd68992c662777dbe.png",
     "static/media/ray_atarashi.png": "./static/media/ray_atarashi.4f76c7bc9b628e63cd57.png",
@@ -43,12 +44,12 @@
     "static/media/ISWC1.png": "./static/media/ISWC1.547931b6dd43eade896d.png",
     "static/media/ken_fukuda.png": "./static/media/ken_fukuda.22c7d8382ad53a504a95.png",
     "index.html": "./index.html",
-    "main.613043ab.css.map": "./static/css/main.613043ab.css.map",
-    "main.3cc3f677.js.map": "./static/js/main.3cc3f677.js.map",
-    "453.33a3e8e3.chunk.js.map": "./static/js/453.33a3e8e3.chunk.js.map"
+    "main.33d8de90.css.map": "./static/css/main.33d8de90.css.map",
+    "main.261e321f.js.map": "./static/js/main.261e321f.js.map",
+    "453.7e499361.chunk.js.map": "./static/js/453.7e499361.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.613043ab.css",
-    "static/js/main.3cc3f677.js"
+    "static/css/main.33d8de90.css",
+    "static/js/main.261e321f.js"
   ]
 }

@@ -22,7 +22,9 @@ import ResourcesAvailability from "./components/guidelines/ResourcesAvailability
 import SponsorshipPackages from "./components/sponsorship/SponsorshipPackages";
 import Sponsors from "./components/sponsorship/Sponsors";
 import ImportantDates from "./components/importantdates"
-import WorkshopsTutorials from "./components/calls/WorkshopsTutorials";
+import WorkshopsCall from "./components/calls/WorkshopsCall";
+import Tutorials from "./components/calls/Tutorials";
+import Dagstuhl from "./components/calls/Dagstuhl";
 import Host from "./components/blogs/host"
 import NatureNavigator from "./components/blogs/NatureNavigator"
 import { Visa } from "./components/attending/visa";
@@ -60,7 +62,9 @@ export default function HeroComponent() {
         <Route path="/calls/challenges" element={<Challenges />} />
         <Route path="/calls/industry" element={<IndustryTrack />} />
         <Route path="/calls/doctoral" element={<DoctoralConsortium />} />
-        <Route path="/calls/workshopstutorials" element={<WorkshopsTutorials />} />
+        <Route path="/calls/workshops" element={<WorkshopsCall />} />
+        <Route path="/calls/tutorials" element={<Tutorials />} />
+        <Route path="/calls/dagstuhl" element={<Dagstuhl />} />
         <Route path="/calls/swsa" element={<SwsaDistinguishedDissertationAward />} />
 
         {/* Guidelines */}

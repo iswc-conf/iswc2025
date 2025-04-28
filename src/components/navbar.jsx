@@ -151,8 +151,16 @@ export const NavBar = () => {
                       Doctoral Consortium
                       <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                     </Link>
-                    <Link to="/calls/workshopstutorials" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
-                      Workshops and Tutorials
+                    <Link to="/calls/workshops" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Workshops 
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                    <Link to="/calls/dagstuhl" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Dagstuhl Workshops
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
+                    <Link to="/calls/tutorials" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Tutorials
                       <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                     </Link>
                     <Link to="/calls/swsa" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>

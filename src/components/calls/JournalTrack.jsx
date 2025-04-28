@@ -14,12 +14,12 @@ export const JournalTrack = () => {
 
                     <p>We want to facilitate cross-pollination between sub-communities, as well as overall strengthen the ties and pipelines between ISWC and the journals that serve our community.</p>
 
-                    <h2 className="h2-border-bottom">Eligibility</h2>
+                    <h2 className="text-2xl font-semibold mb-4">Eligibility</h2>
 
 
                     <p>This track is open to any journal related to the Semantic Web or the principled use of related artifacts (e.g., ontologies, semantics, or semantic technologies). Proposal authors should be editors of the journal, and if they are not editors in chief, then should be submitted under their auspices.</p>
 
-                    <h2 className="h2-border-bottom">Session Format Guidance</h2>
+                    <h2 className="text-2xl font-semibold mb-4">Session Format Guidance</h2>
 
                     <p>A session should be considered to be 90 minutes long. The session’s internal organization is up to the proposer. However, we encourage that the session proposal has a coherent theme, or that the Editors have otherwise curated a selection of timely, impactful, or prescient papers from their journal’s recent issues.</p>
 
@@ -39,7 +39,7 @@ export const JournalTrack = () => {
                         </ul>
                     </ul>
 
-                    <h2 className="h2-border-bottom">Review Criteria</h2>
+                    <h2 className="text-2xl font-semibold mb-4">Review Criteria</h2>
 
                     <p>The organizing committee will consider the organization of the session, as well as the selected papers for presentation and discussion. Therefore, proposers <strong>must ensure unfettered access to the selected papers</strong> both during the review process and to attendees of the conference (at least during the conference duration). All submissions will be evaluated along the following review criteria:</p>
 
@@ -64,7 +64,7 @@ export const JournalTrack = () => {
                         <li>Is at least one editor confirmed to attend ISWC 2025?</li>
                     </ul>
 
-                    <h2 className="h2-border-bottom">Submission Details</h2>
+                    <h2 className="text-2xl font-semibold mb-4">Submission Details</h2>
                     <ul className="list-disc list-inside space-y-2 mb-8">
                         <li>All papers and abstracts must be submitted electronically via <a href="https://easychair.org/conferences/?conf=iswc2025" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">EasyChair</a> (choose \"Journal Session Proposals\").</li>
                         <li>Proposals must not exceed <b>4 pages (excluding references). Proposals that exceed the page limit will be rejected without review</b>.</li>
@@ -77,7 +77,7 @@ export const JournalTrack = () => {
                         <li><b>At least one author of each selected paper must register for the conference and present the paper.</b></li>
                     </ul>
 
-                    <h2 className="h2-border-bottom">Important Dates</h2>
+                    <h2 className="text-2xl font-semibold mb-4">Important Dates</h2>
                     <ul className="list-disc list-inside space-y-2">
                         <li><strong>Journal Track Session Proposals Due:</strong> June 30, 2025</li>
                         <li><strong>Notifications to Proposers:</strong> July 17, 2025</li>

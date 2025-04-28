@@ -1,8 +1,9 @@
 import React from "react";
-import ISWC_HEAD from "./ISWC_HEAD.png"
-import ISWC1 from "./ISWC1.png"
-import ISWC2 from "./ISWC2.png"
-import ISWC3 from "./ISWC3.png"
+import ISWC_HEAD from "./ISWC_HEAD.png";
+import ISWC1 from "./ISWC1.png";
+import ISWC2 from "./ISWC2.png";
+import ISWC3 from "./ISWC3.png";
+import './blog.css';
 
 const NatureNavigator = () => {
     return (
@@ -11,10 +12,10 @@ const NatureNavigator = () => {
             </div>
             <div className="container mx-auto px-4 lg:px-8 lg:pb-12 mt-12">
                 <img src={ ISWC_HEAD } alt="ISWC Header" className="rounded-xl my-4" />
-                <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">ISWC under the Nature Navigator lens</p>
-
+                <h1 className="font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">ISWC under the Nature Navigator lens</h1>
                 
                 <p><strong>Author:</strong> Angelo Salatino, Research Fellow at the Knowledge Media Institute of the Open University (UK)</p>
+                <br />
 
                 <p>The International Semantic Web Conference (ISWC) is a leading annual event that brings together researchers, practitioners, and industry leaders in semantic web technologies. The conference promotes collaboration and knowledge exchange, focusing on innovative approaches to data interoperability, knowledge representation, and intelligent information retrieval. Participants discuss the development and application of semantic web standards, tools, and methodologies for integrating and utilizing diverse data sources. By showcasing cutting-edge research and practical implementations, ISWC aims to drive the advancement and adoption of the semantic web across various domains and industries, ultimately improving the way information is accessed and used in an increasingly interconnected digital world.</p>
 

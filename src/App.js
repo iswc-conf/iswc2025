@@ -9,6 +9,7 @@ import Cfp from "./pages/cfp";
 import Research from "./components/calls/Research";
 import Resource from "./components/calls/Resource";
 import InUse from "./components/calls/InUse";
+import JournalTrack from "./components/calls/JournalTrack";
 import Posters from "./components/calls/Posters";
 import Challenges from "./components/calls/Challenges";
 import IndustryTrack from "./components/calls/IndustryTrack";
@@ -52,6 +53,7 @@ export default function HeroComponent() {
         <Route path="/calls/research" element={<Research />} />
         <Route path="/calls/resource" element={<Resource />} />
         <Route path="/calls/in-use" element={<InUse />} />
+        <Route path="/calls/journaltrack" element={<JournalTrack />} />
         <Route path="/calls/posters" element={<Posters />} />
         <Route path="/calls/challenges" element={<Challenges />} />
         <Route path="/calls/industry" element={<IndustryTrack />} />

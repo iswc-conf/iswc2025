@@ -1,8 +1,8 @@
 import React from "react";
-import ISWC_HEAD from "./ISWC_HEAD.png";
-import ISWC1 from "./ISWC1.png";
-import ISWC2 from "./ISWC2.png";
-import ISWC3 from "./ISWC3.png";
+import ISWC_HEAD from "./pics/ISWC_HEAD.png";
+import ISWC1 from "./pics/ISWC1.png";
+import ISWC2 from "./pics/ISWC2.png";
+import ISWC3 from "./pics/ISWC3.png";
 import './blog.css';
 
 const NatureNavigator = () => {

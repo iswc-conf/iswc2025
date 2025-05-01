@@ -27,6 +27,7 @@ import Tutorials from "./components/calls/Tutorials";
 import Dagstuhl from "./components/calls/Dagstuhl";
 import Host from "./components/blogs/host"
 import NatureNavigator from "./components/blogs/NatureNavigator"
+import Community from "./components/blogs/Community";
 import { Visa } from "./components/attending/visa";
 import KeynoteSpeakers from "./components/program/KeynoteSpeakers";
 import Workshops from "./components/program/Workshops";
@@ -87,6 +88,7 @@ export default function HeroComponent() {
         {/* Blogs */}
         <Route path="/blogs/host" element={<Host />} />
         <Route path="/blogs/naturenavigator" element={<NatureNavigator />} />
+        <Route path="/blogs/community" element={<Community />} />
         
 
         {/* Sponsorship */}

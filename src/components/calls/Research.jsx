@@ -35,7 +35,7 @@ export const Research = () => {
                     <h3 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Important information for authors:</h3>
                     <ul className="list-disc list-inside text-md lg:text-lg font-[300]">
                         <li>Submissions are dual anonymous. Under this system, not only are paper authors unaware of the identity of the reviewers, but the reviewers are not told the identities of the authors until after the evaluation and rating of all papers is over.</li>
-                        <li>Papers are limited to 15 pages excluding references. Supplemental materials and annexes count toward the established page limit.</li>
+                        <li>Papers are limited to 15 pages excluding references. Supplemental material statements and annexes count toward the established page limit.</li>
                         <li>All submissions are expected to include a mandatory <a href="https://iswc2025.semanticweb.org/#/guidelines/supplemental" target="_blank" style={{ color: '#e94607' }}>Supplemental Material Statement</a> - such material includes links to code and data repositories. In case this is not possible, the statement must provide a justification.</li>
                         <li>Unless otherwise justified in the Supplemental Material Statement, we expect supplemental material to be provided anonymously with the submitted paper.</li>
                         <li>Pre-submission of abstracts is a strict requirement.</li>

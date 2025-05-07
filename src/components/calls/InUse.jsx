@@ -90,7 +90,7 @@ export const InUse = () => {
           <h2 style={{ color: '#e94607' }} className="text-xl font-semibold mt-6">Submission Details</h2>
           <ul className="list-disc ml-16 text-md lg:text-lg font-[300]"></ul>
           <li>
-            Pre-submission of abstracts is a strict requirement. All papers and abstracts have to be submitted electronically via EasyChair.
+            Pre-submission of abstracts is a strict requirement. All papers and abstracts have to be submitted electronically via <a href="https://easychair.org/conferences/?conf=iswc2025" target="_blank" rel="noopener noreferrer" style={{ color: '#e94607' }}>EasyChair</a>.
           </li>
           <li>
             All research submissions must be in English, and no longer than 15 pages (excluding references). Papers that exceed this limit will be rejected without review.
@@ -139,7 +139,7 @@ export const InUse = () => {
           <h2 style={{ color: '#e94607' }} className="text-xl font-semibold mt-6">In-Use Track Chairs</h2>
           <p><b>Maribel Acosta</b>, Technical University of Munich, Germany</p>
           <p><b>Andrea Giovanni Nuzzolese</b>, CNR - Institute of Cognitive Sciences and Technologies, Italy</p>
-          <p>Contact: <a href="mailto:iswc2025-in-use@easychair.org">iswc2025-in-use@easychair.org</a></p>
+          <p>Contact: <a href="mailto:iswc2025-inuse@easychair.org">iswc2025-inuse@easychair.org</a></p>
 
         </div>
       </div>

@@ -34,6 +34,7 @@ import Workshops from "./components/program/Workshops";
 import ProgramChallenges from "./components/program/ProgramChallenges";
 import CodeOfConduct from "./components/attending/CodeOfConduct";
 import { VenueAndAccomodation } from "./components/attending/venue_and_accomodation";
+import Registration from "./components/attending/Registration";
 import { SwsaDistinguishedDissertationAward } from "./components/calls/SwsaDistinguishedDissertationAward";
 
 
@@ -84,6 +85,7 @@ export default function HeroComponent() {
         <Route path="/attending/visa" element={<Visa />} />
         <Route path="/attending/codeofconduct" element={<CodeOfConduct />} />
         <Route path="/atttending/venueandaccomodation" element={<VenueAndAccomodation />} />
+        <Route path="/atttending/registration" element={<Registration />} />
 
         {/* Blogs */}
         <Route path="/blogs/host" element={<Host />} />

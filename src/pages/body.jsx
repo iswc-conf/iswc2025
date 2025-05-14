@@ -9,23 +9,26 @@ const Body = () => {
       <div className="mt-[74px] px-4 pt-2 bg-white flex items-center justify-center">
         {/* <img src={logo} className="w-[64px] h-[64px] mr-4" alt="Logo" /> */}
       </div>
+      <div className="w-full bg-[#e94607] text-white text-sm md:text-base font-semibold py-2 px-4 flex justify-center items-center">
+        Due to Overleaf issues, the deadline for Research, In-Use and Resource papers has been delayed to  <span className="ml-1 underline">14-May-25 AoE</span>!
+      </div>
       <Hero />
       <div className="flex justify-center items-center lg:mx-24 mx-6 mt-2">
         <div class="relative flex overflow-x-hidden">
           <div class="flex py-4 animate-marquee whitespace-nowrap">
-            
+
           </div>
         </div>
       </div>
       <About />
       {/* <div className="grid grid-cols-1 lg:grid-cols-8 gap-x-0 mx-2 my-10 "> */}
-        {/* <div className="m-2  lg:col-span-8 flex flex-col justify-center items-center shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]">
+      {/* <div className="m-2  lg:col-span-8 flex flex-col justify-center items-center shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]">
           <div class="text-white mt-8  bg-[#e94607] w-2/3 py-2 text-center rounded-lg text-lg font-semibold transition  ">
             Important Dates
           </div>
           <Timeline />
         </div> */}
-        {/* <div className="m-4 lg:col-span-3 w-90%  bg-[#33358c] flex justify-center items-center shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]">
+      {/* <div className="m-4 lg:col-span-3 w-90%  bg-[#33358c] flex justify-center items-center shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]">
           <Guidelines />
         </div>
         <div className="m-2 h-[500px] lg:col-span-4 flex flex-col items-center shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]">

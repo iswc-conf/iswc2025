@@ -10,6 +10,7 @@ export const Sponsors = () => {
                 <h1 className="text-3xl font-bold text-center text-[#e94607]">Sponsors</h1>
                 <div className="sponsor-level">
                     <h2 className="text-2xl font-bold text-orange-500">Gold</h2>
+                    <hr className="border-t-2 border-orange-500 my-2" />
                     <div className="sponsor-info mt-4">
                         ebay:
                         <div className="sponsor-logos flex justify-center items-center gap-8">

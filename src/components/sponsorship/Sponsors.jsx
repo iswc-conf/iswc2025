@@ -12,7 +12,7 @@ export const Sponsors = () => {
                     <h2 className="text-2xl font-bold text-orange-500">Gold</h2>
                     <hr className="border-t-2 border-orange-500 my-2" />
                     <div className="sponsor-info mt-4">
-                        ebay:
+                        eBay:
                         <div className="sponsor-logos flex justify-center items-center gap-8">
                             <a href="https://jobs.ebayinc.com/us/en/" target="_blank" rel="noopener noreferrer">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/EBay_logo.svg/880px-EBay_logo.svg.png" alt="ebay Logo" className="logo-high-res" width="300"/>

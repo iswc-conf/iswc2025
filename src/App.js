@@ -30,6 +30,7 @@ import NatureNavigator from "./components/blogs/NatureNavigator"
 import Community from "./components/blogs/Community";
 import { Visa } from "./components/attending/visa";
 import KeynoteSpeakers from "./components/program/KeynoteSpeakers";
+import Panel from "./components/program/Panel";
 import Workshops from "./components/program/Workshops";
 import ProgramChallenges from "./components/program/ProgramChallenges";
 import CodeOfConduct from "./components/attending/CodeOfConduct";
@@ -80,6 +81,7 @@ export default function HeroComponent() {
         <Route path="/program/keynotespeakers" element={<KeynoteSpeakers />} />
         <Route path="/program/workshops" element={<Workshops />} />
         <Route path="/program/challenges" element={<ProgramChallenges />} />
+        <Route path="/program/panel" element={<Panel />} />
 
         {/* Attendings */}
         <Route path="/attending/visa" element={<Visa />} />

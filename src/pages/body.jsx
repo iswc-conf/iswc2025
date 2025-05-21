@@ -9,9 +9,9 @@ const Body = () => {
       <div className="mt-[74px] px-4 pt-2 bg-white flex items-center justify-center">
         {/* <img src={logo} className="w-[64px] h-[64px] mr-4" alt="Logo" /> */}
       </div>
-      <div className="w-full bg-[#e94607] text-white text-sm md:text-base font-semibold py-2 px-4 flex justify-center items-center">
+      {/* <div className="w-full bg-[#e94607] text-white text-sm md:text-base font-semibold py-2 px-4 flex justify-center items-center">
         Due to Overleaf issues, the deadline for Research, In-Use and Resource papers has been delayed to  <span className="ml-1 underline">14-May-25 AoE</span>!
-      </div>
+      </div> */}
       <Hero />
       <div className="flex justify-center items-center lg:mx-24 mx-6 mt-2">
         <div class="relative flex overflow-x-hidden">

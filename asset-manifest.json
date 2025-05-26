@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.4b61e350.css",
-    "main.js": "./static/js/main.b3938f12.js",
+    "main.js": "./static/js/main.96656f4f.js",
     "static/js/453.7e499361.chunk.js": "./static/js/453.7e499361.chunk.js",
     "static/media/community_1.png": "./static/media/community_1.52c46154e49d4a2a33b8.png",
     "static/media/community_11.png": "./static/media/community_11.3205c8b7721e29520625.png",
@@ -49,6 +49,7 @@
     "static/media/angelo_salatino.png": "./static/media/angelo_salatino.b2e16917c75db6b5aef8.png",
     "static/media/pablo_mendez.png": "./static/media/pablo_mendez.6ad8bc1737f07f826dba.png",
     "static/media/daniel_garijo.png": "./static/media/daniel_garijo.b36e4ff7c5732dfdb9c8.png",
+    "static/media/lore_star_logo.png": "./static/media/lore_star_logo.d741fd15e27954bf9003.png",
     "static/media/sebastian_ferrada.png": "./static/media/sebastian_ferrada.d826184bacca845e5812.png",
     "static/media/kouji_kozaki.png": "./static/media/kouji_kozaki.dd4b445a943886a1b2b8.png",
     "static/media/community_12.jpeg": "./static/media/community_12.e9f5784fd1e28fee5172.jpeg",
@@ -70,13 +71,14 @@
     "static/media/ISWC1.png": "./static/media/ISWC1.547931b6dd43eade896d.png",
     "static/media/guha.png": "./static/media/guha.795870e01d91dced128e.png",
     "static/media/ken_fukuda.png": "./static/media/ken_fukuda.22c7d8382ad53a504a95.png",
+    "static/media/google_logo.png": "./static/media/google_logo.08b4ebfd25145471fde1.png",
     "index.html": "./index.html",
     "main.4b61e350.css.map": "./static/css/main.4b61e350.css.map",
-    "main.b3938f12.js.map": "./static/js/main.b3938f12.js.map",
+    "main.96656f4f.js.map": "./static/js/main.96656f4f.js.map",
     "453.7e499361.chunk.js.map": "./static/js/453.7e499361.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b61e350.css",
-    "static/js/main.b3938f12.js"
+    "static/js/main.96656f4f.js"
   ]
 }

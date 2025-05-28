@@ -29,15 +29,6 @@ export const Sponsors = () => {
                             </a>
                         </div>
                     </div>
-
-                    <h3 className="text-lg font-semibold">Student Support</h3>
-                    <p className="text-sm mb-4">Sponsored by: <em>Artificial Intelligence Journal</em></p>
-                    <h3 className="text-lg font-semibold text-center">Artificial Intelligence Journal</h3>
-                    <div className="sponsor-logos flex justify-center items-center gap-8">
-                        {/* <a href="https://aij.ijcai.org/wp-content/uploads/2021/07/ARTINT_Logo2_c_highresolution.tif" target="_blank" rel="noopener noreferrer"> */}
-                            <img src="https://aij.ijcai.org/wp-content/uploads/2021/07/ARTINT_Logo2_c_web_more.jpg" alt="Artificial Intelligence Journal Logo" className="logo-high-res"/>
-                        {/* </a> */}
-                    </div>
                     
                     <h2 className="text-3xl font-bold text-[#e94607]">Silver</h2>
                     <hr className="border-t-2 border-[#e94607] my-2" />
@@ -46,6 +37,16 @@ export const Sponsors = () => {
                         <a href="https://lorestar.it/" target="_blank" rel="noopener noreferrer">
                             <img src={lore_star_logo} alt="Lore Star Logo" className="logo-high-res" width="300"/>
                         </a>
+                    </div>
+
+                    <h2 className="text-3xl font-bold text-[#e94607]">Student Support</h2>
+                    <hr className="border-t-2 border-[#e94607] my-2" />
+                    <p className="text-sm mb-4">Sponsored by: <em>Artificial Intelligence Journal</em></p>
+                    <h3 className="text-lg font-semibold text-center">Artificial Intelligence Journal</h3>
+                    <div className="sponsor-logos flex justify-center items-center gap-8">
+                        {/* <a href="https://aij.ijcai.org/wp-content/uploads/2021/07/ARTINT_Logo2_c_highresolution.tif" target="_blank" rel="noopener noreferrer"> */}
+                            <img src="https://aij.ijcai.org/wp-content/uploads/2021/07/ARTINT_Logo2_c_web_more.jpg" alt="Artificial Intelligence Journal Logo" className="logo-high-res"/>
+                        {/* </a> */}
                     </div>
 
                     {/* <h2 className="text-2xl font-bold text-[#e94607]">Bronze</h2>

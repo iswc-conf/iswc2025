@@ -41,7 +41,7 @@ export const IndustryTrack = () => {
                     </p>
                     <h3 style={{ color: '#e94607' }} className="text-lg font-medium mt-4">Important Dates</h3>
                     <ul>
-                        <li>Submissions Due: <b style={{ fontWeight: 500 }}>1st July 2025</b></li>
+                        <li>Submissions Due: <b style={{ fontWeight: 500 }}>8th July 2025</b></li>
                         <li>Notifications Due: <b style={{ fontWeight: 500 }}>29th July 2025</b></li>
                         <li>Camera-Ready Papers Due: <b style={{ fontWeight: 500 }}>11th September 2025</b></li>
                     </ul>

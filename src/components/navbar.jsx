@@ -259,6 +259,10 @@ export const NavBar = () => {
                       VISA Information
                       <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                     </Link>
+                    <Link to="/attending/studentgrants" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Student Grants
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
                     <Link to="/attending/codeofconduct" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                       Code of Conduct
                       <div className="bg-[#E30022] w-0 group-hover:w-full"></div>

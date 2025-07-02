@@ -25,3 +25,9 @@ ul.ul-disc {
     list-style-type: disc;
     font-size: 1.125rem; /* This is the default for lg:text-lg in Tailwind (18px) */
 }
+
+p {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}

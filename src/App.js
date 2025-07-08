@@ -38,6 +38,7 @@ import CodeOfConduct from "./components/attending/CodeOfConduct";
 import { VenueAndAccomodation } from "./components/attending/venue_and_accomodation";
 import Registration from "./components/attending/Registration";
 import { SwsaDistinguishedDissertationAward } from "./components/calls/SwsaDistinguishedDissertationAward";
+import AcceptedPapers from "./components/program/AcceptedPapers";
 
 
 export default function HeroComponent() {
@@ -79,6 +80,7 @@ export default function HeroComponent() {
         <Route path="/guidelines/prior-publications" element={<PriorPublicationMultipleSubmission />} />
 
         {/* Program */}
+        <Route path="/program/acceptedpapers" element={<AcceptedPapers />} />
         <Route path="/program/keynotespeakers" element={<KeynoteSpeakers />} />
         <Route path="/program/workshops" element={<Workshops />} />
         <Route path="/program/challenges" element={<ProgramChallenges />} />

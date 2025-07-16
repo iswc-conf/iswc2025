@@ -12,6 +12,11 @@ a {
     list-style-position: inside;
 }
 
+.ul-circle {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
 ol {
     list-style-type: decimal;
     padding-left: 32px;

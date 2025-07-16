@@ -21,7 +21,7 @@ export const Timeline = () => {
         { date: '29-Jul-25', title: 'Industry papers notifications', color: '#4E84D8' },
         { date: '31-Jul-25', title: 'Camera-ready papers (Research, In-use, and Resource tracks)', color: '#E32D20' },
         { date: '31-Jul-25', title: 'Camera-ready - Doctoral Consortium', color: '#912C8B' },
-        { date: '31-Jul-2', title: 'Poster & Demo submissions', color: '#57D131' },
+        { date: '31-Jul-25', title: 'Poster & Demo submissions', color: '#57D131' },
         { date: '28-Aug-25', title: 'Poster & Demo notifications', color: '#4E84D8' },
         { date: '28-Aug-25', title: 'Workshop papers notifications', color: '#4E84D8' },
         // { date: '2-Sep-25', title: 'Student grants [TO DO]', color: '#000000' },

@@ -41,7 +41,7 @@ export const DoctoralConsortium = () => {
                     <ul>
                         <li>Submissions Due: <b>June 3, 2025</b></li>
                         <li>Notifications: <b>July 8, 2025</b></li>
-                        <li>Camera-ready Submissions Due: <b>July 31, 2025</b></li>
+                        <li>Camera-ready Submissions Due: <b>September 11, 2025</b></li>
                         <li>Doctoral Consortium: <b>November 3, 2025</b></li>
                     </ul>
 

@@ -1,65 +1,12 @@
 import React from "react";
 import { useState, useRef } from "react";
+import { doctoralConsortium } from "./accepted/docoralConsortium";
+import { researchTrack } from "./accepted/researchTrack";
+import { resourceTrack } from "./accepted/resourceTrack";
+import { inuseTrack } from "./accepted/inuseTrack";
+
 
 export const AcceptedPapers = () => {
-    const doctoralConsortium = [
-        {
-            title: "Attributes, Taxonomies and Semantic alignment for Automated Research Software Classification",
-            authors: "Jenifer Tabita Ciuciu-Kiss",
-            abstract: "Research software (RS) plays a critical role in computational science, yet remains poorly categorized and difficult to discover or reuse. This research explores RS classification by investigating how textual and metadata attributes can be leveraged to develop scalable, interpretable classification methodologies. Existing taxonomies are evaluated through alignment with scientific knowledge graphs to identify redundancies and structural gaps. Labeled datasets are constructed by linking publications to software repositories, and RS attributes, such as README files, abstracts, and source code features are benchmarked using multiple machine learning models and embedding strategies. A methodology that integrates semantic enrichment and transformer-based models is proposed for robust RS classification. Preliminary findings highlight the informativeness of publication abstracts for classification tasks and expose limitations in current community-defined taxonomies."
-        },
-        {
-            title: "Viewsari: Enabling New Perspectives on the Renaissance with a Knowledge Graph of Giorgio Vasari’s The Lives",
-            authors: "Sarah Rebecca Ondraszek",
-            abstract: "In the digital humanities (DH), semantic technologies have been recognized as providing the necessary bits and pieces to represent the complex and often ambiguous nature of humanities data. Despite this growing interest, a lack of practical frameworks for modeling the complex, usually multifaceted, multimodal, and multilingual historical sources remains. This paper presents Viewsari, an ongoing Ph.D. project aiming to build a knowledge graph (KG) based on Giorgio Vasari’s Lives of the Most Excellent Painters, Sculptors, and Architects (1568), referred to as The Lives. This collection of biographies of important Renaissance artists, recounting tales of their lives and describing their artistic styles and works, is widely regarded as the first modern work of art history. With it, Vasari shaped the canon of the Italian Renaissance. Viewsari draws on information extraction and aims to contextualize annotations from Vasari’s The Lives and its translations, addressing the challenges of working with complex, multilingual historical texts. Situated at the intersection of DH and the Semantic Web, it demonstrates how modular, pattern-driven ontology development in the DH, leveraging Ontology Design Patterns (ODPs) and the eXtreme Design (XD) methodology, can support the structured representation and exploration of information across different editions and linguistic versions. The central goal is to conceptualize reusable requirements and best practices for ontology development and KG construction in the DH, improving the use of semantic technologies in the field. Viewsari contributes a prototypical framework for the enrichment and interconnection of multifaceted cultural heritage texts, independent of the form of representation or language of the source, so that different versions can be analyzed at a large scale."
-        },
-        {
-            title: "Large Language Models as Assistants for Ontology Engineering",
-            authors: "Javad Saeedizade",
-            abstract: "Ontology engineering is often a complex, time-consuming and costly process that relies heavily on expert engineers. Even experienced ontology engineers introduce errors, such as incompleteness in terms of requirements, and falling into common ontology pitfalls, underscoring the challenge of producing high-quality ontologies. This PhD proposal aims to address these issues by creating an LLM-based assistant for both ontology development and ontology evaluation. The envisioned assistant will offer suggestions during conceptual modelling, pattern-based suggestions for class and property definitions, and real-time validation checks to identify modelling errors. By embedding these capabilities into a unified tool, the research seeks to reduce dependence on expert intervention, enabling mid-level and novice ontology engineers and organisations to develop reliable ontologies more independently, while simultaneously accelerating the workflow of expert ontologists. The outcome of this work will be a software tool that supports and streamlines the ontology engineering lifecycle---facilitating creation, error detection, and quality assessment---thereby making ontology creation faster, less error-prone, and more accessible to non-experts."
-        },
-        {
-            title: "Towards Provable Provenance and Privacy-Preserving Queries in Decentralised Data Architectures",
-            authors: "Jesse Wright",
-            abstract: "This work develops a standardised declarative query language (data sublanguage) for accessing graph database(s) alongside zero-knowledge verifiable provenance statements – including of data sourcing, integrity and derivations. Supported queries include 'Is Jesse over 21 according to facts issued by EU or UK governments' – the verifiable response reveals only the answer: 'yes.' This query language is first implemented in query engine(s) which evaluate queries over a locally indexed graph database. Support is then added for queries over the union of data residing across independent and potentially malicious graph-databases; by developing algorithms and architectures which minimize data disclosure between sources when planning and executing queries."
-        },
-        {
-            title: "Extracting problem-solving knowledge from LLMs with reasoning abilities",
-            authors: "Maxime Haurel",
-            abstract: "Automatic Knowledge Acquisition (AKA) aims to automate the process between domain experts and knowledge engineers, that is to create a domain Knowledge Base (KB). Such automation is necessitated because the collaboration between domain experts and knowledge engineers is costly. Modern approaches use Large Language Models (LLMs) simulating domain experts to create ontologies and knowledge graphs. Recently, LLMs with reasoning abilities received attention due to their great performances on several benchmarks. These LLMs output reasoning traces that lead to the answer. This early stage PhD thesis (started 7 months ago) focuses on the use of those reasoning traces in the automatic construction of a Knowledge Base (KB), under the assumption that they express the knowledge necessary to solve the problem prompted to the LLM. To achieve this, a first step consists in obtaining from the LLM reasoning traces that are expressed in a well-defined formalism. The results of our initial experiments show that, while some models are able to generate reasoning traces backed by formally expressed knowledge, there is still room for improvement. The remainder of this PhD will therefore involve improving LLMs with reasoning abilities to increase their capability to express the knowledge they used for problem solving in a way that is exploitable for AKA, coherent, and valid."
-        },
-        {
-            title: "Quality Without Borders: A Modular Approach to Unified Knowledge Graph Assessment",
-            authors: "Gabriele Tuozzo",
-            abstract: "Knowledge Graphs (KGs) have emerged as critical infrastructure for data integration and semantic enrichment across diverse domains, from scientific research to enterprise applications. However, quality assessment of KGs remains fragmented due to the coexistence of isolated evaluation paradigms, including KG-specific quality frameworks, the FAIR principles, and the 5-star open data scheme. This fragmentation limits metric reusability and impedes the development of unified quality assessment strategies across the Semantic Web ecosystem. This three-year doctoral research proposes the design of a comprehensive Shared Framework that formally aligns existing quality assessment paradigms for KGs. The framework establishes systematic mappings between KG quality dimensions, FAIR principles, and the 5-star open data scheme, enabling the reuse and extension of existing quality assessment tools to efficiently evaluate FAIRness and openness without computational redundancy. A preliminary mapping analysis between KG quality dimensions and FAIR principles reveals significant alignment opportunities while exposing critical gaps, particularly in Findability aspects. Empirical evaluation of existing catalogs, such as the LOD Cloud, confirms widespread Findability issues including broken links, empty datasets, and missing KGs. To address these challenges, the research proposes a modular, automated KG aggregator employing multiple discovery strategies—crawler-based indexing, search engine APIs, repository harvesting, and Large Language Model guidance—to ensure comprehensive and timely coverage. The research contributes to establishing unified approaches for KG quality assessment and supports broader efforts toward FAIR, open, and high-quality Linked Data. The long-term vision includes developing an interactive 'KG Weather Station' dashboard providing real-time, actionable insights on KG quality, FAIR compliance, and openness for both technical and non-technical stakeholders across the Semantic Web ecosystem."
-        },
-        {
-            title: "A Knowledge-Guided Hybrid Learning Framework for Semantic Constraint Integration in Time Series Models",
-            authors: "Simon Burbach",
-            abstract: "Current time series models often operate solely on sensor data, lacking the contextual understanding that domain knowledge provides. This limitation particularly exists in domains like maritime operations or medical monitoring, where sensor data are often noisy, incomplete, or ambiguous. To address this gap, this doctoral research proposes a hybrid learning framework that integrates semantic knowledge from ontologies, domain texts, and expert-defined rules into the modeling process as formal constraints. The framework comprises three main building blocks: (1) learning joint representations from heterogeneous sources such as time series, structured knowledge, and unstructured text; (2) extracting and formalizing semantic knowledge into symbolic or functional constraints; and (3) fusing these components into a hybrid framework, where formal constraints complement machine-learned patterns. Initial work has been conducted in the maritime domain and will be extended to medical datasets for cross-domain evaluation."
-        },
-        {
-            title: "SLAi: Symbolic Language for Artificial Intelligence Systems",
-            authors: "Alexis Ellis",
-            abstract: "The rapid integration of Artificial Intelligence systems (AI) into our daily lives creates challenges with the transparency, explainability, and collaborative communication of these systems. There is a clear separation in understanding between interdisciplinary research groups, stakeholders, developers, and everyday end-users. Creating a common 'language' benefits not only current conversations centering AI, but future conversations and directions. With a common 'language,' the spectrum of AI end-users can voice their concerns and opinions, resulting in its end-users becoming more active contributors to the conversation. This research builds a common (visual) language framework that utilizes a symbology rooted in ontology for representing components of AI systems."
-        },
-        {
-            title: "Enhancing Recommendation Systems Using Large Language Models and Personalized Knowledge Graphs",
-            authors: "Fernando Spadea",
-            abstract: "We investigate how large language models (LLMs), when paired with interpretable and user-controlled personalized knowledge graphs (PKGs), can power privacy-preserving, decentralized recommendation systems. This work lays the groundwork for more intelligent and user-aligned personal digital assistants that respects user autonomy and data sovereignty. A key focus of our research is exploring how LLMs can be fine-tuned in federated settings to balance personalization with privacy. To this end, we evaluate several fine-tuning methods and compare their performance to select the best one. Early results indicate that LLMs fine-tuned to use PKGs can outperform symbolic and embedding-based KGC models (e.g., KBGAT, HAKE) in both centralized and federated contexts, and that fine-tuning with Kahneman-Tversky Optimization (KTO) is more resilient to lopsided data distributions."
-        },
-        {
-            title: "Open Knowledge Extraction from Dialogue Using In-Context Learning",
-            authors: "Kelsey Rook",
-            abstract: "While Open Information Extraction and Knowledge Graph construction have become viable tasks over formal texts such as research papers and news articles, they remain poorly suited to extracting knowledge from natural human conversation. Dialogue presents unique challenges for information extraction: information is often distributed across multiple dialogue turns and perspectives, and conversational acts such as clarification, disagreement, and hedging complicate the identification of factual assertions. Despite the increasing availability of conversational data, dialogue remains an underutilized source of structured knowledge. In my dissertation research, I aim to investigate how the structural and functional features of dialogue can be leveraged to improve Open Knowledge Extraction using large language models. I propose four core contributions: (1) The formalization of the task of Open Knowledge Extraction from Dialogue, (2) the creation of a dataset towards this task, (3) a perspective-aware ontology of dialogue, and (4) methods for in-context learning for Open Knowledge Extraction from Dialogue. I aim to evaluate the performance of my approach against current approaches such as fine-tuning, and demonstrate the utility of dialogue-aligned knowledge graphs and the dialogue ontology on downstream tasks involving machine understanding of human conversation."
-        },
-        {
-            title: "Examining the Representation of Uncertainty in Knowledge Graphs for Copolymer Chemistry",
-            authors: "Sarah T. Bachinger",
-            abstract: "In copolymer chemistry, researchers aim to create molecules with desirable properties. The experimental process towards a successful synthesis inherently contains uncertainties in different forms and can be described as a structured trial-and-error process. Using ontologies to describe this domain could help in predicting the synthesis setup and conserve resources. In this thesis project, we want to examine how the representation of different uncertainties in the ontology can increase the prediction success. Guided by four research questions, we detail our approach consisting of expert interviews, mapping of uncertainties from the interviews to known representations on Knowledge Graphs (KGs), implementation of a novel uncertainty representation in KGs, and its evaluation."
-        }
-    ];
-
     const [openIndexes, setOpenIndexes] = useState([]);
     const detailRefs = useRef([]);
     const toggleDetail = (index) => {
@@ -82,6 +29,7 @@ export const AcceptedPapers = () => {
             <br />
             <div className="flex flex-col pt-10 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:px-32 px-8 overflow-visible">
 
+                {/* DC */}
                 <div className="flex justify-start items-start flex-col pt-10 pb-0 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:h-auto lg:px-32 px-8">
                     <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">Doctoral Consortium</p>
                     <div className="mb-6">
@@ -121,47 +69,129 @@ export const AcceptedPapers = () => {
                     </div>
                 </div>
 
-                <div className="flex justify-start items-start flex-col pt-10 pb-0 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:h-auto lg:px-32 px-8 overflow-visible">
-                    <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">Research</p>
-                    <div className="text-md lg:text-lg font-[300] lg:mx-10 sm:mx-2">
-                        <p>Coming soon...</p>
+                {/* Research */}
+                <div className="flex justify-start items-start flex-col pt-10 pb-0 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:h-auto lg:px-32 px-8">
+                    <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">Research Track</p>
+                    <div className="mb-6">
+                        <table className="border-collapse text-left text-sm lg:text-base table-fixed grid-no-grow">
+                            <thead>
+                                <tr className="bg-[#f8f8f8] text-[#e94607] font-bold border-b">
+                                    <th className="p-4 border border-gray-300 grid-no-grow w-3/4">Title</th>
+                                    <th className="p-4 border border-gray-300 grid-no-grow w-1/4">Authors</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {researchTrack.map((paper, idx) => (
+                                    <tr key={idx} className="border-b align-top">
+                                        <td
+                                            className="p-4 border border-gray-200 font-semibold text-[#e94607] cursor-pointer hover:underline align-top"
+                                            onClick={() => toggleDetail(idx)}
+                                        >
+                                            <div className="flex items-start gap-2">
+                                                <span className={`inline-block transform transition-transform ${openIndexes.includes(idx) ? "rotate-90" : "rotate-0"}`}>
+                                                    ▶
+                                                </span>
+                                                <div className="flex-1">
+                                                    {paper.title}
+                                                    {openIndexes.includes(idx) && (
+                                                        <div className="mt-2 text-gray-800 text-sm whitespace-pre-line">
+                                                            {paper.abstract}
+                                                        </div>
+                                                    )}
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td className="p-4 border border-gray-200 align-top">{paper.authors}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                {/* Resource */}
+                <div className="flex justify-start items-start flex-col pt-10 pb-0 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:h-auto lg:px-32 px-8">
+                    <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">Resource Track</p>
+                    <div className="mb-6">
+                        <table className="border-collapse text-left text-sm lg:text-base table-fixed grid-no-grow">
+                            <thead>
+                                <tr className="bg-[#f8f8f8] text-[#e94607] font-bold border-b">
+                                    <th className="p-4 border border-gray-300 grid-no-grow w-3/4">Title</th>
+                                    <th className="p-4 border border-gray-300 grid-no-grow w-1/4">Authors</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {resourceTrack.map((paper, idx) => (
+                                    <tr key={idx} className="border-b align-top">
+                                        <td
+                                            className="p-4 border border-gray-200 font-semibold text-[#e94607] cursor-pointer hover:underline align-top"
+                                            onClick={() => toggleDetail(idx)}
+                                        >
+                                            <div className="flex items-start gap-2">
+                                                <span className={`inline-block transform transition-transform ${openIndexes.includes(idx) ? "rotate-90" : "rotate-0"}`}>
+                                                    ▶
+                                                </span>
+                                                <div className="flex-1">
+                                                    {paper.title}
+                                                    {openIndexes.includes(idx) && (
+                                                        <div className="mt-2 text-gray-800 text-sm whitespace-pre-line">
+                                                            {paper.abstract}
+                                                        </div>
+                                                    )}
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td className="p-4 border border-gray-200 align-top">{paper.authors}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
                     </div>
                 </div>
 
-                <div className="flex justify-start items-start flex-col pt-10 pb-0 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:h-auto lg:px-32 px-8 overflow-visible">
-                    <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">Resource</p>
-                    <div className="text-md lg:text-lg font-[300] lg:mx-10 sm:mx-2">
-                        <p>Coming soon...</p>
+                {/* In Use */}
+                <div className="flex justify-start items-start flex-col pt-10 pb-0 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:h-auto lg:px-32 px-8">
+                    <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">In-Use Track</p>
+                    <div className="mb-6">
+                        <table className="border-collapse text-left text-sm lg:text-base table-fixed grid-no-grow">
+                            <thead>
+                                <tr className="bg-[#f8f8f8] text-[#e94607] font-bold border-b">
+                                    <th className="p-4 border border-gray-300 grid-no-grow w-3/4">Title</th>
+                                    <th className="p-4 border border-gray-300 grid-no-grow w-1/4">Authors</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {inuseTrack.map((paper, idx) => (
+                                    <tr key={idx} className="border-b align-top">
+                                        <td
+                                            className="p-4 border border-gray-200 font-semibold text-[#e94607] cursor-pointer hover:underline align-top"
+                                            onClick={() => toggleDetail(idx)}
+                                        >
+                                            <div className="flex items-start gap-2">
+                                                <span className={`inline-block transform transition-transform ${openIndexes.includes(idx) ? "rotate-90" : "rotate-0"}`}>
+                                                    ▶
+                                                </span>
+                                                <div className="flex-1">
+                                                    {paper.title}
+                                                    {openIndexes.includes(idx) && (
+                                                        <div className="mt-2 text-gray-800 text-sm whitespace-pre-line">
+                                                            {paper.abstract}
+                                                        </div>
+                                                    )}
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td className="p-4 border border-gray-200 align-top">{paper.authors}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
                     </div>
                 </div>
 
-                <div className="flex justify-start items-start flex-col pt-10 pb-0 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:h-auto lg:px-32 px-8 overflow-visible">
-                    <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">In-Use Papers</p>
-                    <div className="text-md lg:text-lg font-[300] lg:mx-10 sm:mx-2">
-                        <p>Coming soon...</p>
-                    </div>
-                </div>
             </div>
         </>
     );
 };
 
 export default AcceptedPapers;
-
-
-
-
-// export const AcceptedPapers = () => {
-//     return (
-//         <>
-//             <div className="mt-[74px] px-4 pt-2 bg-white flex items-center justify-center"></div>
-//             <br />
-//             <div className="flex justify-start items-start flex-col pt-10 pb-0 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:h-auto lg:px-32 px-8 overflow-visible">
-//                 <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">Keynote Speakers</p>
-//                 <div className="text-md lg:text-lg font-[300] lg:mx-10 sm:mx-2">
-//                     <p>Coming soon...</p>
-//                 </div>
-//             </div>
-//         </>
-//     );
-// }

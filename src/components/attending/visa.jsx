@@ -50,7 +50,7 @@ export const Visa = () => {
                 <br />
                 <h2 className="h2-border-bottom">Requesting a Visa Support Letter</h2>
                 <div className="mt-4 text-lg">
-                    <p>To request a visa support letter, please send an email to <a href="mailto:iswc2025-local@easychair.org">iswc2025-local@easychair.org</a> with the following information included in the body of the email:</p>
+                    <p>To request a visa support letter, please send an email to <a href="mailto:iswc2025-reg@easychair.org">iswc2025-reg@easychair.org</a> with the following information included in the body of the email:</p>
                     <ul className="ul-disc lg:text-lg">
                         <li><b>Full name</b>(as written in the passport)</li>
                         <li><b>Job title</b></li>
@@ -83,7 +83,7 @@ export const Visa = () => {
                 <br />
                 <h2 className="h2-border-bottom">Contact Information</h2>
                 <p>For any inquiries, please contact:</p>
-                <p><a href="mailto:iswc2025-local@easychair.org">iswc2025-local@easychair.org</a></p>
+                <p><a href="mailto:iswc2025-reg@easychair.org">iswc2025-reg@easychair.org</a></p>
                 <p>Kouji Kozaki (Local Organizing Chairs)</p>
             </div>
         </div>

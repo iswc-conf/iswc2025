@@ -46,7 +46,7 @@ export const VenueAndAccomodation = () => {
                     <li><a href="https://www.marriott.com/en-us/hotels/osajw-jw-marriott-hotel-nara/overview/" target="_blank" rel="noopener noreferrer">JW Marriott Hotel Nara</a> (next to the venue)</li>
                     <li><a href="https://www.novotelnara.com/en/" target="_blank" rel="noopener noreferrer">Novotel Nara</a> (5-minute walk)</li>
                     <li><a href="https://www.worldheritage.co.jp/annex/en/" target="_blank" rel="noopener noreferrer">Hotel Asyl Nara Annex</a> (7-minute walk)</li>
-                    <li><a href="https://hotel.nara-royal.co.jp/en/" target="_blank" rel="noopener noreferrer">Nara Royal Hotel</a> (10-minute walk)</li>
+                    <li><a href="https://hotel.nara-royal.co.jp/en/" target="_blank" rel="noopener noreferrer">Nara Royal Hotel</a> (10-minute walk) - <b>Gala Dinner venue</b> (Wednesday, 5 November 2025)</li>
                 </ul>
 
                 <br/>

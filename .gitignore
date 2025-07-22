@@ -7,3 +7,6 @@ package-lock.json
 /build/*
 /build
 *.pack
+
+/src/components/program/*.xlsx
+/src/components/program/*.py

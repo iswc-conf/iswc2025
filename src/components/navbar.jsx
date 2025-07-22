@@ -193,6 +193,10 @@ export const NavBar = () => {
                       Workshops
                       <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                     </Link>
+                    <Link to="/program/tutorials" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Tutorials
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
                     <Link to="/program/challenges" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                       Challenges
                       <div className="bg-[#E30022] w-0 group-hover:w-full"></div>

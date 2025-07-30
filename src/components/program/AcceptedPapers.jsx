@@ -43,18 +43,19 @@ export const AcceptedPapers = () => {
                             </thead>
                             <tbody>
                                 {doctoralConsortium.map((paper, idx) => (
-                                    <tr key={idx} className="border-b align-top">
+                                    
+                                    <tr key={`dc-${idx}`} className="border-b align-top">
                                         <td
                                             className="p-4 border border-gray-200 font-semibold text-[#e94607] cursor-pointer hover:underline align-top"
-                                            onClick={() => toggleDetail(idx)}
+                                            onClick={() => toggleDetail(`dc-${idx}`)}
                                         >
                                             <div className="flex items-start gap-2">
-                                                <span className={`inline-block transform transition-transform ${openIndexes.includes(idx) ? "rotate-90" : "rotate-0"}`}>
+                                                <span className={`inline-block transform transition-transform ${openIndexes.includes(`dc-${idx}`) ? "rotate-90" : "rotate-0"}`}>
                                                     ▶
                                                 </span>
                                                 <div className="flex-1">
                                                     {paper.title}
-                                                    {openIndexes.includes(idx) && (
+                                                    {openIndexes.includes(`dc-${idx}`) && (
                                                         <div className="mt-2 text-gray-800 text-sm whitespace-pre-line">
                                                             {paper.abstract}
                                                         </div>
@@ -83,18 +84,18 @@ export const AcceptedPapers = () => {
                             </thead>
                             <tbody>
                                 {researchTrack.map((paper, idx) => (
-                                    <tr key={idx} className="border-b align-top">
+                                    <tr key={`research-${idx}`} className="border-b align-top">
                                         <td
                                             className="p-4 border border-gray-200 font-semibold text-[#e94607] cursor-pointer hover:underline align-top"
-                                            onClick={() => toggleDetail(idx)}
+                                            onClick={() => toggleDetail(`research-${idx}`)}
                                         >
                                             <div className="flex items-start gap-2">
-                                                <span className={`inline-block transform transition-transform ${openIndexes.includes(idx) ? "rotate-90" : "rotate-0"}`}>
+                                                <span className={`inline-block transform transition-transform ${openIndexes.includes(`research-${idx}`) ? "rotate-90" : "rotate-0"}`}>
                                                     ▶
                                                 </span>
                                                 <div className="flex-1">
                                                     {paper.title}
-                                                    {openIndexes.includes(idx) && (
+                                                    {openIndexes.includes(`research-${idx}`) && (
                                                         <div className="mt-2 text-gray-800 text-sm whitespace-pre-line">
                                                             {paper.abstract}
                                                         </div>
@@ -123,18 +124,18 @@ export const AcceptedPapers = () => {
                             </thead>
                             <tbody>
                                 {resourceTrack.map((paper, idx) => (
-                                    <tr key={idx} className="border-b align-top">
+                                    <tr key={`resource-${idx}`} className="border-b align-top">
                                         <td
                                             className="p-4 border border-gray-200 font-semibold text-[#e94607] cursor-pointer hover:underline align-top"
-                                            onClick={() => toggleDetail(idx)}
+                                            onClick={() => toggleDetail(`resource-${idx}`)}
                                         >
                                             <div className="flex items-start gap-2">
-                                                <span className={`inline-block transform transition-transform ${openIndexes.includes(idx) ? "rotate-90" : "rotate-0"}`}>
+                                                <span className={`inline-block transform transition-transform ${openIndexes.includes(`resource-${idx}`) ? "rotate-90" : "rotate-0"}`}>
                                                     ▶
                                                 </span>
                                                 <div className="flex-1">
                                                     {paper.title}
-                                                    {openIndexes.includes(idx) && (
+                                                    {openIndexes.includes(`resource-${idx}`) && (
                                                         <div className="mt-2 text-gray-800 text-sm whitespace-pre-line">
                                                             {paper.abstract}
                                                         </div>
@@ -163,18 +164,18 @@ export const AcceptedPapers = () => {
                             </thead>
                             <tbody>
                                 {inuseTrack.map((paper, idx) => (
-                                    <tr key={idx} className="border-b align-top">
+                                    <tr key={`inuse-${idx}`} className="border-b align-top">
                                         <td
                                             className="p-4 border border-gray-200 font-semibold text-[#e94607] cursor-pointer hover:underline align-top"
-                                            onClick={() => toggleDetail(idx)}
+                                            onClick={() => toggleDetail(`inuse-${idx}`)}
                                         >
                                             <div className="flex items-start gap-2">
-                                                <span className={`inline-block transform transition-transform ${openIndexes.includes(idx) ? "rotate-90" : "rotate-0"}`}>
+                                                <span className={`inline-block transform transition-transform ${openIndexes.includes(`inuse-${idx}`) ? "rotate-90" : "rotate-0"}`}>
                                                     ▶
                                                 </span>
                                                 <div className="flex-1">
                                                     {paper.title}
-                                                    {openIndexes.includes(idx) && (
+                                                    {openIndexes.includes(`inuse-${idx}`) && (
                                                         <div className="mt-2 text-gray-800 text-sm whitespace-pre-line">
                                                             {paper.abstract}
                                                         </div>
@@ -203,18 +204,18 @@ export const AcceptedPapers = () => {
                             </thead>
                             <tbody>
                                 {industryTrack.map((paper, idx) => (
-                                    <tr key={idx} className="border-b align-top">
+                                    <tr key={`industry-${idx}`} className="border-b align-top">
                                         <td
                                             className="p-4 border border-gray-200 font-semibold text-[#e94607] cursor-pointer hover:underline align-top"
-                                            onClick={() => toggleDetail(idx)}
+                                            onClick={() => toggleDetail(`industry-${idx}`)}
                                         >
                                             <div className="flex items-start gap-2">
-                                                <span className={`inline-block transform transition-transform ${openIndexes.includes(idx) ? "rotate-90" : "rotate-0"}`}>
+                                                <span className={`inline-block transform transition-transform ${openIndexes.includes(`industry-${idx}`) ? "rotate-90" : "rotate-0"}`}>
                                                     ▶
                                                 </span>
                                                 <div className="flex-1">
                                                     {paper.title}
-                                                    {openIndexes.includes(idx) && (
+                                                    {openIndexes.includes(`industry-${idx}`) && (
                                                         <div className="mt-2 text-gray-800 text-sm whitespace-pre-line">
                                                             {paper.abstract}
                                                         </div>

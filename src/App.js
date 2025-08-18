@@ -33,6 +33,7 @@ import { StudentGrants } from "./components/attending/StudentGrants";
 import KeynoteSpeakers from "./components/program/KeynoteSpeakers";
 import Panel from "./components/program/Panel";
 import Workshops from "./components/program/Workshops";
+import ProgramDagstuhl from "./components/program/Dagstuhl";
 import AcceptedTutorials from "./components/program/Tutorials";
 import ProgramChallenges from "./components/program/ProgramChallenges";
 import CodeOfConduct from "./components/attending/CodeOfConduct";
@@ -84,6 +85,7 @@ export default function HeroComponent() {
         <Route path="/program/acceptedpapers" element={<AcceptedPapers />} />
         <Route path="/program/keynotespeakers" element={<KeynoteSpeakers />} />
         <Route path="/program/workshops" element={<Workshops />} />
+        <Route path="/program/dagstuhl" element={<ProgramDagstuhl />} />
         <Route path="/program/tutorials" element={<AcceptedTutorials />} />
         <Route path="/program/challenges" element={<ProgramChallenges />} />
         <Route path="/program/panel" element={<Panel />} />

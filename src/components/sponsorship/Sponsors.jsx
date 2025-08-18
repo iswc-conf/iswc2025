@@ -1,6 +1,7 @@
 import React from "react";
 import google_logo from "./assets/google_logo.png"
 import lore_star_logo from "./assets/lore_star_logo.png"
+import iij_logo from "./assets/IIJ_logo.jpg"
 import './sponsorship.css';
 
 export const Sponsors = () => {
@@ -47,6 +48,12 @@ export const Sponsors = () => {
                     <div className="sponsor-logos flex justify-center items-center gap-8">
                         <a href="https://lorestar.it/" target="_blank" rel="noopener noreferrer">
                             <img src={lore_star_logo} alt="Lore Star Logo" className="logo-high-res" width="300"/>
+                        </a>
+                    </div>
+                    <h3 className="text-lg font-semibold text-center">IIJ - Internet Initiative Japan</h3>
+                    <div className="sponsor-logos flex justify-center items-center gap-8">
+                        <a href="https://www.iij.ad.jp/en/" target="_blank" rel="noopener noreferrer">
+                            <img src={iij_logo} alt="IIJ Logo" className="logo-high-res" width="300"/>
                         </a>
                     </div>
 

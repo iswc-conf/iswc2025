@@ -60,7 +60,7 @@ export const Visa = () => {
                         <li><b>Gender</b> (Male/Female)</li>
                         <li><b>Are you a speaker/presenter?</b> (Yes or No)</li>
                         <li><b>Title of session/paper/workshop you are speaking/presenting at</b></li>
-                        <li><b>Itinerary</b> (dates, planned activities, name of hotel)</li>
+                        <li><b>Itinerary:</b> Please fill in <a href="/Itinerary_Template.xlsx" download className="inline-flex items-center gap-2 text-primary hover:underline">Itinerary_Template.xlsx</a> (dates, planned activities, name of hotel)</li>
                         <li><b>Do you require a hard copy of the letter?</b> (Please note that hard copies will take additional processing time.)</li>
                     </ul>
 

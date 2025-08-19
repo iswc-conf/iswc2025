@@ -50,10 +50,13 @@ export const Sponsors = () => {
                             <img src={lore_star_logo} alt="Lore Star Logo" className="logo-high-res" width="300"/>
                         </a>
                     </div>
+                    <br/>
+                    <br/>
                     <h3 className="text-lg font-semibold text-center">IIJ - Internet Initiative Japan</h3>
+                    <br/>
                     <div className="sponsor-logos flex justify-center items-center gap-8">
                         <a href="https://www.iij.ad.jp/en/" target="_blank" rel="noopener noreferrer">
-                            <img src={iij_logo} alt="IIJ Logo" className="logo-high-res" width="300"/>
+                            <img src={iij_logo} alt="IIJ Logo" className="logo-high-res" width="250"/>
                         </a>
                     </div>
 

@@ -63,7 +63,7 @@ export const AcceptedTutorials = () => {
             "title": "SODa WissKI Bits Tutorial: Ontology-Driven Semantic Modeling and FAIR Publishing with WissKI",
             "organizers": "Canan Hastik, Gudrun Schwenk and Mark Fichtner",
             "description": "",
-            "website": "https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/liascript-oers/refs/heads/main/WissKI%20How-to-Tutorials%20/WissKI_Readme.md#1",
+            "website": "https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/SODa_WissKI-ISWC25Bits/refs/heads/main/didacticConcept/SODa_WissKI-ISWC25Bits_didacticConcept.md#1",
             "social_medias": [
                 {
                     "social_media": "SODa LinkedIn",

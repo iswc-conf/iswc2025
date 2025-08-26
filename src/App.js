@@ -32,6 +32,7 @@ import { Visa } from "./components/attending/visa";
 import { StudentGrants } from "./components/attending/StudentGrants";
 import KeynoteSpeakers from "./components/program/KeynoteSpeakers";
 import Panel from "./components/program/Panel";
+import Awards from "./components/program/Awards";
 import Workshops from "./components/program/Workshops";
 import ProgramDagstuhl from "./components/program/Dagstuhl";
 import AcceptedTutorials from "./components/program/Tutorials";
@@ -89,6 +90,7 @@ export default function HeroComponent() {
         <Route path="/program/tutorials" element={<AcceptedTutorials />} />
         <Route path="/program/challenges" element={<ProgramChallenges />} />
         <Route path="/program/panel" element={<Panel />} />
+        <Route path="/program/awards" element={<Awards />} />
 
         {/* Attendings */}
         <Route path="/attending/visa" element={<Visa />} />

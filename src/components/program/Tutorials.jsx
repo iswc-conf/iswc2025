@@ -98,6 +98,17 @@ export const AcceptedTutorials = () => {
         }
     ]
 
+    const sponsored_tutorials = 
+    [
+        {
+            "title": "AI4EIA: A Practical and Hands-on Guide to Enterprise Information Architecture - From AI-Driven Ontology Modeling to Knowledge Graph Insights via Conversational AI",
+            "organizers": "metaphacts GmbH, Walldorf, Germany",
+            "description": "",
+            "website": "",
+            "social_medias": []
+        }
+    ]
+
     const [openIndexes, setOpenIndexes] = useState([]);
     const detailRefs = useRef([]);
     const toggleDetail = (index) => {
@@ -148,6 +159,46 @@ export const AcceptedTutorials = () => {
                                                 🔗
                                             </span>
                                         </a>
+                                    </td>
+                                    <td className="align-top p-4 border border-gray-200">{ws.organizers}</td>
+                                    {/* <td className="align-top p-4 border border-gray-200 whitespace-pre-line">{ws.description}</td> */}
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
+
+                <br/>
+                <br/>
+
+                <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-8 tracking-wide text-center">
+                    Sponsored Tutorials
+                </p>
+
+                <div className="overflow-x-auto">
+                    <table className="min-w-full table-auto border-collapse text-left text-sm lg:text-base">
+                        <thead>
+                            <tr className="bg-[#f8f8f8] text-[#e94607] font-bold border-b">
+                                <th className="p-4 border border-gray-300 w-1/4">Tutorial Title</th>
+                                <th className="p-4 border border-gray-300 w-1/4">Organizers</th>
+                                {/* <th className="p-4 border border-gray-300 w-1/2">Description</th> */}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {sponsored_tutorials.map((ws, idx) => (
+                                <tr key={idx} className="border-b">
+                                    <td className="align-top p-4 border border-gray-200 font-semibold">
+                                        {/* <a
+                                            href={ws.website}
+                                            className="hover:underline text-[#e94607] group inline-flex items-center"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        > */}
+                                            <span>{ws.title}</span>
+                                            <span className="ml-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                                                🔗
+                                            </span>
+                                        {/* </a> */}
                                     </td>
                                     <td className="align-top p-4 border border-gray-200">{ws.organizers}</td>
                                     {/* <td className="align-top p-4 border border-gray-200 whitespace-pre-line">{ws.description}</td> */}

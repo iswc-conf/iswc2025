@@ -51,6 +51,12 @@ export const Registration = () => {
 
                 <h3 className="text-xl font-semibold mt-4 mb-1">Pre-conference Days, Nov. 2-3 (Workshops/Tutorials/Ph.D. Symposium)</h3>
                 <p>Additional Fee:          30,000 JPY</p>
+                <p>Available only to Main Conference registrants. This option allows them to also attend the Pre-conference Days (Nov. 2-3).</p>
+
+                <h3 className="text-xl font-semibold mt-4 mb-1">Pre-conference Days, Nov. 2-3 (Workshops/Tutorials/Ph.D. Symposium) ONLY</h3>
+                <p>Fee:          60,000 JPY</p>
+                <p>This ticket is for those NOT registered for the Main Conference.</p>
+                <p>To attend both, please register and pay for both "the Main Conference (Nov. 4-6)" and "the Pre-conference Days (Nov. 2-3) option".</p>
 
                 <h3 className="text-xl font-semibold mt-4 mb-1">Additional Gala Dinner Ticket for an Accompanying Persons</h3>
                 <p>Fee:          10,000 JPY</p>
@@ -58,8 +64,8 @@ export const Registration = () => {
 
                 <p><b>Note</b></p>
                 <ul className="list-disc list-inside mb-6">
-                    <li>A <b>"Pre-conference Days, Nov 2-3 (Workshops/Tutorials/Ph.D. Symposium) Only"</b> registration option is not available.</li>
-                    <li>If you wish to attend the Workshops, Tutorials, or Ph.D. Symposium sessions, please ensure you select both the appropriate <b>Main Conference Registration fee</b> and the<b>Pre-conference Days (Nov. 2-3) fee</b>, and proceed with payment accordingly.</li>
+                    <li>If you wish to <b>attend both the Main Conference (Nov. 4-6) and the Pre-conference Days (Nov. 2-3)</b>, please ensure you select both the appropriate <b>"Main Conference Registration fee"</b> and <b>"the Pre-conference Days, Nov. 2-3 (Workshops / Tutorials / Ph.D. Symposium) option"</b>, and proceed with payment accordingly.</li>
+                    <li>If you wish to attend <b>ONLY the Pre-conference Days (Nov. 2-3)</b>, please select <b>"the Pre-conference Days, Nov. 2-3 (Workshops / Tutorials / Ph.D. Symposium) ONLY"</b>.</li>
                 </ul>
 
                 <h2 className="text-2xl font-semibold mt-6 mb-2">Main Conference Registration includes:</h2>

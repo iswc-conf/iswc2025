@@ -33,7 +33,7 @@ export const StudentGrants = () => {
                 <br />
                 <h2 className="h2-border-bottom">Application Process</h2>
                 <ul className='ul-disc lg:text-lg'>
-                    <li>Fill out and submit the ISWC 2025 Student Travel Award Application Form on <a href='https://easychair.org/conferences?conf=iswc2025'>easychair</a>, choosing “Student Grants” when making a new submission</li>
+                    <li>Fill out and submit the ISWC 2025 Student Travel Award Application Form on <a href='https://easychair.org/conferences?conf=iswc2025' target='_blank'>easychair</a>, choosing “Student Grants” when making a new submission</li>
                     <li>Ask your supervisor to email the student grants chairs using the following email address <i>iswc2025-students@easychair.org</i>, confirming that you are a current student under their supervision and that you will be attending ISWC 2025. The subject of the email should be <i>{'“ISWC 2025 Student Travel Award Application Verification for {YOUR FULL NAME}”'}</i>. The text should read <i>{'“I confirm that {YOUR FULL NAME} is a student that is currently under my supervision at {INSTITUTION NAME} and that they will be attending ISWC 2025 to present work that they completed under my supervision. {SUPERVISOR NAME}”'}</i></li>
                 </ul>
 

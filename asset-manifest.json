@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.d1554440.css",
-    "main.js": "./static/js/main.ae7e6947.js",
+    "main.js": "./static/js/main.2c7bb2c4.js",
     "static/js/453.7e499361.chunk.js": "./static/js/453.7e499361.chunk.js",
     "static/media/community_1.png": "./static/media/community_1.52c46154e49d4a2a33b8.png",
     "static/media/community_11.png": "./static/media/community_11.3205c8b7721e29520625.png",
@@ -44,6 +44,7 @@
     "static/media/irene_celino.png": "./static/media/irene_celino.bdb3285806e56a4d3334.png",
     "static/media/logo.webp": "./static/media/logo.6b455403899ff8e8b18d.webp",
     "static/media/IIJ_logo.jpg": "./static/media/IIJ_logo.182c4db3e2395acb9d3c.jpg",
+    "static/media/metaphacts-logo-standard.png": "./static/media/metaphacts-logo-standard.9f9adbf50506174d775b.png",
     "static/media/ISWC2025banner.webp": "./static/media/ISWC2025banner.07da39f4a9b0c9e3a353.webp",
     "static/media/ISWC2.png": "./static/media/ISWC2.34c2ee991b39badf1a73.png",
     "static/media/blerina_sphaiu.png": "./static/media/blerina_sphaiu.1d2199a9c9ff151fe8ca.png",
@@ -78,11 +79,11 @@
     "static/media/google_logo.png": "./static/media/google_logo.08b4ebfd25145471fde1.png",
     "index.html": "./index.html",
     "main.d1554440.css.map": "./static/css/main.d1554440.css.map",
-    "main.ae7e6947.js.map": "./static/js/main.ae7e6947.js.map",
+    "main.2c7bb2c4.js.map": "./static/js/main.2c7bb2c4.js.map",
     "453.7e499361.chunk.js.map": "./static/js/453.7e499361.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1554440.css",
-    "static/js/main.ae7e6947.js"
+    "static/js/main.2c7bb2c4.js"
   ]
 }

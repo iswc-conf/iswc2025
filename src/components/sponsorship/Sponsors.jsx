@@ -2,6 +2,7 @@ import React from "react";
 import google_logo from "./assets/google_logo.png"
 import lore_star_logo from "./assets/lore_star_logo.png"
 import iij_logo from "./assets/IIJ_logo.jpg"
+import metaphacts from "./assets/metaphacts-logo-standard.png"
 import './sponsorship.css';
 
 export const Sponsors = () => {
@@ -12,6 +13,19 @@ export const Sponsors = () => {
             <div className="container mx-auto px-4 lg:px-8 lg:pb-12 mt-12">
                 <h1 className="text-3xl font-bold text-center text-[#e94607]">Sponsors</h1>
                 <div className="sponsor-level">
+                    <h2 className="text-3xl font-bold text-[#e94607]">Platinum</h2>
+                    <hr className="border-t-2 border-[#e94607] my-2" />
+                    <h3 className="text-lg font-semibold text-center">metaphacts</h3>
+                    <div className="sponsor-logos flex justify-center items-center gap-8">
+                        <a href="https://metaphacts.com/" target="_blank" rel="noopener noreferrer">
+                            <img src={metaphacts} alt="metaphacts Logo" className="logo-high-res" width="300"/>
+                        </a>
+                    </div>
+
+                    <br/>
+                    <br/>
+
+
                     <h2 className="text-3xl font-bold text-[#e94607]">Gold</h2>
                     <hr className="border-t-2 border-[#e94607] my-2" />
                     <div className="sponsor-info mt-4">

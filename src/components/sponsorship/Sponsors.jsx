@@ -3,6 +3,7 @@ import google_logo from "./assets/google_logo.png"
 import lore_star_logo from "./assets/lore_star_logo.png"
 import iij_logo from "./assets/IIJ_logo.jpg"
 import metaphacts from "./assets/metaphacts-logo-standard.png"
+import river_publisher_logo from "./assets/JWE_River_Logo.jpg"
 import './sponsorship.css';
 
 export const Sponsors = () => {
@@ -41,17 +42,6 @@ export const Sponsors = () => {
                         <div className="sponsor-logos flex justify-center items-center gap-8">
                             <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
                                 <img src={google_logo} alt="Google Logo" className="logo-high-res" width="300"/>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className="sponsor-info mt-4">
-                        <a href="https://journals.riverpublishers.com/index.php/JWE/index" target="_blank" rel="noopener noreferrer">
-                            <h3 className="text-lg font-semibold text-center">River Publishers</h3>
-                        </a>
-                        <div className="sponsor-logos flex justify-center items-center gap-8">
-                            <a href="https://www.riverpublishers.com/" target="_blank" rel="noopener noreferrer">
-                                <img src="https://www.dropbox.com/scl/fi/5gav365487otxcohen05g/River_logo.JPG?rlkey=z2zjthq4wmonz2isz6wtm0xts&dl=1" alt="River Publishers Logo" className="logo-high-res" width="300"/>
                             </a>
                         </div>
                     </div>
@@ -112,7 +102,7 @@ export const Sponsors = () => {
                         </a>
                         <div className="sponsor-logos flex justify-center items-center gap-8">
                             <a href="https://www.linkedin.com/company/560004/admin/dashboard/" target="_blank" rel="noopener noreferrer">
-                                <img src="https://www.dropbox.com/scl/fi/tgkn8tzgxu4xbdzicuwau/JWE_River_Logo.jpg?rlkey=dloruuyqyl1jgaz84lv6x0iki&dl=1" alt="River Publishers Logo" className="logo-high-res" width="300"/>
+                                <img src={river_publisher_logo} alt="Riber Publisher Logo" className="logo-high-res" width="300"/>
                             </a>
                         </div>
                     </div>

@@ -9,6 +9,8 @@ export const StudentGrants = () => {
             <div className="container mx-auto px-4 lg:px-8 lg:pb-12 mt-12">
                 <h1 className="text-3xl font-bold text-center text-[#e94607]">Student Grants</h1>
 
+                <p style={{ fontWeight: 'bold' }}>Update: All available funding has now been fully allocated, and we are unable to provide any additional funding at this time. Should new funding opportunities become available, we will share an update.</p>
+
                 <p>If you are a student interested in attending ISWC 2025, you may be eligible to apply for travel grants to support the costs of travel and lodging. This year, travel grants are funded by the Semantic Web Science Association (SWSA).</p>
 
                 <br />

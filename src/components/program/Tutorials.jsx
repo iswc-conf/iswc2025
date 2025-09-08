@@ -104,7 +104,7 @@ export const AcceptedTutorials = () => {
             "title": "AI4EIA: A Practical and Hands-on Guide to Enterprise Information Architecture - From AI-Driven Ontology Modeling to Knowledge Graph Insights via Conversational AI",
             "organizers": "metaphacts GmbH, Walldorf, Germany",
             "description": "",
-            "website": "",
+            "website": "https://github.com/iswc-conf/iswc2025/blob/main/public/tutorials/2025_ISWC_Tutorial.pdf",
             "social_medias": []
         }
     ]
@@ -188,17 +188,17 @@ export const AcceptedTutorials = () => {
                             {sponsored_tutorials.map((ws, idx) => (
                                 <tr key={idx} className="border-b">
                                     <td className="align-top p-4 border border-gray-200 font-semibold">
-                                        {/* <a
+                                        { <a
                                             href={ws.website}
                                             className="hover:underline text-[#e94607] group inline-flex items-center"
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                        > */}
+                                        > 
                                             <span>{ws.title}</span>
                                             <span className="ml-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
                                                 🔗
                                             </span>
-                                        {/* </a> */}
+                                         </a>}
                                     </td>
                                     <td className="align-top p-4 border border-gray-200">{ws.organizers}</td>
                                     {/* <td className="align-top p-4 border border-gray-200 whitespace-pre-line">{ws.description}</td> */}

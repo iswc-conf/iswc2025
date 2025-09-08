@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.d1554440.css",
-    "main.js": "./static/js/main.2c7bb2c4.js",
+    "main.js": "./static/js/main.7cc0bed7.js",
     "static/js/453.7e499361.chunk.js": "./static/js/453.7e499361.chunk.js",
     "static/media/community_1.png": "./static/media/community_1.52c46154e49d4a2a33b8.png",
     "static/media/community_11.png": "./static/media/community_11.3205c8b7721e29520625.png",
@@ -28,6 +28,7 @@
     "static/media/community_19.jpeg": "./static/media/community_19.ded8a51fed7ffccad1dc.jpeg",
     "static/media/rachel_adams.png": "./static/media/rachel_adams.8629f2c4c9b0e1918ac6.png",
     "static/media/community_26.jpeg": "./static/media/community_26.f9d05b9f1cecfb7baabf.jpeg",
+    "static/media/JWE_River_Logo.jpg": "./static/media/JWE_River_Logo.1a485d79767aeb12f62f.jpg",
     "static/media/community_18.jpeg": "./static/media/community_18.131d13e3f71b343d8872.jpeg",
     "static/media/community_6.png": "./static/media/community_6.86638daccb2dcb3a79ac.png",
     "static/media/nandana.jpeg": "./static/media/nandana.38440218645af3ddb2ed.jpeg",
@@ -79,11 +80,11 @@
     "static/media/google_logo.png": "./static/media/google_logo.08b4ebfd25145471fde1.png",
     "index.html": "./index.html",
     "main.d1554440.css.map": "./static/css/main.d1554440.css.map",
-    "main.2c7bb2c4.js.map": "./static/js/main.2c7bb2c4.js.map",
+    "main.7cc0bed7.js.map": "./static/js/main.7cc0bed7.js.map",
     "453.7e499361.chunk.js.map": "./static/js/453.7e499361.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1554440.css",
-    "static/js/main.2c7bb2c4.js"
+    "static/js/main.7cc0bed7.js"
   ]
 }

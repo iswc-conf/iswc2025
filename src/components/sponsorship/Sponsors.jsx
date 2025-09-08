@@ -4,6 +4,8 @@ import lore_star_logo from "./assets/lore_star_logo.png"
 import iij_logo from "./assets/IIJ_logo.jpg"
 import metaphacts from "./assets/metaphacts-logo-standard.png"
 import river_publisher_logo from "./assets/JWE_River_Logo.jpg"
+import swsa_logo from "./assets/swsa_logo.png"
+import videolectures_logo from "./assets/Videolectures_logo.png"
 import './sponsorship.css';
 
 export const Sponsors = () => {
@@ -103,6 +105,37 @@ export const Sponsors = () => {
                         <div className="sponsor-logos flex justify-center items-center gap-8">
                             <a href="https://www.linkedin.com/company/560004/admin/dashboard/" target="_blank" rel="noopener noreferrer">
                                 <img src={river_publisher_logo} alt="Riber Publisher Logo" className="logo-high-res" width="300"/>
+                            </a>
+                        </div>
+                    </div>
+
+                    <br/>
+                    <br/>
+                    <h2 className="text-3xl font-bold text-[#e94607]">Student Travel Support</h2>
+                    <hr className="border-t-2 border-[#e94607] my-2" />
+                    <div className="sponsor-info mt-4">
+                        <a href="https://journals.riverpublishers.com/index.php/JWE/index" target="_blank" rel="noopener noreferrer">
+                            <h3 className="text-lg font-semibold text-center">Semantic Web Science Association (SWSA)</h3>
+                        </a>
+                        <div className="sponsor-logos flex justify-center items-center gap-8">
+                            <a href="https://swsa.semanticweb.org/" target="_blank" rel="noopener noreferrer">
+                                <img src={swsa_logo} alt="SWSA Logo" className="logo-high-res" width="300"/>
+                            </a>
+                        </div>
+                    </div>
+
+                    <br/>
+                    <br/>
+                    <br/>
+                    <h2 className="text-3xl font-bold text-[#e94607]">Contributors</h2>
+                    <hr className="border-t-2 border-[#e94607] my-2" />
+                    <div className="sponsor-info mt-4">
+                        <a href="https://journals.riverpublishers.com/index.php/JWE/index" target="_blank" rel="noopener noreferrer">
+                            <h3 className="text-lg font-semibold text-center">Videolectures</h3>
+                        </a>
+                        <div className="sponsor-logos flex justify-center items-center gap-8">
+                            <a href="https://videolectures.net/" target="_blank" rel="noopener noreferrer">
+                                <img src={videolectures_logo} alt="Videolectures Logo" className="logo-high-res" width="300"/>
                             </a>
                         </div>
                     </div>

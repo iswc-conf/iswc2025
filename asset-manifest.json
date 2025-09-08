@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.d1554440.css",
-    "main.js": "./static/js/main.7cc0bed7.js",
+    "main.js": "./static/js/main.20940c3e.js",
     "static/js/453.7e499361.chunk.js": "./static/js/453.7e499361.chunk.js",
     "static/media/community_1.png": "./static/media/community_1.52c46154e49d4a2a33b8.png",
     "static/media/community_11.png": "./static/media/community_11.3205c8b7721e29520625.png",
@@ -69,22 +69,24 @@
     "static/media/community_13.jpeg": "./static/media/community_13.adc26e26c7749508dcc7.jpeg",
     "static/media/hideaki_takeda.png": "./static/media/hideaki_takeda.949906fb96c0d613441a.png",
     "static/media/community_22.jpeg": "./static/media/community_22.f89a35833710139904da.jpeg",
+    "static/media/Videolectures_logo.png": "./static/media/Videolectures_logo.cfa73b0eda9d934ddcd8.png",
     "static/media/juan_sequeda.png": "./static/media/juan_sequeda.b71003c3bde3dfb6e51f.png",
     "static/media/sabrina_kirrane.jpg": "./static/media/sabrina_kirrane.740762fc0db9613575e2.jpg",
     "static/media/shenghui_wang.png": "./static/media/shenghui_wang.da5f84e19c2f2c87ebb2.png",
     "static/media/anna_lisa_gentile.png": "./static/media/anna_lisa_gentile.cd65048aac4029634f75.png",
     "static/media/cogan_shimizu.png": "./static/media/cogan_shimizu.e435636e93228e66ffa1.png",
+    "static/media/swsa_logo.png": "./static/media/swsa_logo.3f96eb5d67680db2422c.png",
     "static/media/ISWC1.png": "./static/media/ISWC1.547931b6dd43eade896d.png",
     "static/media/guha.png": "./static/media/guha.795870e01d91dced128e.png",
     "static/media/ken_fukuda.png": "./static/media/ken_fukuda.22c7d8382ad53a504a95.png",
     "static/media/google_logo.png": "./static/media/google_logo.08b4ebfd25145471fde1.png",
     "index.html": "./index.html",
     "main.d1554440.css.map": "./static/css/main.d1554440.css.map",
-    "main.7cc0bed7.js.map": "./static/js/main.7cc0bed7.js.map",
+    "main.20940c3e.js.map": "./static/js/main.20940c3e.js.map",
     "453.7e499361.chunk.js.map": "./static/js/453.7e499361.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1554440.css",
-    "static/js/main.7cc0bed7.js"
+    "static/js/main.20940c3e.js"
   ]
 }

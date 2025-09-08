@@ -75,6 +75,13 @@ export const Sponsors = () => {
                             <img src="https://aij.ijcai.org/wp-content/uploads/2021/07/ARTINT_Logo2_c_web_more.jpg" alt="Artificial Intelligence Journal Logo" className="logo-high-res"/>
                         {/* </a> */}
                     </div>
+                    <p className="text-sm mb-4">Sponsored by: <em>Semantic Web Science Association (SWSA)</em></p>
+                    <h3 className="text-lg font-semibold text-center">Semantic Web Science Association (SWSA)</h3>
+                    <div className="sponsor-logos flex justify-center items-center gap-8">
+                        {/* <a href="https://aij.ijcai.org/wp-content/uploads/2021/07/ARTINT_Logo2_c_highresolution.tif" target="_blank" rel="noopener noreferrer"> */}
+                            <img src={swsa_logo} alt="Semantic Web Science Association (SWSA) Logo" className="logo-high-res"/>
+                        {/* </a> */}
+                    </div>
 
                     <h2 className="text-3xl font-bold text-[#e94607]">Best Paper Award</h2>
                     <hr className="border-t-2 border-[#e94607] my-2" />
@@ -111,26 +118,11 @@ export const Sponsors = () => {
 
                     <br/>
                     <br/>
-                    <h2 className="text-3xl font-bold text-[#e94607]">Student Travel Support</h2>
-                    <hr className="border-t-2 border-[#e94607] my-2" />
-                    <div className="sponsor-info mt-4">
-                        <a href="https://journals.riverpublishers.com/index.php/JWE/index" target="_blank" rel="noopener noreferrer">
-                            <h3 className="text-lg font-semibold text-center">Semantic Web Science Association (SWSA)</h3>
-                        </a>
-                        <div className="sponsor-logos flex justify-center items-center gap-8">
-                            <a href="https://swsa.semanticweb.org/" target="_blank" rel="noopener noreferrer">
-                                <img src={swsa_logo} alt="SWSA Logo" className="logo-high-res" width="300"/>
-                            </a>
-                        </div>
-                    </div>
-
-                    <br/>
-                    <br/>
                     <br/>
                     <h2 className="text-3xl font-bold text-[#e94607]">Contributors</h2>
                     <hr className="border-t-2 border-[#e94607] my-2" />
                     <div className="sponsor-info mt-4">
-                        <a href="https://journals.riverpublishers.com/index.php/JWE/index" target="_blank" rel="noopener noreferrer">
+                        <a href="https://videolectures.net/" target="_blank" rel="noopener noreferrer">
                             <h3 className="text-lg font-semibold text-center">Videolectures</h3>
                         </a>
                         <div className="sponsor-logos flex justify-center items-center gap-8">

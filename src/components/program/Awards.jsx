@@ -21,6 +21,11 @@ export const Awards = () => {
                     </section>
 
                     <section className="mb-6">
+                        <h2 className="text-2xl font-semibold">Test-of-time Paper Award 2025</h2>
+                        <p>To be announced at the opening ceremony of the conference..</p>
+                    </section>
+
+                    <section className="mb-6">
                         <h2 className="text-2xl font-semibold">Best Research Paper</h2>
                         <p>To be announced at the closing ceremony of the conference.</p>
                     </section>

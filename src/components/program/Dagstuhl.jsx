@@ -29,7 +29,7 @@ export const DagstuhlWorkshops = () => {
             title: "ReAGENT-SW: Realising Autonomous Generative agENTs for the Semantic Web",
             organizers: "Ora Lassila, Valentina Tamma, and Ilaria Tiddi",
             description: "",
-            website: "",
+            website: "https://reagent-sw.github.io/",
         }
     ];
     const [openIndexes, setOpenIndexes] = useState([]);

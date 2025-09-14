@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "./static/css/main.d1554440.css",
-    "main.js": "./static/js/main.bec5a5a3.js",
+    "main.js": "./static/js/main.595a314a.js",
     "static/js/453.7e499361.chunk.js": "./static/js/453.7e499361.chunk.js",
     "static/media/community_1.png": "./static/media/community_1.52c46154e49d4a2a33b8.png",
+    "static/media/guha.png": "./static/media/guha.48fde7578fd48bb5ac96.png",
     "static/media/community_11.png": "./static/media/community_11.3205c8b7721e29520625.png",
     "static/media/community_10.png": "./static/media/community_10.1ee0a184ac658c235a1a.png",
     "static/media/community_2.png": "./static/media/community_2.e7e7a115aa85af35e085.png",
@@ -19,6 +20,7 @@
     "static/media/venue_map.png": "./static/media/venue_map.ab36a16addb7659cd7eb.png",
     "static/media/akaichi_ines.png": "./static/media/akaichi_ines.898232d136ad299c2f44.png",
     "static/media/mayank_kejriwal.png": "./static/media/mayank_kejriwal.d1ffd68992c662777dbe.png",
+    "static/media/elena.png": "./static/media/elena.0856dff9a5ddfed3c812.png",
     "static/media/community_20.jpeg": "./static/media/community_20.0dec997558bf0b3e28fe.jpeg",
     "static/media/ray_atarashi.png": "./static/media/ray_atarashi.4f76c7bc9b628e63cd57.png",
     "static/media/Sun_Zequn.jpg": "./static/media/Sun_Zequn.e4c9ac092fa505ef1f01.jpg",
@@ -42,6 +44,7 @@
     "static/media/community_9.jpeg": "./static/media/community_9.63c640fea0809ddd2396.jpeg",
     "static/media/ISWC_HEAD.png": "./static/media/ISWC_HEAD.216bbd0c2f633af74c3f.png",
     "static/media/Dr_Denny_Vrandecic.jpg": "./static/media/Dr_Denny_Vrandecic.d61f3c347b4f4e5d62c5.jpg",
+    "static/media/natasha.png": "./static/media/natasha.8a0bb38099e5e5705e5d.png",
     "static/media/irene_celino.png": "./static/media/irene_celino.bdb3285806e56a4d3334.png",
     "static/media/logo.webp": "./static/media/logo.6b455403899ff8e8b18d.webp",
     "static/media/IIJ_logo.jpg": "./static/media/IIJ_logo.182c4db3e2395acb9d3c.jpg",
@@ -55,6 +58,7 @@
     "static/media/angelo_salatino.png": "./static/media/angelo_salatino.b2e16917c75db6b5aef8.png",
     "static/media/pablo_mendez.png": "./static/media/pablo_mendez.6ad8bc1737f07f826dba.png",
     "static/media/daniel_garijo.png": "./static/media/daniel_garijo.b36e4ff7c5732dfdb9c8.png",
+    "static/media/ora.png": "./static/media/ora.869a831e9ca21241ce88.png",
     "static/media/lore_star_logo.png": "./static/media/lore_star_logo.d741fd15e27954bf9003.png",
     "static/media/sebastian_ferrada.png": "./static/media/sebastian_ferrada.d826184bacca845e5812.png",
     "static/media/kouji_kozaki.png": "./static/media/kouji_kozaki.dd4b445a943886a1b2b8.png",
@@ -71,22 +75,22 @@
     "static/media/community_22.jpeg": "./static/media/community_22.f89a35833710139904da.jpeg",
     "static/media/Videolectures_logo.png": "./static/media/Videolectures_logo.cfa73b0eda9d934ddcd8.png",
     "static/media/juan_sequeda.png": "./static/media/juan_sequeda.b71003c3bde3dfb6e51f.png",
+    "static/media/tara.png": "./static/media/tara.55980d25af7bb0bd7b6d.png",
     "static/media/sabrina_kirrane.jpg": "./static/media/sabrina_kirrane.740762fc0db9613575e2.jpg",
     "static/media/shenghui_wang.png": "./static/media/shenghui_wang.da5f84e19c2f2c87ebb2.png",
     "static/media/anna_lisa_gentile.png": "./static/media/anna_lisa_gentile.cd65048aac4029634f75.png",
     "static/media/cogan_shimizu.png": "./static/media/cogan_shimizu.e435636e93228e66ffa1.png",
     "static/media/swsa_logo.png": "./static/media/swsa_logo.3f96eb5d67680db2422c.png",
     "static/media/ISWC1.png": "./static/media/ISWC1.547931b6dd43eade896d.png",
-    "static/media/guha.png": "./static/media/guha.795870e01d91dced128e.png",
     "static/media/ken_fukuda.png": "./static/media/ken_fukuda.22c7d8382ad53a504a95.png",
     "static/media/google_logo.png": "./static/media/google_logo.08b4ebfd25145471fde1.png",
     "index.html": "./index.html",
     "main.d1554440.css.map": "./static/css/main.d1554440.css.map",
-    "main.bec5a5a3.js.map": "./static/js/main.bec5a5a3.js.map",
+    "main.595a314a.js.map": "./static/js/main.595a314a.js.map",
     "453.7e499361.chunk.js.map": "./static/js/453.7e499361.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1554440.css",
-    "static/js/main.bec5a5a3.js"
+    "static/js/main.595a314a.js"
   ]
 }

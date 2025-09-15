@@ -98,16 +98,16 @@ export const AcceptedTutorials = () => {
         }
     ]
 
-    const sponsored_tutorials = 
-    [
-        {
-            "title": "AI4EIA: A Practical and Hands-on Guide to Enterprise Information Architecture - From AI-Driven Ontology Modeling to Knowledge Graph Insights via Conversational AI",
-            "organizers": "metaphacts GmbH, Walldorf, Germany",
-            "description": "",
-            "website": "https://github.com/iswc-conf/iswc2025/blob/main/public/tutorials/2025_ISWC_Tutorial.pdf",
-            "social_medias": []
-        }
-    ]
+    const sponsored_tutorials =
+        [
+            {
+                "title": "AI4EIA: A Practical and Hands-on Guide to Enterprise Information Architecture - From AI-Driven Ontology Modeling to Knowledge Graph Insights via Conversational AI",
+                "organizers": "metaphacts GmbH, Walldorf, Germany",
+                "description": "",
+                "website": "https://github.com/iswc-conf/iswc2025/blob/main/public/tutorials/2025_ISWC_Tutorial.pdf",
+                "social_medias": []
+            }
+        ]
 
     const [openIndexes, setOpenIndexes] = useState([]);
     const detailRefs = useRef([]);
@@ -145,22 +145,15 @@ export const AcceptedTutorials = () => {
                             </tr>
                         </thead>
                         <tbody>
-                            {tutorials.map((ws, idx) => (
+                            {tutorials.map((tut, idx) => (
                                 <tr key={idx} className="border-b">
                                     <td className="align-top p-4 border border-gray-200 font-semibold">
-                                        <a
-                                            href={ws.website}
-                                            className="hover:underline text-[#e94607] group inline-flex items-center"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
-                                            <span>{ws.title}</span>
-                                            <span className="ml-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                                                🔗
-                                            </span>
-                                        </a>
+                                        <div onClick={() => scrollToDetails(idx)}
+                                            className="hover:underline text-[#e94607]">
+                                            {tut.title}
+                                        </div>
                                     </td>
-                                    <td className="align-top p-4 border border-gray-200">{ws.organizers}</td>
+                                    <td className="align-top p-4 border border-gray-200">{tut.organizers}</td>
                                     {/* <td className="align-top p-4 border border-gray-200 whitespace-pre-line">{ws.description}</td> */}
                                 </tr>
                             ))}
@@ -168,8 +161,44 @@ export const AcceptedTutorials = () => {
                     </table>
                 </div>
 
-                <br/>
-                <br/>
+                <br />
+                {tutorials.map((tut, idx) => (
+                    <div key={idx} ref={(el) => (detailRefs.current[idx] = el)} id={`details-${idx}`} className="p-4 border rounded-lg">
+                        <div
+                            onClick={() => toggleDetail(idx)}
+                            className="flex items-center gap-2 p-2 rounded"
+                        >
+                            <span className={`transform transition-transform ${openIndexes.includes(idx) ? "rotate-90" : "rotate-0"}`} >
+                                »
+                            </span>
+                            <span className="font-bold text-[#e94607] hover:underline">
+                                {tut.title}
+                            </span>
+
+                        </div>
+                        {openIndexes.includes(idx) && <div className="mt-2">
+                            <h2>Organizers</h2>
+                            <p>{tut.organizers}</p>
+                            {/* <br />
+                            <h2>Description</h2>
+                            <p>{tut.description}</p> */}
+                            {tut.website && (
+                                <>
+                                    <br />
+                                    <h2>Website</h2>
+                                    <p>
+                                        <a href={tut.website} target="_blank" rel="noopener noreferrer">
+                                            {tut.website}
+                                        </a>
+                                    </p>
+                                </>
+                            )}
+                        </div>}
+                    </div>
+                ))}
+
+                <br />
+                <br />
 
                 <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-8 tracking-wide text-center">
                     Sponsored Tutorials
@@ -185,22 +214,15 @@ export const AcceptedTutorials = () => {
                             </tr>
                         </thead>
                         <tbody>
-                            {sponsored_tutorials.map((ws, idx) => (
+                            {sponsored_tutorials.map((tut, idx) => (
                                 <tr key={idx} className="border-b">
                                     <td className="align-top p-4 border border-gray-200 font-semibold">
-                                        { <a
-                                            href={ws.website}
-                                            className="hover:underline text-[#e94607] group inline-flex items-center"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        > 
-                                            <span>{ws.title}</span>
-                                            <span className="ml-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                                                🔗
-                                            </span>
-                                         </a>}
+                                        <div onClick={() => scrollToDetails(idx)}
+                                            className="hover:underline text-[#e94607]">
+                                            {tut.title}
+                                        </div>
                                     </td>
-                                    <td className="align-top p-4 border border-gray-200">{ws.organizers}</td>
+                                    <td className="align-top p-4 border border-gray-200">{tut.organizers}</td>
                                     {/* <td className="align-top p-4 border border-gray-200 whitespace-pre-line">{ws.description}</td> */}
                                 </tr>
                             ))}
@@ -208,7 +230,44 @@ export const AcceptedTutorials = () => {
                     </table>
                 </div>
 
-            </div>
+                <br />
+                 <br />
+                {sponsored_tutorials.map((tut, idx_1) => (
+                    <div key={idx_1} ref={(el) => (detailRefs.current[idx_1] = el)} id={`details-${idx_1}`} className="p-4 border rounded-lg">
+                        <div
+                            onClick={() => toggleDetail(idx_1)}
+                            className="flex items-center gap-2 p-2 rounded"
+                        >
+                            <span className={`transform transition-transform ${openIndexes.includes(idx_1) ? "rotate-90" : "rotate-0"}`} >
+                                »
+                            </span>
+                            <span className="font-bold text-[#e94607] hover:underline">
+                                {tut.title}
+                            </span>
+
+                        </div>
+                        {openIndexes.includes(idx_1) && <div className="mt-2">
+                            <h2>Organizers</h2>
+                            <p>{tut.organizers}</p>
+                            {/* <br />
+                            <h2>Description</h2>
+                            <p>{tut.description}</p> */}
+                            {tut.website && (
+                                <>
+                                    <br />
+                                    <h2>Website</h2>
+                                    <p>
+                                        <a href={tut.website} target="_blank" rel="noopener noreferrer">
+                                            {tut.website}
+                                        </a>
+                                    </p>
+                                </>
+                            )}
+                        </div>}
+                    </div>
+                ))}
+
+        </div >
         </>
     );
 };

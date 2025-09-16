@@ -37,6 +37,7 @@ import Workshops from "./components/program/Workshops";
 import ProgramDagstuhl from "./components/program/Dagstuhl";
 import AcceptedTutorials from "./components/program/Tutorials";
 import ProgramChallenges from "./components/program/ProgramChallenges";
+import { Schedule } from "./components/program/Schedule";
 import CodeOfConduct from "./components/attending/CodeOfConduct";
 import { VenueAndAccomodation } from "./components/attending/venue_and_accomodation";
 import Registration from "./components/attending/Registration";
@@ -91,6 +92,7 @@ export default function HeroComponent() {
         <Route path="/program/challenges" element={<ProgramChallenges />} />
         <Route path="/program/panel" element={<Panel />} />
         <Route path="/program/awards" element={<Awards />} />
+        <Route path="/program/schedule" element={<Schedule />} />
 
         {/* Attendings */}
         <Route path="/attending/visa" element={<Visa />} />

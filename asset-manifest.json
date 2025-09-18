@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.ce4e61b2.css",
-    "main.js": "./static/js/main.8e7f761d.js",
+    "main.css": "./static/css/main.1bc13e21.css",
+    "main.js": "./static/js/main.e7e29e0e.js",
     "static/js/453.7e499361.chunk.js": "./static/js/453.7e499361.chunk.js",
     "static/media/community_1.png": "./static/media/community_1.52c46154e49d4a2a33b8.png",
     "static/media/guha.png": "./static/media/guha.48fde7578fd48bb5ac96.png",
@@ -56,7 +56,6 @@
     "static/media/genet_asefa_gesese .png": "./static/media/genet_asefa_gesese .1296d2c4fc6ac7a4a559.png",
     "static/media/thibaut_soulard.png": "./static/media/thibaut_soulard.60ae7a5bc358498892e8.png",
     "static/media/angelo_salatino.png": "./static/media/angelo_salatino.b2e16917c75db6b5aef8.png",
-    "static/media/pablo_mendez.png": "./static/media/pablo_mendez.6ad8bc1737f07f826dba.png",
     "static/media/daniel_garijo.png": "./static/media/daniel_garijo.b36e4ff7c5732dfdb9c8.png",
     "static/media/ora.png": "./static/media/ora.869a831e9ca21241ce88.png",
     "static/media/lore_star_logo.png": "./static/media/lore_star_logo.d741fd15e27954bf9003.png",
@@ -85,12 +84,12 @@
     "static/media/ken_fukuda.png": "./static/media/ken_fukuda.22c7d8382ad53a504a95.png",
     "static/media/google_logo.png": "./static/media/google_logo.08b4ebfd25145471fde1.png",
     "index.html": "./index.html",
-    "main.ce4e61b2.css.map": "./static/css/main.ce4e61b2.css.map",
-    "main.8e7f761d.js.map": "./static/js/main.8e7f761d.js.map",
+    "main.1bc13e21.css.map": "./static/css/main.1bc13e21.css.map",
+    "main.e7e29e0e.js.map": "./static/js/main.e7e29e0e.js.map",
     "453.7e499361.chunk.js.map": "./static/js/453.7e499361.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce4e61b2.css",
-    "static/js/main.8e7f761d.js"
+    "static/css/main.1bc13e21.css",
+    "static/js/main.e7e29e0e.js"
   ]
 }

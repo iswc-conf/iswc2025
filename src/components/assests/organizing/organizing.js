@@ -20,7 +20,6 @@ import sebastian from "./sebastian_ferrada.png";
 import thibaut from "./thibaut_soulard.png";
 import oktie from "./oktie_hassanzadeh.png";
 import shenghui from "./shenghui_wang.png";
-import pablo from "./pablo_mendez.png";
 import irene from "./irene_celino.png";
 import mayank from "./mayank_kejriwal.png";
 import neha from "./neha_keshan.png";
@@ -167,12 +166,6 @@ const organizers = {
     },
   ],
   "Semantic Web Challenge Chair": [
-    {
-      name: 'Pablo Mendez',
-      img: pablo,
-      institution: 'Objective',
-      country: 'US',
-    },
     {
       name: 'Mayank Kejriwal',
       img: mayank,

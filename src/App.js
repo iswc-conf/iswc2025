@@ -26,6 +26,7 @@ import WorkshopsCall from "./components/calls/WorkshopsCall";
 import Tutorials from "./components/calls/Tutorials";
 import Dagstuhl from "./components/calls/Dagstuhl";
 import Host from "./components/blogs/host"
+import PresentingAtISWC from "./components/blogs/PresentingAtISWC"
 import NatureNavigator from "./components/blogs/NatureNavigator"
 import Community from "./components/blogs/Community";
 import { Visa } from "./components/attending/visa";
@@ -105,6 +106,7 @@ export default function HeroComponent() {
         <Route path="/blogs/host" element={<Host />} />
         <Route path="/blogs/naturenavigator" element={<NatureNavigator />} />
         <Route path="/blogs/community" element={<Community />} />
+        <Route path="/blogs/presentingatiswc" element={<PresentingAtISWC />} />
         
 
         {/* Sponsorship */}

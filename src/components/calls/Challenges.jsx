@@ -121,9 +121,6 @@ export const Challenges = () => {
                     <p>
                         <b>Mayank Kejriwal</b> - University of Southern California, United States
                     </p>
-                    <p>
-                        <b>Pablo Mendes</b> - Upwork, United States
-                    </p>
                 </div>
             </div>
         </>

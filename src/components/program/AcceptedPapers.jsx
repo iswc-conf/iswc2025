@@ -256,7 +256,7 @@ export const AcceptedPapers = () => {
                                                     ▶
                                                 </span>
                                                 <div className="flex-1">
-                                                    {paper.title}
+                                                    {paper.id}: {paper.title}
                                                     {openIndexes.includes(`poster-${idx}`) && (
                                                         <div className="mt-2 text-gray-800 text-sm whitespace-pre-line">
                                                             {paper.abstract}
@@ -297,7 +297,7 @@ export const AcceptedPapers = () => {
                                                     ▶
                                                 </span>
                                                 <div className="flex-1">
-                                                    {paper.title}
+                                                    {paper.id}: {paper.title}
                                                     {openIndexes.includes(`demo-${idx}`) && (
                                                         <div className="mt-2 text-gray-800 text-sm whitespace-pre-line">
                                                             {paper.abstract}

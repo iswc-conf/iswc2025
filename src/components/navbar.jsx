@@ -64,7 +64,7 @@ export const NavBar = () => {
   // };
 
   return (
-    <nav onMouseLeave={() => handleMouseLeave()} className="absolute top-0 left-0 w-full z-50 bg-[#FEFFFE] text-[#000080]  shadow-md ">
+    <nav onMouseLeave={() => handleMouseLeave()} className="absolute top-0 left-0 w-full z-[10000] bg-[#FEFFFE] text-[#000080]  shadow-md ">
       <div className="flex items-center justify-between lg:justify-between   flex-wrap p-2 pb-0 mx-0 lg:mr-4">
         <Link to="/">
           <div className="flex items-center justify-center flex-shrink-0 mr-2 md:mr-14 ">

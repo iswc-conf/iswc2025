@@ -4,7 +4,7 @@ import About from "./pages/about_page"
 import { Routes ,Route } from "react-router-dom";
 import { NavBar } from "./components/navbar";
 import { Footer } from "./components/footer";
-import Committees from "./pages/committee";
+import Committees from "./components/organization/committee";
 import Cfp from "./pages/cfp";
 import Research from "./components/calls/Research";
 import Resource from "./components/calls/Resource";
@@ -44,7 +44,7 @@ import { VenueAndAccomodation } from "./components/attending/venue_and_accomodat
 import Registration from "./components/attending/Registration";
 import { SwsaDistinguishedDissertationAward } from "./components/calls/SwsaDistinguishedDissertationAward";
 import AcceptedPapers from "./components/program/AcceptedPapers";
-
+import ProgramCommitee from "./components/organization/program_commitee";
 
 export default function HeroComponent() {
   return (
@@ -54,7 +54,6 @@ export default function HeroComponent() {
         <Route path="/" element={<Body/>}/>
         {/* <Route path="/register" element={<Registration/>}/> */}
         <Route path="/about" element={<About/>} />
-        <Route path="/organizing_committee" element={<Committees/>} />
         <Route path="/importantdates" element={<ImportantDates/>} />
         <Route path="/cfp" element={<Cfp/>} />
         {/* <Route path="/author-guide" element={<AuthorGuidelines/>}/> */}
@@ -108,7 +107,9 @@ export default function HeroComponent() {
         <Route path="/blogs/community" element={<Community />} />
         <Route path="/blogs/presentingatiswc" element={<PresentingAtISWC />} />
         
-
+        {/* Organization */}
+        <Route path="/organizing_committee" element={<Committees/>} />
+        <Route path="/organization/program_committee" element={<ProgramCommitee />} />
         {/* Sponsorship */}
         <Route path="/sponsorship/sponsorshippackages" element={<SponsorshipPackages />} />
         <Route path="/sponsorship/sponsors" element={<Sponsors />} />

@@ -1,17 +1,21 @@
 import React from 'react';
 
-function SponsorCard({ img, name, role, detail }) {
+function SponsorCard({ img, name, role, detail, hideImage = false }) {
   return (
     <div className="max-w-xs w-72 h-64 shadow-md rounded-lg overflow-hidden flex flex-col items-center bg-white p-4">
-      {img ? (
-        <img
-          src={img}
-          alt={name}
-          className="w-24 h-24 rounded-full object-cover mb-4"
-        />
-      ) : (
-        <div className="w-24 h-24 rounded-full bg-gray-200 mb-4 flex items-center justify-center text-gray-500">
-          <span className="text-sm">No Image</span>
+      {!hideImage && (
+        <div className="mb-4">
+          {img ? (
+            <img
+              src={img}
+              alt={name}
+              className="w-24 h-24 rounded-full object-cover"
+            />
+          ) : (
+            <div className="w-24 h-24 rounded-full bg-gray-200 flex items-center justify-center text-gray-500">
+              <span className="text-sm">No Image</span>
+            </div>
+          )}
         </div>
       )}
       <div className="text-center">

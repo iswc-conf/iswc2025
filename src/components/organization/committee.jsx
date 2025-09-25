@@ -1,7 +1,7 @@
 import React from "react";
-import Sponsor from "../components/Sponsors/Sponsor";
-import organizers from "../components/assests/organizing/organizing"
-import banner from "../components/assests/ISWC2025banner.webp"
+import Sponsor from "../Sponsors/Sponsor";
+import organizers from "../assests/organizing/organizing"
+import banner from "../assests/ISWC2025banner.webp"
 
 
 const Committees = () => {

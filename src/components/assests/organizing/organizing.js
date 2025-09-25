@@ -172,6 +172,11 @@ const organizers = {
       institution: 'University of Southern California',
       country: 'US',
     },
+    {
+      name: 'Pablo Mendez',
+      institution: 'Objective',
+      country: 'US'
+    }
   ],
   "Job Fair Chair": [
     {

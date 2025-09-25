@@ -56,7 +56,7 @@ export const DagstuhlWorkshops = () => {
             <br />
             <div className="flex flex-col pt-10 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:px-32 px-8 overflow-visible">
                 <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-8 tracking-wide text-center">
-                    Accepted Dagstuhl Workshops
+                    Accepted Dagstuhl-style Workshops
                 </p>
 
                 <div className="overflow-x-auto">

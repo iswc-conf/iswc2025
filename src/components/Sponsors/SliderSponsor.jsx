@@ -1,7 +1,7 @@
 import React from 'react';
 import AvatarCard from './SponsorCard';
 
-function SliderSponsor({ users }) {
+function SliderSponsor({ users, hideImage = false }) {
   return (
     <div className="d-flex justify-content-center align-items-center">
       <div className="container text-center">
@@ -29,6 +29,7 @@ function SliderSponsor({ users }) {
                       name={user.name}
                       role={role}
                       detail={`${user.institution}, ${user.country}`}
+                      hideImage={hideImage}
                       className="p-3"
                     />
                   </div>

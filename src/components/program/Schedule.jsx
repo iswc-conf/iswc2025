@@ -24,6 +24,12 @@ export const Schedule = () => {
             <div className="flex flex-col pt-10 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:px-32 px-8 overflow-visible">
                 <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">Schedule</p>
 
+                <p>Google Calendar: <a href="https://calendar.google.com/calendar/embed?src=017a4b6e9aaca94f78d8253062136e7e4fcd64c21ebfdf3555f5ddae33f7f3b9%40group.calendar.google.com&ctz=Asia%2FTokyo"
+                    target="_blank"
+                    style={{ 'color': '#e94607', 'text-decoration': 'underline' }} rel="noreferrer">
+                    here
+                </a></p>
+
                 <WhovaAgenda />
 
                 <div style={containerStyle}>

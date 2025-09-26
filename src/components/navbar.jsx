@@ -291,6 +291,10 @@ export const NavBar = () => {
                       Venue and Accomodation
                       <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                     </Link>
+                    <Link to="/atttending/childcare" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Childcare
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
                     <Link to="/atttending/registration" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                       Registration
                       <div className="bg-[#E30022] w-0 group-hover:w-full"></div>

@@ -41,6 +41,7 @@ import ProgramChallenges from "./components/program/ProgramChallenges";
 import { Schedule } from "./components/program/Schedule";
 import CodeOfConduct from "./components/attending/CodeOfConduct";
 import { VenueAndAccomodation } from "./components/attending/venue_and_accomodation";
+import { Childcare } from "./components/attending/Childcare";
 import Registration from "./components/attending/Registration";
 import { SwsaDistinguishedDissertationAward } from "./components/calls/SwsaDistinguishedDissertationAward";
 import AcceptedPapers from "./components/program/AcceptedPapers";
@@ -99,6 +100,7 @@ export default function HeroComponent() {
         <Route path="/attending/studentgrants" element= { <StudentGrants /> } />
         <Route path="/attending/codeofconduct" element={<CodeOfConduct />} />
         <Route path="/atttending/venueandaccomodation" element={<VenueAndAccomodation />} />
+        <Route path="/atttending/childcare" element={<Childcare />} />
         <Route path="/atttending/registration" element={<Registration />} />
 
         {/* Blogs */}

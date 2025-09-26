@@ -6,6 +6,7 @@ import metaphacts from "./assets/metaphacts-logo-standard.png"
 import river_publisher_logo from "./assets/JWE_River_Logo.jpg"
 import swsa_logo from "./assets/swsa_logo.png"
 import videolectures_logo from "./assets/Videolectures_logo.png"
+import digital_science_logo from "./assets/digital_science_logo.png"
 import './sponsorship.css';
 
 export const Sponsors = () => {
@@ -81,6 +82,17 @@ export const Sponsors = () => {
                         {/* <a href="https://aij.ijcai.org/wp-content/uploads/2021/07/ARTINT_Logo2_c_highresolution.tif" target="_blank" rel="noopener noreferrer"> */}
                             <img src={swsa_logo} alt="Semantic Web Science Association (SWSA) Logo" className="logo-high-res"/>
                         {/* </a> */}
+                    </div>
+
+                    <h2 className="text-3xl font-bold text-[#e94607]">Satellite-event sponsor</h2>
+                    <hr className="border-t-2 border-[#e94607] my-2" />
+                    <p className="text-sm mb-4">Sponsored by: <em>Digital Science</em></p>
+                    <h3 className="text-lg font-semibold text-center">Digital Science</h3>
+                    <br/>
+                    <div className="sponsor-logos flex justify-center items-center gap-8">
+                        <a href="https://urldefense.proofpoint.com/v2/url?u=https-3A__www.digital-2Dscience.com_&d=DwMFaQ&c=BSDicqBQBDjDI9RkVyTcHQ&r=TWWo_3GPK2TrYBR0PiutT5cckrmS5GQVRMTdJmncaKo&m=IuNdtVzYwn2DCXuYPBONHZnAGmDirOA9y6ekZWyarikC8c9xFWT7FdtgUAzA4Gnf&s=mctAFfOLXBGtqAxPdFMvolN4qm_fG7csFArjsEwiTLM&e=" target="_blank" rel="noopener noreferrer">
+                            <img src={digital_science_logo} alt="Digital Science Logo" className="logo-high-res"/>
+                        </a>    
                     </div>
 
                     <h2 className="text-3xl font-bold text-[#e94607]">Best Paper Award</h2>

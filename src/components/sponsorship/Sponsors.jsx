@@ -86,7 +86,7 @@ export const Sponsors = () => {
 
                     <h2 className="text-3xl font-bold text-[#e94607]">Satellite-event sponsor</h2>
                     <hr className="border-t-2 border-[#e94607] my-2" />
-                    <p className="text-sm mb-4">Sponsored by: <em>Digital Science</em></p>
+                    <p className="text-sm mb-4"><em>Digital Science</em></p>
                     <h3 className="text-lg font-semibold text-center">Digital Science</h3>
                     <br/>
                     <div className="sponsor-logos flex justify-center items-center gap-8">

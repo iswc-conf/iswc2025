@@ -91,7 +91,7 @@ export const Sponsors = () => {
                     <br/>
                     <div className="sponsor-logos flex justify-center items-center gap-8">
                         <a href="https://urldefense.proofpoint.com/v2/url?u=https-3A__www.digital-2Dscience.com_&d=DwMFaQ&c=BSDicqBQBDjDI9RkVyTcHQ&r=TWWo_3GPK2TrYBR0PiutT5cckrmS5GQVRMTdJmncaKo&m=IuNdtVzYwn2DCXuYPBONHZnAGmDirOA9y6ekZWyarikC8c9xFWT7FdtgUAzA4Gnf&s=mctAFfOLXBGtqAxPdFMvolN4qm_fG7csFArjsEwiTLM&e=" target="_blank" rel="noopener noreferrer">
-                            <img src={digital_science_logo} alt="Digital Science Logo" className="logo-high-res"/>
+                            <img src={digital_science_logo} alt="Digital Science Logo" className="logo-high-res h-[100px]"/>
                         </a>    
                     </div>
 

@@ -69,14 +69,12 @@ export const Sponsors = () => {
 
                     <h2 className="text-3xl font-bold text-[#e94607]">Student Support</h2>
                     <hr className="border-t-2 border-[#e94607] my-2" />
-                    <p className="text-sm mb-4">Sponsored by: <em>Artificial Intelligence Journal</em></p>
                     <h3 className="text-lg font-semibold text-center">Artificial Intelligence Journal</h3>
                     <div className="sponsor-logos flex justify-center items-center gap-8">
                         {/* <a href="https://aij.ijcai.org/wp-content/uploads/2021/07/ARTINT_Logo2_c_highresolution.tif" target="_blank" rel="noopener noreferrer"> */}
                             <img src="https://aij.ijcai.org/wp-content/uploads/2021/07/ARTINT_Logo2_c_web_more.jpg" alt="Artificial Intelligence Journal Logo" className="logo-high-res"/>
                         {/* </a> */}
                     </div>
-                    <p className="text-sm mb-4">Sponsored by: <em>Semantic Web Science Association (SWSA)</em></p>
                     <h3 className="text-lg font-semibold text-center">Semantic Web Science Association (SWSA)</h3>
                     <div className="sponsor-logos flex justify-center items-center gap-8">
                         {/* <a href="https://aij.ijcai.org/wp-content/uploads/2021/07/ARTINT_Logo2_c_highresolution.tif" target="_blank" rel="noopener noreferrer"> */}
@@ -86,7 +84,6 @@ export const Sponsors = () => {
 
                     <h2 className="text-3xl font-bold text-[#e94607]">Satellite-event sponsor</h2>
                     <hr className="border-t-2 border-[#e94607] my-2" />
-                    <p className="text-sm mb-4"><em>Digital Science</em></p>
                     <h3 className="text-lg font-semibold text-center">Digital Science</h3>
                     <br/>
                     <div className="sponsor-logos flex justify-center items-center gap-8">
@@ -97,7 +94,6 @@ export const Sponsors = () => {
 
                     <h2 className="text-3xl font-bold text-[#e94607]">Best Paper Award</h2>
                     <hr className="border-t-2 border-[#e94607] my-2" />
-                    <p className="text-sm mb-4">Sponsored by: <em>Springer</em></p>
                     <h3 className="text-lg font-semibold text-center">Springer</h3>
                     <div className="sponsor-logos flex justify-center items-center gap-8">
                         {/* <a href="https://aij.ijcai.org/wp-content/uploads/2021/07/ARTINT_Logo2_c_highresolution.tif" target="_blank" rel="noopener noreferrer"> */}
@@ -107,7 +103,6 @@ export const Sponsors = () => {
 
                     <h2 className="text-3xl font-bold text-[#e94607]">Best Student Paper Award</h2>
                     <hr className="border-t-2 border-[#e94607] my-2" />
-                    <p className="text-sm mb-4">Sponsored by: <em>Journal of Web Semantics</em></p>
                     <h3 className="text-lg font-semibold text-center">Journal of Web Semantics</h3>
                     <div className="sponsor-logos flex justify-center items-center gap-8">
                         {/* <a href="https://aij.ijcai.org/wp-content/uploads/2021/07/ARTINT_Logo2_c_highresolution.tif" target="_blank" rel="noopener noreferrer"> */}

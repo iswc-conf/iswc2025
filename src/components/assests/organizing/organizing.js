@@ -27,8 +27,9 @@ import ray from "./ray_atarashi.png";
 import ines from "./akaichi_ines.png"
 import cheng from "./Cheng_Gong.jpg";
 import armando from "./stellato_armando.jpg";
-import sun from "./Sun_Zequn.jpg"
-import nandana from "./nandana.jpeg"
+import sun from "./Sun_Zequn.jpg";
+import nandana from "./nandana.jpeg";
+import atsuko from "./atsuko.png";
 
 const organizers = {
   "General Chair": [
@@ -218,7 +219,7 @@ const organizers = {
   "Students Grants and Activities Chair": [
     {
       name: 'Atsuko Yamaguchi',
-      img: '', // No image available
+      img: atsuko,
       institution: 'Tokyo City University',
       country: 'Japan',
     },

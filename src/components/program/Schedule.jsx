@@ -24,13 +24,11 @@ export const Schedule = () => {
             <div className="flex flex-col pt-10 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:px-32 px-8 overflow-visible">
                 <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">Schedule</p>
 
-                <p>Google Calendar: <a href="https://calendar.google.com/calendar/embed?src=017a4b6e9aaca94f78d8253062136e7e4fcd64c21ebfdf3555f5ddae33f7f3b9%40group.calendar.google.com&ctz=Asia%2FTokyo"
+                <p>Google Calendar: <a href="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FTokyo&showPrint=0&src=MDE3YTRiNmU5YWFjYTk0Zjc4ZDgyNTMwNjIxMzZlN2U0ZmNkNjRjMjFlYmZkZjM1NTVmNWRkYWUzM2Y3ZjNiOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%239e69af&mode=AGENDA&dates=20251102/20251106"
                     target="_blank"
                     style={{ 'color': '#e94607', 'text-decoration': 'underline' }} rel="noreferrer">
                     here
                 </a></p>
-
-                <WhovaAgenda />
 
                 <div style={containerStyle}>
                     <div style={wrapperStyle}>
@@ -42,6 +40,10 @@ export const Schedule = () => {
                         <p style={legendItemStyle}><strong>S</strong> - Main track Session</p>
                     </div>
                 </div>
+
+                <WhovaAgenda />
+
+                
             </div>
         </>
     )

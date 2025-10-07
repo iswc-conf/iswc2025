@@ -81,7 +81,7 @@ const organizers = {
       country: 'Austria',
     },
   ],
-  "In-Use Application Track Chair": [
+  "In-Use Track Chair": [
     {
       name: 'Maribel Acosta',
       img: maribel,

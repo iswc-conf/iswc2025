@@ -46,6 +46,7 @@ import Registration from "./components/attending/Registration";
 import { SwsaDistinguishedDissertationAward } from "./components/calls/SwsaDistinguishedDissertationAward";
 import AcceptedPapers from "./components/program/AcceptedPapers";
 import ProgramCommitee from "./components/organization/program_commitee";
+import Volunteers from "./components/organization/student_volunteer";
 
 export default function HeroComponent() {
   return (
@@ -112,6 +113,7 @@ export default function HeroComponent() {
         {/* Organization */}
         <Route path="/organizing_committee" element={<Committees/>} />
         <Route path="/organization/program_committee" element={<ProgramCommitee />} />
+        <Route path="/organization/student_volunteer" element={<Volunteers />} />
         {/* Sponsorship */}
         <Route path="/sponsorship/sponsorshippackages" element={<SponsorshipPackages />} />
         <Route path="/sponsorship/sponsors" element={<Sponsors />} />

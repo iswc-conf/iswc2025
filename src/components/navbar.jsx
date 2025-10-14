@@ -343,6 +343,10 @@ export const NavBar = () => {
                       Program Commitee
                       <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
                     </Link>
+                    <Link to="/organization/student_volunteer" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      Student Volunteers
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
                   </div>
                 )}
               </div>

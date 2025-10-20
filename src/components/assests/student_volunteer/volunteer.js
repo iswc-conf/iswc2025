@@ -2,7 +2,15 @@ import yamamoto from "./yamamoto.jpg"
 import nishigori from "./nishigori.jpeg"
 
 const volunteers ={
-    "Student Volunteers": [
+    "Website": [
+        {
+            name: 'Victor Eiti Yamamoto',
+            img: yamamoto,
+            institution: 'National Institute of Informatics / The Graduate University for Advanced Studies, SOKENDAI',
+            country: 'Japan',
+        }
+    ],
+    "Whova": [
         {
             name: 'Victor Eiti Yamamoto',
             img: yamamoto,
@@ -15,7 +23,8 @@ const volunteers ={
             institution: 'National Institute of Informatics / The Graduate University for Advanced Studies, SOKENDAI',
             country: 'Japan',
         },
-    ]
+    ],
+
 };
 
 export default volunteers;

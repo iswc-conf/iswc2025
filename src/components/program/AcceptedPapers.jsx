@@ -7,6 +7,7 @@ import { inuseTrack } from "./accepted/inuseTrack";
 import { industryTrack } from "./accepted/industryTrack"
 import { posters } from "./accepted/posters"
 import { demos } from "./accepted/demos"
+import spotlight from "./accepted/spotnet.png"
 
 
 export const AcceptedPapers = () => {
@@ -136,6 +137,13 @@ export const AcceptedPapers = () => {
                                                     ▶
                                                 </span>
                                                 <div className="flex-1">
+                                                    {paper.spotlight && (
+                                                        <img
+                                                            src={spotlight} // Use the imported image variable
+                                                            alt="Spotlight Paper"
+                                                            className="w-4 h-4 mr-2 inline-block" // Apply desired styling (width, height, margin)
+                                                        />
+                                                    )}
                                                     {paper.title}
                                                     {openIndexes.includes(`resource-${idx}`) && (
                                                         <div className="mt-2 text-gray-800 text-sm whitespace-pre-line">

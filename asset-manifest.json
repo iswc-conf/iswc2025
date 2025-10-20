@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.ca5f4c67.css",
-    "main.js": "./static/js/main.ac8cb970.js",
+    "main.css": "./static/css/main.aa729565.css",
+    "main.js": "./static/js/main.6437b456.js",
     "static/js/453.7e499361.chunk.js": "./static/js/453.7e499361.chunk.js",
     "static/media/community_1.png": "./static/media/community_1.52c46154e49d4a2a33b8.png",
     "static/media/guha.png": "./static/media/guha.48fde7578fd48bb5ac96.png",
@@ -74,6 +74,7 @@
     "static/media/community_13.jpeg": "./static/media/community_13.adc26e26c7749508dcc7.jpeg",
     "static/media/hideaki_takeda.png": "./static/media/hideaki_takeda.949906fb96c0d613441a.png",
     "static/media/community_22.jpeg": "./static/media/community_22.f89a35833710139904da.jpeg",
+    "static/media/spotnet.png": "./static/media/spotnet.b649c05c877ee2831a31.png",
     "static/media/Videolectures_logo.png": "./static/media/Videolectures_logo.cfa73b0eda9d934ddcd8.png",
     "static/media/juan_sequeda.png": "./static/media/juan_sequeda.b71003c3bde3dfb6e51f.png",
     "static/media/tara.png": "./static/media/tara.55980d25af7bb0bd7b6d.png",
@@ -88,12 +89,12 @@
     "static/media/google_logo.png": "./static/media/google_logo.08b4ebfd25145471fde1.png",
     "static/media/digital_science_logo.png": "./static/media/digital_science_logo.dad5f3176ea4c4362b18.png",
     "index.html": "./index.html",
-    "main.ca5f4c67.css.map": "./static/css/main.ca5f4c67.css.map",
-    "main.ac8cb970.js.map": "./static/js/main.ac8cb970.js.map",
+    "main.aa729565.css.map": "./static/css/main.aa729565.css.map",
+    "main.6437b456.js.map": "./static/js/main.6437b456.js.map",
     "453.7e499361.chunk.js.map": "./static/js/453.7e499361.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca5f4c67.css",
-    "static/js/main.ac8cb970.js"
+    "static/css/main.aa729565.css",
+    "static/js/main.6437b456.js"
   ]
 }

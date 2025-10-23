@@ -48,6 +48,7 @@ import AcceptedPapers from "./components/program/AcceptedPapers";
 import ProgramCommitee from "./components/organization/program_commitee";
 import Volunteers from "./components/organization/student_volunteer";
 import DC from "./components/program/dc";
+import JobFair from "./components/program/JobFair";
 
 export default function HeroComponent() {
   return (
@@ -97,6 +98,7 @@ export default function HeroComponent() {
         <Route path="/program/awards" element={<Awards />} />
         <Route path="/program/schedule" element={<Schedule />} />
         <Route path="/program/dc" element={<DC />} />
+        <Route path="/program/jobfair" element={<JobFair />} />
 
         {/* Attendings */}
         <Route path="/attending/visa" element={<Visa />} />

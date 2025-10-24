@@ -5,6 +5,7 @@ import ora from "./ora.png";
 import natasha from "./natasha.png";
 import tara from "./tara.png";
 import elena from "./elena.png";
+import juan from "./juan.jpeg";
 
 export const Panel = () => {
     return (
@@ -36,11 +37,6 @@ export const Panel = () => {
 
                     <h2 style={{ color: '#e94607' }} className="text-xl font-semibold mt-6">Panelists:</h2>
 
-                    <p><a href="https://en.wikipedia.org/wiki/Ora_Lassila" target="_blank" style={{'color': '#e94607'}}>Ora Lassila</a></p>
-                    <img src={ora} alt="Ora Lassila" className="rounded-xl my-4 h-[300px]" />
-                    <p>Ora Lassila, Principal Technologist at  Amazon Web Services and co-chair of the W3C RDF-star Working Group</p>
-                    <p>Ora Lassila is a Principal Technologist in the Amazon Neptune graph database team and the co-chair of the W3C RDF-star Working Group. He was one of the creators of the original Semantic Web vision and was a co-author of the original RDF specification. His main interest is to make people understand that sharing data is not just about sharing the physical bits but also sharing the meaning of those bits, and he sees ontologies and knowledge graphs as a means to do that. He is also interested in improving the alignment between RDF graphs and Labeled Property Graphs.</p>
-
                     <p><a href="https://en.wikipedia.org/wiki/Natasha_Noy" target="_blank" style={{'color': '#e94607'}}>Natasha Noy</a></p>
                     <img src={natasha} alt="Natasha Noy" className="rounded-xl my-4 h-[300px]" />
                     <p>Natasha Noy, Research Scientist, Google</p>
@@ -50,6 +46,12 @@ export const Panel = () => {
                     <img src={tara} alt="Tara Raafat" className="rounded-xl my-4 h-[300px]" />
                     <p>Tara Raafat, Head of Metadata and Knowledge Graph Strategy, CTO Office at Bloomberg LP</p>
                     <p>Tara Raafat is Head of Metadata and Knowledge Graph Strategy in Bloomberg’s CTO Office, where she leads the development of Bloomberg’s enterprise Knowledge Graph and semantic metadata strategy, aligning it with AI and data integration initiatives to advance next-generation financial intelligence. With over 15 years of expertise in semantic technologies, she has designed and implemented knowledge-driven solutions across multiple domains including but not limited to  finance, telemedicine, regulatory compliance, and insurance. </p>
+
+                    <p><a href="https://www.linkedin.com/in/juansequeda/" target="_blank" style={{'color': '#e94607'}}>Juan Sequeda</a></p>
+                    <img src={juan} alt="Juan Sequeda" className="rounded-xl my-4 h-[300px]" />
+                    <p>Juan Sequeda, Principal Fundamental Researcher at ServiceNow</p>
+                    <p>Juan Sequeda is a Principal Fundamental Researcher at ServiceNow, joining through the acquisition of data.world and previously the acquisition of Capsenta, a spin-off from his doctoral research. Juan’s research and industry work has been on the intersection of data and AI, with the goal of reliably creating knowledge from inscrutable data, specifically designing and building knowledge graphs for enterprise data and metadata management. Juan serves as a strategic and innovation bridge across Product, Engineering, Marketing, Sales, and Customer, ensuring technical insights are aligned with business value.
+                    </p>
 
                     <p><a href="https://en.wikipedia.org/wiki/Elena_Simperl" target="_blank" style={{'color': '#e94607'}}>Elena Simperl</a></p>
                     <img src={elena} alt="Elena Simperl" className="rounded-xl my-4 h-[300px]" />

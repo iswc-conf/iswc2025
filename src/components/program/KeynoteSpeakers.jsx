@@ -2,6 +2,7 @@ import React from "react";
 import satoshi from "./keynote_speaker/satoshi_sekine.png";
 import denny from "./keynote_speaker/Dr_Denny_Vrandecic.jpg";
 import rachel from "./keynote_speaker/rachel_adams.png"
+import yuko from "./keynote_speaker/yuko_harayama.png"
 
 export const KeynoteSpeakers = () => {
     return (
@@ -11,19 +12,21 @@ export const KeynoteSpeakers = () => {
             <div className="flex justify-start items-start flex-col pt-10 pb-0 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:h-auto lg:px-32 px-8 overflow-visible">
                 <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">Keynote Speakers</p>
                 <div className="text-md lg:text-lg font-[300] lg:mx-10 sm:mx-2">
-                    
 
-                    <h2 style={{ color: '#e94607' }} className="text-xl font-semibold mt-6">Keynote Talk: Rachel Adams</h2>
-                    <h2 style={{ color: '#e94607' }} className="text-xl font-semibold mt-6">Large Language Models and the AI Divide: Challenges and Pathways for Globally Equitable AI</h2>
-                    <p>Large Language Models (LLMs) have become a defining technology of our time, promising to transform knowledge access, communication, and productivity. Yet, their development and governance remain concentrated in a handful of institu- tions and geographies, raising critical questions about equity, justice, and global power. For Africa and the wider Global Majority, LLMs present a paradox: they hold the potential to expand access to information, enable innovation in local languages, and support inclusive development, but they also risk deepening ex- isting asymmetries of data, infrastructure, and governance.</p>
+                    <h2 style={{ color: '#e94607' }} className="text-xl font-semibold mt-6">Keynote Talk: Yuko Harayama</h2>
+                    <h2 style={{ color: '#e94607' }} className="text-xl font-semibold mt-6">Human Society challenged by AI?</h2>
 
-                    <p>In this talk, I will explore the limitations and challenges of LLMs as they intersect with African and Global Majority contexts. I will highlight three critical areas of concern: (1) the epistemic exclusions embedded in training data that marginalize local knowledge systems and languages; (2) the infrastructural and resource dependencies that make access costly and uneven; and (3) the governance gaps that allow external models and actors to shape socio-technical futures with limited accountability to local communities. To move beyond critique, this talk will also outline pathways for governance and intervention that can help ensure LLMs are used to empower rather than exploit. These include developing regionally grounded ethical frameworks, advancing open and locally adapted models, building public—private research collaborations, and embedding fairness and transparency into technical standards. Crucially, it calls for a re-imagining of AI governance not merely as risk mitigation, but as an opportunity to redis- tribute power, democratize innovation, and foreground the values of justice and dignity in technological futures.</p>
+                    <p>The use of AI is becoming an everyday practice, with some people using it alongside their familiar search engine. The businesses and public sector organizations are experimenting and implementing these new technologies to improve the provision of products and services, as well as their internal operations.
+                    As a result, AI systems are transforming society as a whole, and the full impact of this remains to be seen.
+                    There are already many debates and policy discussions in place at national, regional and international levels, with different approaches ranging from legislation and guidelines to voluntary commitments. We are currently testing these tools.</p>
+                    <p>In my presentation, I will briefly discuss my personal journey towards AI governance issues and attempt to provide a framework for considering the future interplay between AI and human society.</p>
 
-                    <h2 style={{ color: '#e94607' }} className="text-xl font-semibold mt-6">Speakers's Bio</h2>
-                    <img src={rachel} alt="Rachel Adams" className="rounded-xl my-4 h-[500px]" />
+                    <h2 style={{ color: '#e94607' }} className="text-xl font-semibold mt-6">Speaker's Bio</h2>
+                    <img src={yuko} alt="Dr. Yuko Harayama" className="rounded-xl my-4 h-[500px]" />
                     <p>
-                        <a href="https://www.globalcenter.ai/about/rachel-adams" target="_blank">Rachel Adams</a>, PhD, is the Founding CEO of the <a href="https://www.globalcenter.ai/" target="_blank">Global Centre on AI Governance</a>. She is the author of The New Empire of AI: The Future of Global Inequality (Polity Press, 2024). She is an Assistant Research Professor of the Leverhulme Center for the Future of Intelligence, University of Cambridge, and an Honorary Research Fellow of The Ethics Lab at the University of Cape Town. She holds degrees in English Literature, International Human Rights Law and Philosophy. Her PhD was published as a book: Transparency: New Trajectories in Law (Routledge, 2020). Rachel previously served as the Director of AI and Global Programmes at Research ICT Africa. Before joining RIA, she spent five years at the Human Sciences Research Council (HSRC) of South Africa, where she led various projects on AI in Africa and was the lead author of the book Human Rights and the Fourth Industrial Revolution in South Africa (HSRC Press, 2021). Prior to her appointment at the HSRC, Rachel was the Senior Researcher for Civil and Political Rights at the South African Human Rights Commission. Rachel serves on numerous international expert committees, including for UNESCO, the UN, UNDP, WEF, the Gates Foundation, and the Global Partnership on AI.
-
+                        Dr. Yuko Harayama serves as Secretary General of the Global Partnership on AI (GPAI) Tokyo Expert Support Center, where she leads international collaboration on artificial intelligence governance and policy. She currently holds positions as a trustee of Yamaguchi University and board member of Toray Industries.
+                        Dr. Harayama brings extensive experience from senior roles across government, international organizations, and academia. She previously served as Executive Director for International Affairs at RIKEN and held key positions in Japan's Cabinet Office as Executive Member of the Council for Science, Technology and Innovation. Her international expertise was further developed during her tenure as Deputy Director of the Directorate for Science, Technology and Industry at the OECD. In academia, she was a professor at Tohoku University's Graduate School of Engineering for a decade.
+                        She is a Légion d'Honneur recipient (Chevalier) and holds an honorary doctorate from the University of Neuchâtel. She is an International Fellow of the Royal Swedish Academy of Engineering Sciences and a Foundation Fellow of the International Science Council. She holds a doctorate in education and a doctorate in economics, both from the University of Geneva.
                     </p>
 
                     <h2 style={{ color: '#e94607' }} className="text-xl font-semibold mt-6">Keynote Talk: Satoshi Sekine</h2>

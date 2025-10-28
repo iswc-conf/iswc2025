@@ -7,6 +7,10 @@ import river_publisher_logo from "./assets/JWE_River_Logo.jpg"
 import swsa_logo from "./assets/swsa_logo.png"
 import videolectures_logo from "./assets/Videolectures_logo.png"
 import digital_science_logo from "./assets/digital_science_logo.png"
+import tateisi_logo from "./assets/tateisi_logo.svg"
+import OECU_logo from "./assets/OECU_logo.jpg"
+import Nara_logo from "./assets/nara_vb_logo.png"
+
 import './sponsorship.css';
 
 export const Sponsors = () => {
@@ -66,6 +70,36 @@ export const Sponsors = () => {
                             <img src={iij_logo} alt="IIJ Logo" className="logo-high-res" width="250"/>
                         </a>
                     </div>
+
+                    <h2 className="text-3xl font-bold text-[#e94607]">Grant Support</h2>
+                    <hr className="border-t-2 border-[#e94607] my-2" />
+
+                     <h3 className="text-lg font-semibold text-center">Tateisi Science and Technology Foundation</h3>
+                    <div className="sponsor-logos flex justify-center items-center gap-8">
+                        <a href="https://www.tateisi-f.org/" target="_blank" rel="noopener noreferrer">
+                            <img src={tateisi_logo} alt="Tateisi Science and Technology Foundation Logo" className="logo-high-res" width="300"/>
+                        </a>
+                    </div>  
+                    <br/>
+                    <br/>   
+
+                    <h3 className="text-lg font-semibold text-center">Osaka Electro-Communication University</h3>
+                    <div className="sponsor-logos flex justify-center items-center gap-8">
+                        <a href="https://www.osakac.ac.jp/en/" target="_blank" rel="noopener noreferrer">
+                            <img src={OECU_logo} alt="Osaka Electro-Communication University Logo" className="logo-high-res" width="300"/>
+                        </a>
+                    </div>  
+                    <br/>
+                    <br/> 
+
+                    <h3 className="text-lg font-semibold text-center">Nara Visitors Bureau</h3>
+                    <div className="sponsor-logos flex justify-center items-center gap-8">
+                        <a href="https://nvb.nara-kankou.or.jp/en/" target="_blank" rel="noopener noreferrer">
+                            <img src={Nara_logo} alt="Nara Visitors Bureau Logo" className="logo-high-res" width="300"/>
+                        </a>
+                    </div>  
+                    <br/>
+                    <br/>               
 
                     <h2 className="text-3xl font-bold text-[#e94607]">Student Support</h2>
                     <hr className="border-t-2 border-[#e94607] my-2" />

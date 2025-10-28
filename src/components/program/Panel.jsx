@@ -58,6 +58,11 @@ export const Panel = () => {
                     <p>Elena Simperl, Professor of Computer Science at King’s College London and Director of Research at the Open Data Institute</p>
                     <p>Elena Simperl is a Professor of Computer Science at King’s College London, where she co-directs the King's Institute for Artificial Intelligence. She is also the Director of Research at the Open Data Institute, a Fellow of the British Computer Society and the Royal Society of Arts, and a Hans Fischer Senior Fellow. Elena’s work is at the intersection between AI and social computing. She features in the top 100 most influential scholars in knowledge engineering of the last decade and the Women in AI 2000 ranking. Elena co-chairs the Croissant working group in ML Commons, developing an open standard to improve data portability, discovery and use in AI. She is the president of the Semantic Web Science Association.</p>
 
+                    <h2 style={{ color: '#e94607' }} className="text-xl font-semibold mt-6">Audience Participation:</h2>
+                    <p>What do you want the panelists to discuss?</p>
+                    <p>You can suggest questions and topics until and during the panel, using <a href="https://forms.gle/3C3teefkAa8GBvK27" target="_blank" style={{'color': '#e94607'}}>this form</a>.</p>
+                    <p>We will select those that have not been covered already by the panelists and pose them in the last part of the panel.</p>
+
                 </div>
             </div>
         </>

@@ -29,6 +29,7 @@ import Host from "./components/blogs/host"
 import PresentingAtISWC from "./components/blogs/PresentingAtISWC"
 import NatureNavigator from "./components/blogs/NatureNavigator"
 import Community from "./components/blogs/Community";
+import SocialEvents from "./components/blogs/SocialEvents"
 import { Visa } from "./components/attending/visa";
 import { StudentGrants } from "./components/attending/StudentGrants";
 import KeynoteSpeakers from "./components/program/KeynoteSpeakers";
@@ -113,6 +114,7 @@ export default function HeroComponent() {
         <Route path="/blogs/naturenavigator" element={<NatureNavigator />} />
         <Route path="/blogs/community" element={<Community />} />
         <Route path="/blogs/presentingatiswc" element={<PresentingAtISWC />} />
+        <Route path="/blogs/socialevents" element={<SocialEvents />} />
         
         {/* Organization */}
         <Route path="/organizing_committee" element={<Committees/>} />

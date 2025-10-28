@@ -317,6 +317,10 @@ export const NavBar = () => {
               <div className="w-0 w-full">
                 {(isMobile || dropdownOpen.blogs) && (
                   <div className={`${isMobile ? 'relative' : 'absolute'} right-auto left-0 top-full mt-2 bg-white shadow-md rounded-md z-50`}>
+                    <Link to="/blogs/socialevents" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
+                      ISWC 2025 Social Events
+                      <div className="bg-[#E30022] w-0 group-hover:w-full"></div>
+                    </Link>
                     <Link to="/blogs/host" className="block px-4 py-2" style={{ color: '#e94607' }} onClick={() => dropdownMenuClicked()}>
                       ISWC 2025 Host
                       <div className="bg-[#E30022] w-0 group-hover:w-full"></div>

@@ -189,12 +189,12 @@ const organizers = {
       institution: 'Internet Initiative Japan',
       country: 'Japan',
     },
-    {
-      name: 'Neha Keshan',
-      img: neha,
-      institution: 'Rensselaer Polytechnic Institute',
-      country: 'US',
-    },
+    // {
+    //   name: 'Neha Keshan',
+    //   img: neha,
+    //   institution: 'Rensselaer Polytechnic Institute',
+    //   country: 'US',
+    // },
     {
       name: 'Armando Stellato',
       img: armando,

@@ -106,6 +106,7 @@ export const AcceptedTutorials = () => {
                 "organizers": "metaphacts GmbH, Walldorf, Germany",
                 "description": "",
                 "website": "https://github.com/iswc-conf/iswc2025/blob/main/public/tutorials/2025_ISWC_Tutorial.pdf",
+                "resources": "https://github.com/iswc-conf/iswc2025/blob/main/public/tutorials/AI4EIA-tutorial-material.zip",
                 "social_medias": []
             }
         ]
@@ -226,7 +227,7 @@ export const AcceptedTutorials = () => {
                                         <a href={tut.website} target="_blank" rel="noopener noreferrer">
                                             {tut.website}
                                         </a>
-                                    </p>
+                                    </p>                                 
                                 </>
                             )}
                         </div>}
@@ -265,6 +266,13 @@ export const AcceptedTutorials = () => {
                                             {tut.website}
                                         </a>
                                     </p>
+                                    <br />
+                                    <h2>Resources</h2>
+                                    <p>
+                                        <a href={tut.resources} target="_blank" rel="noopener noreferrer">
+                                            {tut.resources}
+                                        </a>
+                                    </p>  
                                 </>
                             )}
                         </div>}

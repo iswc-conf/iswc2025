@@ -62,6 +62,58 @@ export const JobFair = () => {
                     <div className="p-6 sm:p-8">
                         <div className="min-w-0">
                             <h2 className="text-2xl font-bold tracking-tight mb-4">
+                                Explore available job postings by our sponsors
+                            </h2>
+                            <p className="leading-relaxed text-zinc-800 mb-4">
+                                Our sponsors have current job openings that might be of interest to conference attendees:
+                            </p>
+                            <ul className="space-y-3">
+                                <li className="flex items-start">
+                                    <span className="text-zinc-700 mr-2">•</span>
+                                    <div>
+                                        <span className="font-semibold text-zinc-900">metaphacts:</span>{' '}
+                                        <a 
+                                            href="https://metaphacts.com/about/about-us/career" 
+                                            target="_blank" 
+                                            rel="noopener noreferrer"
+                                            className="transition-colors"
+                                            style={{ color: '#e94607' }}
+                                            onMouseEnter={(e) => e.target.style.textDecoration = 'underline'}
+                                            onMouseLeave={(e) => e.target.style.textDecoration = 'none'}
+                                        >
+                                            View career opportunities
+                                        </a>
+                                    </div>
+                                </li>
+                                <li className="flex items-start">
+                                    <span className="text-zinc-700 mr-2">•</span>
+                                    <div>
+                                        <span className="font-semibold text-zinc-900">InternetInitiative Japan (IIJ):</span>{' '}
+                                        <a 
+                                            href="https://www.iij.ad.jp/recruit/career/" 
+                                            target="_blank" 
+                                            rel="noopener noreferrer"
+                                            className="transition-colors"
+                                            style={{ color: '#e94607' }}
+                                            onMouseEnter={(e) => e.target.style.textDecoration = 'underline'}
+                                            onMouseLeave={(e) => e.target.style.textDecoration = 'none'}
+                                        >
+                                            View career opportunities
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <p className="mt-4 text-sm leading-relaxed text-zinc-600 italic">
+                                More career opportunities to be added soon!
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="relative overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm mb-6">
+                    <div className="p-6 sm:p-8">
+                        <div className="min-w-0">
+                            <h2 className="text-2xl font-bold tracking-tight mb-4">
                                 At the conference
                             </h2>
                             <p className="leading-relaxed text-zinc-800 mb-4">

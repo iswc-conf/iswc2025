@@ -29,13 +29,33 @@ export const AcceptedPapers = () => {
 
     return (
         <>
-            <div className="mt-[74px] px-4 pt-2 bg-white flex items-center justify-center"></div>
-            <br />
+
             <div className="flex flex-col pt-10 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:px-32 px-8 overflow-visible">
 
+                <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">Accepted Papers</p>
+
                 {/* DC */}
-                <div className="flex justify-start items-start flex-col pt-10 pb-0 lg:pt-16 lg:pb-4 mb-4 lg:my-6 lg:h-auto lg:px-32 px-8">
-                    <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">Doctoral Consortium</p>
+                <div className="flex justify-start items-start flex-col pt-5 pb-0 lg:pt-8 lg:pb-4 mb-4 lg:my-6 lg:h-auto lg:px-32 px-8">
+
+                <section className="relative overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm mb-6">
+                    <div className="p-6 sm:p-8">
+                        <div className="min-w-0">
+                            <h2 className="text-2xl font-bold tracking-tight mb-4">
+                                ISWC 2025 proceedings
+                            </h2>
+                            <div>
+                                <p>ISWC 2025 proceedings are now available with free online access.</p>
+                                <ul className="ml-6 space-y-1">
+                                        <li>📚 <a href="https://link.springer.com/book/10.1007/978-3-032-09527-5">The Semantic Web - ISWC 2025 (Part I)</a></li>
+                                        <li>📚 <a href="https://link.springer.com/book/10.1007/978-3-032-09530-5">The Semantic Web - ISWC 2025 (Part II)</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <p style={{ color: '#e94607' }} className="text-3xl font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide text-center">Doctoral Consortium</p>
                     <div className="mb-6">
                         <table className="border-collapse text-left text-sm lg:text-base table-fixed grid-no-grow">
                             <thead>

@@ -24,13 +24,13 @@ export const About = () => {
                     ISWC2025 will bring together researchers, practitioners, and industry specialists to discuss, advance, and shape the future of semantic technologies.
                     ISWC offers five exciting and fruitful days you don’t want to miss every year!
                 </p>
-                <br />
                 <p className="text-md lg:text-lg font-[300] lg:mx-10 sm:mx-2">
                     ISWC2025 will be an in-person conference. We look forward to meeting you in Nara, Japan, in November 2025.
                 </p>
-                
-                <br />
-                <br />
+
+                <p className="text-md lg:text-lg font-[300] lg:mx-10 sm:mx-2">
+                    <a href="https://iswc2025.semanticweb.org/#/program/acceptedpapers">ISWC 2025 proceedings</a> are now available with free online access!
+                </p>
                 
                 <p className="text-md lg:text-md font-[300] lg:mx-10 sm:mx-2">
                 To make the conference more environmentally friendly the Semantic Web Association (SWSA) is offsetting the carbon footprint of ISWC 2025. Read more on the sustainability initiative&nbsp;
@@ -40,6 +40,8 @@ export const About = () => {
                         here
                     </a>.
                 </p>
+                <br></br>
+                <br></br>
             </div>
         </>
     );

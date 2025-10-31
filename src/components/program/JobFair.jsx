@@ -88,7 +88,7 @@ export const JobFair = () => {
                                 <li className="flex items-start">
                                     <span className="text-zinc-700 mr-2">•</span>
                                     <div>
-                                        <span className="font-semibold text-zinc-900">InternetInitiative Japan (IIJ):</span>{' '}
+                                        <span className="font-semibold text-zinc-900">Internet Initiative Japan (IIJ):</span>{' '}
                                         <a 
                                             href="https://www.iij.ad.jp/recruit/career/" 
                                             target="_blank" 

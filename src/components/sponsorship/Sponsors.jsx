@@ -10,6 +10,7 @@ import digital_science_logo from "./assets/digital_science_logo.png"
 import tateisi_logo from "./assets/tateisi_logo.svg"
 import OECU_logo from "./assets/OECU_logo.jpg"
 import Nara_logo from "./assets/nara_vb_logo.png"
+import CEUR_logo from "./assets/CEUR-WS-logo.png"
 
 import './sponsorship.css';
 
@@ -169,6 +170,16 @@ export const Sponsors = () => {
                         <div className="sponsor-logos flex justify-center items-center gap-8">
                             <a href="https://videolectures.net/" target="_blank" rel="noopener noreferrer">
                                 <img src={videolectures_logo} alt="Videolectures Logo" className="logo-high-res" width="300"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="sponsor-info mt-4">
+                        <a href="https://ceur-ws.org/" target="_blank" rel="noopener noreferrer">
+                            <h3 className="text-lg font-semibold text-center">CEUR Workshop Proceedings</h3>
+                        </a>
+                        <div className="sponsor-logos flex justify-center items-center gap-8">
+                            <a href="https://ceur-ws.org/" target="_blank" rel="noopener noreferrer">
+                                <img src={CEUR_logo} alt="CEUR Workshop Proceedings Logo" className="logo-high-res" width="300"/>
                             </a>
                         </div>
                     </div>

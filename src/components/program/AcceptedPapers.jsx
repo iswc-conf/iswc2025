@@ -48,6 +48,7 @@ export const AcceptedPapers = () => {
                                 <ul className="ml-6 space-y-1">
                                         <li>📚 <a href="https://link.springer.com/book/10.1007/978-3-032-09527-5">The Semantic Web - ISWC 2025 (Part I)</a></li>
                                         <li>📚 <a href="https://link.springer.com/book/10.1007/978-3-032-09530-5">The Semantic Web - ISWC 2025 (Part II)</a></li>
+                                        <li>📚 <a href="https://ceur-ws.org/Vol-4085/">Industry, Doctoral Consortium, Posters and Demos</a></li>
                                     </ul>
                             </div>
                         </div>

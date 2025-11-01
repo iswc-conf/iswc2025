@@ -1,4 +1,5 @@
 import WhovaAgenda from "./WhovaAgenda";
+import FloorMap from "./schedule/FloorMap.pdf"
 
 export const Schedule = () => {
     const containerStyle = {
@@ -29,6 +30,24 @@ export const Schedule = () => {
                     style={{ 'color': '#e94607', 'text-decoration': 'underline' }} rel="noreferrer">
                     here
                 </a></p>
+
+                <br />
+                <div style={{ width: '100%', height: '800px' }}>
+                    <object
+                        data={FloorMap}
+                        type="application/pdf"
+                        width="100%"
+                        height="100%"
+                        aria-label="PDF viewer"
+                    >
+                        <p>
+                        Your browser does not support embedding PDFs.
+                        <a href="/my-document.pdf">Download the PDF instead</a>.
+                        </p>
+                    </object>
+                </div>
+
+                <br />
 
                 <div style={containerStyle}>
                     <div style={wrapperStyle}>

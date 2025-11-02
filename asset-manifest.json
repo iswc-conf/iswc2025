@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.6c6d0cda.css",
-    "main.js": "./static/js/main.74cc29f9.js",
+    "main.js": "./static/js/main.03d2f2a4.js",
     "static/js/453.7e499361.chunk.js": "./static/js/453.7e499361.chunk.js",
     "static/media/community_1.png": "./static/media/community_1.52c46154e49d4a2a33b8.png",
     "static/media/guha.png": "./static/media/guha.48fde7578fd48bb5ac96.png",
@@ -18,10 +18,12 @@
     "static/media/community_16.png": "./static/media/community_16.c9f3a1858354afdaf4d1.png",
     "static/media/nara.jpg": "./static/media/nara.f23252a86df90f0e41a6.jpg",
     "static/media/neha_keshan.png": "./static/media/neha_keshan.7c28c9cce493fb847f18.png",
+    "static/media/he.png": "./static/media/he.ca6694d5aa31adbbcba1.png",
     "static/media/venue_map.png": "./static/media/venue_map.ab36a16addb7659cd7eb.png",
     "static/media/se_4.png": "./static/media/se_4.460bd585a515b95a3c92.png",
     "static/media/se_2.png": "./static/media/se_2.05eff1c8d1ce811d7651.png",
     "static/media/akaichi_ines.png": "./static/media/akaichi_ines.898232d136ad299c2f44.png",
+    "static/media/lakshan.png": "./static/media/lakshan.42d91690ed3e727b7e2f.png",
     "static/media/mayank_kejriwal.png": "./static/media/mayank_kejriwal.d1ffd68992c662777dbe.png",
     "static/media/elena.png": "./static/media/elena.0856dff9a5ddfed3c812.png",
     "static/media/se_3.png": "./static/media/se_3.e93acfc43ce83fb04033.png",
@@ -29,10 +31,14 @@
     "static/media/ray_atarashi.png": "./static/media/ray_atarashi.4f76c7bc9b628e63cd57.png",
     "static/media/Sun_Zequn.jpg": "./static/media/Sun_Zequn.e4c9ac092fa505ef1f01.jpg",
     "static/media/Cheng_Gong.jpg": "./static/media/Cheng_Gong.2d1a83898e12a36312ab.jpg",
+    "static/media/omiya.jpeg": "./static/media/omiya.f38436e45f335c8ca678.jpeg",
+    "static/media/yamada.png": "./static/media/yamada.84abffe34bb5cbdce4fd.png",
     "static/media/community_25.jpeg": "./static/media/community_25.7e80524e36ac91cbae04.jpeg",
     "static/media/community_23.png": "./static/media/community_23.2137f1df1c3248893a84.png",
+    "static/media/zhao.png": "./static/media/zhao.65c6af376b46b0a2044a.png",
     "static/media/atsuko.png": "./static/media/atsuko.8c96d111640c1de5e7fb.png",
     "static/media/community_19.jpeg": "./static/media/community_19.ded8a51fed7ffccad1dc.jpeg",
+    "static/media/ando.jpeg": "./static/media/ando.5104ced11100f3c4f32a.jpeg",
     "static/media/rachel_adams.png": "./static/media/rachel_adams.8629f2c4c9b0e1918ac6.png",
     "static/media/community_26.jpeg": "./static/media/community_26.f9d05b9f1cecfb7baabf.jpeg",
     "static/media/FloorMap.pdf": "./static/media/FloorMap.36ed73b4540dca7fd231.pdf",
@@ -78,6 +84,7 @@
     "static/media/maribel_acosta.png": "./static/media/maribel_acosta.c0a65197da010100c85f.png",
     "static/media/stellato_armando.jpg": "./static/media/stellato_armando.3bbf6bc248e9cc4595c7.jpg",
     "static/media/community_14.jpeg": "./static/media/community_14.a59c6178fb78527657d4.jpeg",
+    "static/media/yokoyama.jpeg": "./static/media/yokoyama.ee8699976b9b912c3dea.jpeg",
     "static/media/community_13.jpeg": "./static/media/community_13.adc26e26c7749508dcc7.jpeg",
     "static/media/hideaki_takeda.png": "./static/media/hideaki_takeda.949906fb96c0d613441a.png",
     "static/media/community_22.jpeg": "./static/media/community_22.f89a35833710139904da.jpeg",
@@ -95,16 +102,17 @@
     "static/media/juan.jpeg": "./static/media/juan.e1b84ac734a6d2359d11.jpeg",
     "static/media/ISWC1.png": "./static/media/ISWC1.547931b6dd43eade896d.png",
     "static/media/ken_fukuda.png": "./static/media/ken_fukuda.22c7d8382ad53a504a95.png",
+    "static/media/sookplang.jpeg": "./static/media/sookplang.234c7374b1ed7e90b64d.jpeg",
     "static/media/google_logo.png": "./static/media/google_logo.08b4ebfd25145471fde1.png",
     "static/media/CEUR-WS-logo.png": "./static/media/CEUR-WS-logo.3adaa40b1d590caab887.png",
     "static/media/digital_science_logo.png": "./static/media/digital_science_logo.dad5f3176ea4c4362b18.png",
     "index.html": "./index.html",
     "main.6c6d0cda.css.map": "./static/css/main.6c6d0cda.css.map",
-    "main.74cc29f9.js.map": "./static/js/main.74cc29f9.js.map",
+    "main.03d2f2a4.js.map": "./static/js/main.03d2f2a4.js.map",
     "453.7e499361.chunk.js.map": "./static/js/453.7e499361.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6c6d0cda.css",
-    "static/js/main.74cc29f9.js"
+    "static/js/main.03d2f2a4.js"
   ]
 }

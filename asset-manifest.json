@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.6c6d0cda.css",
-    "main.js": "./static/js/main.e618446a.js",
+    "main.js": "./static/js/main.692d8cc0.js",
     "static/js/453.7e499361.chunk.js": "./static/js/453.7e499361.chunk.js",
     "static/media/community_1.png": "./static/media/community_1.52c46154e49d4a2a33b8.png",
     "static/media/guha.png": "./static/media/guha.48fde7578fd48bb5ac96.png",
@@ -41,12 +41,16 @@
     "static/media/ando.jpeg": "./static/media/ando.5104ced11100f3c4f32a.jpeg",
     "static/media/rachel_adams.png": "./static/media/rachel_adams.8629f2c4c9b0e1918ac6.png",
     "static/media/community_26.jpeg": "./static/media/community_26.f9d05b9f1cecfb7baabf.jpeg",
+    "static/media/shimoide.jpeg": "./static/media/shimoide.b11f081445e172b7f069.jpeg",
     "static/media/FloorMap.pdf": "./static/media/FloorMap.36ed73b4540dca7fd231.pdf",
     "static/media/JWE_River_Logo.jpg": "./static/media/JWE_River_Logo.1a485d79767aeb12f62f.jpg",
     "static/media/community_18.jpeg": "./static/media/community_18.131d13e3f71b343d8872.jpeg",
     "static/media/community_6.png": "./static/media/community_6.86638daccb2dcb3a79ac.png",
+    "static/media/doi.jpeg": "./static/media/doi.a21691f813fa6359dc55.jpeg",
+    "static/media/sakamoto.jpeg": "./static/media/sakamoto.53e1de28a8aab52a1429.jpeg",
     "static/media/nandana.jpeg": "./static/media/nandana.38440218645af3ddb2ed.jpeg",
     "static/media/ohmukai_ikki.jpg": "./static/media/ohmukai_ikki.d413b99e039dff003a8d.jpg",
+    "static/media/hotta.jpeg": "./static/media/hotta.7a501fe0f623b99353c5.jpeg",
     "static/media/ISWC3.png": "./static/media/ISWC3.277a346ad206040f9277.png",
     "static/media/community_24.png": "./static/media/community_24.c17d0be855b86255381b.png",
     "static/media/community_21.jpeg": "./static/media/community_21.a30cceca149fc4581fac.jpeg",
@@ -54,8 +58,10 @@
     "static/media/community_8.jpeg": "./static/media/community_8.11713e3d9de542690cc1.jpeg",
     "static/media/tetsuya_mihara.jpg": "./static/media/tetsuya_mihara.7e1bc80d0522cec2d3e1.jpg",
     "static/media/community_9.jpeg": "./static/media/community_9.63c640fea0809ddd2396.jpeg",
+    "static/media/takamatsu.jpeg": "./static/media/takamatsu.619dc6c67164a24f11ce.jpeg",
     "static/media/ISWC_HEAD.png": "./static/media/ISWC_HEAD.216bbd0c2f633af74c3f.png",
     "static/media/OECU_logo.jpg": "./static/media/OECU_logo.96a7feec07ad6655d6b3.jpg",
+    "static/media/tanaka.jpeg": "./static/media/tanaka.3337593162cb154b0bab.jpeg",
     "static/media/Dr_Denny_Vrandecic.jpg": "./static/media/Dr_Denny_Vrandecic.d61f3c347b4f4e5d62c5.jpg",
     "static/media/natasha.png": "./static/media/natasha.8a0bb38099e5e5705e5d.png",
     "static/media/irene_celino.png": "./static/media/irene_celino.bdb3285806e56a4d3334.png",
@@ -78,6 +84,7 @@
     "static/media/community_12.jpeg": "./static/media/community_12.e9f5784fd1e28fee5172.jpeg",
     "static/media/natasha_noy.png": "./static/media/natasha_noy.a45f10fe30e4af3fd37b.png",
     "static/media/andrea_nuzzolese.png": "./static/media/andrea_nuzzolese.ea6082e238bf95c7e8d8.png",
+    "static/media/yasui.jpeg": "./static/media/yasui.f5d68ce3bd7474066a7e.jpeg",
     "static/media/se_1.jpg": "./static/media/se_1.d9badb5673b47083e82d.jpg",
     "static/media/jenifer_tabita_ciuciu_kiss.png": "./static/media/jenifer_tabita_ciuciu_kiss.94fea9b446bfc31f86d4.png",
     "static/media/oktie_hassanzadeh.png": "./static/media/oktie_hassanzadeh.db8a06cc165c73ce8d48.png",
@@ -87,6 +94,7 @@
     "static/media/yokoyama.jpeg": "./static/media/yokoyama.ee8699976b9b912c3dea.jpeg",
     "static/media/community_13.jpeg": "./static/media/community_13.adc26e26c7749508dcc7.jpeg",
     "static/media/hideaki_takeda.png": "./static/media/hideaki_takeda.949906fb96c0d613441a.png",
+    "static/media/maeda.jpeg": "./static/media/maeda.4c613ad1f3f9802fc74d.jpeg",
     "static/media/community_22.jpeg": "./static/media/community_22.f89a35833710139904da.jpeg",
     "static/media/spotnet.png": "./static/media/spotnet.b649c05c877ee2831a31.png",
     "static/media/Videolectures_logo.png": "./static/media/Videolectures_logo.cfa73b0eda9d934ddcd8.png",
@@ -101,6 +109,9 @@
     "static/media/swsa_logo.png": "./static/media/swsa_logo.3f96eb5d67680db2422c.png",
     "static/media/juan.jpeg": "./static/media/juan.e1b84ac734a6d2359d11.jpeg",
     "static/media/ISWC1.png": "./static/media/ISWC1.547931b6dd43eade896d.png",
+    "static/media/marui.jpeg": "./static/media/marui.9ffdad1fee789dabc1af.jpeg",
+    "static/media/yanagi.jpeg": "./static/media/yanagi.8752ed07a9ea6c274c7c.jpeg",
+    "static/media/fukuda.jpeg": "./static/media/fukuda.642aea23ede1955b777b.jpeg",
     "static/media/ken_fukuda.png": "./static/media/ken_fukuda.22c7d8382ad53a504a95.png",
     "static/media/sookplang.jpeg": "./static/media/sookplang.234c7374b1ed7e90b64d.jpeg",
     "static/media/google_logo.png": "./static/media/google_logo.08b4ebfd25145471fde1.png",
@@ -108,11 +119,11 @@
     "static/media/digital_science_logo.png": "./static/media/digital_science_logo.dad5f3176ea4c4362b18.png",
     "index.html": "./index.html",
     "main.6c6d0cda.css.map": "./static/css/main.6c6d0cda.css.map",
-    "main.e618446a.js.map": "./static/js/main.e618446a.js.map",
+    "main.692d8cc0.js.map": "./static/js/main.692d8cc0.js.map",
     "453.7e499361.chunk.js.map": "./static/js/453.7e499361.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6c6d0cda.css",
-    "static/js/main.e618446a.js"
+    "static/js/main.692d8cc0.js"
   ]
 }

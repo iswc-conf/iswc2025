@@ -2080,6 +2080,600 @@ const program_commitee_list = {
             "institution": "University of Southern California",
             "country": "USA"
         }
+    ],
+    "Poster & Demo Track Committee": [
+        {
+            "name": "Elvira Amador-Domínguez",
+            "institution": "Universidad Politécnica de Madrid",
+            "country": ""
+        },
+        {
+            "name": "Hiba Arnaout",
+            "institution": "TU Darmstadt",
+            "country": ""
+        },
+        {
+            "name": "Dörthe Arndt",
+            "institution": "TU Dresden",
+            "country": ""
+        },
+        {
+            "name": "Martin Bauer",
+            "institution": "NEC Laboratories Europe",
+            "country": ""
+        },
+        {
+            "name": "Carlos Bobed",
+            "institution": "University of Zaragoza, Spain",
+            "country": ""
+        },
+        {
+            "name": "Pieter Bonte",
+            "institution": "KU Leuven",
+            "country": ""
+        },
+        {
+            "name": "Janez Brank",
+            "institution": "Jožef Stefan Institute",
+            "country": ""
+        },
+        {
+            "name": "Jean-Paul Calbimonte",
+            "institution": "University of Applied Sciences and Arts Western Switzerland HES-SO",
+            "country": ""
+        },
+        {
+            "name": "Jieying Chen",
+            "institution": "Vrije Universiteit Amsterdam",
+            "country": ""
+        },
+        {
+            "name": "Ioannis Chrysakis",
+            "institution": "FORTH-ICS (Greece) and Dept. of Electronics and Information Systems, Ghent University - IDLab – imec (Belgium)",
+            "country": ""
+        },
+        {
+            "name": "Yashrajsinh Chudasama",
+            "institution": "Leibniz University Hannover",
+            "country": ""
+        },
+        {
+            "name": "Oscar Corcho",
+            "institution": "Universidad Politécnica de Madrid",
+            "country": ""
+        },
+        {
+            "name": "Enrico Daga",
+            "institution": "The Open University",
+            "country": ""
+        },
+        {
+            "name": "Stefano De Giorgis",
+            "institution": "Vrije Universiteit Amsterdam ",
+            "country": ""
+        },
+        {
+            "name": "Christophe Debruyne",
+            "institution": "Université de Liège",
+            "country": ""
+        },
+        {
+            "name": "Vasilis Efthymiou",
+            "institution": "Harokopio University of Athens",
+            "country": ""
+        },
+        {
+            "name": "Shusaku Egami",
+            "institution": "National Institute of Advanced Industrial Science and Technology",
+            "country": ""
+        },
+        {
+            "name": "Holly Ferguson",
+            "institution": "Personal Research",
+            "country": ""
+        },
+        {
+            "name": "Sebastián Ferrada",
+            "institution": "Universidad de Chile",
+            "country": ""
+        },
+        {
+            "name": "Giorgos Flouris",
+            "institution": "ICS-FORTH",
+            "country": ""
+        },
+        {
+            "name": "Kathleen Fontaine",
+            "institution": "Rensselaer Polytechnic Institute",
+            "country": ""
+        },
+        {
+            "name": "Naoki Fukuta",
+            "institution": "Shizuoka University",
+            "country": ""
+        },
+        {
+            "name": "Sandra Geisler",
+            "institution": "Data Stream Management and Analysis, RWTH Aachen University",
+            "country": ""
+        },
+        {
+            "name": "Pouya Ghiasnezhad Omran",
+            "institution": "Australian National University",
+            "country": ""
+        },
+        {
+            "name": "Martin Giese",
+            "institution": "University of Oslo",
+            "country": ""
+        },
+        {
+            "name": "Simon Gottschalk",
+            "institution": "Leibniz Universität Hannover, L3S Research Center",
+            "country": ""
+        },
+        {
+            "name": "Damien Graux",
+            "institution": "EcoVadis",
+            "country": ""
+        },
+        {
+            "name": "Claudio Gutierrez",
+            "institution": "Universidad de Chile",
+            "country": ""
+        },
+        {
+            "name": "Peter Haase",
+            "institution": "metaphacts",
+            "country": ""
+        },
+        {
+            "name": "Mounira Harzallah",
+            "institution": "LS2N, University of Nantes, France",
+            "country": ""
+        },
+        {
+            "name": "Daniel Hernández",
+            "institution": "University of Stuttgart",
+            "country": ""
+        },
+        {
+            "name": "Ryohei Hisano",
+            "institution": "ETH Zurich",
+            "country": ""
+        },
+        {
+            "name": "Wei Hu",
+            "institution": "Nanjing University",
+            "country": ""
+        },
+        {
+            "name": "Luis-Daniel Ibáñez",
+            "institution": "University of Southampton",
+            "country": ""
+        },
+        {
+            "name": "Timotheus Kampik",
+            "institution": "SAP, Umeå University",
+            "country": ""
+        },
+        {
+            "name": "Takahiro Kawamura",
+            "institution": "The University of Tokyo",
+            "country": ""
+        },
+        {
+            "name": "Mayank Kejriwal",
+            "institution": "University of Southern California",
+            "country": ""
+        },
+        {
+            "name": "Mayank Kharbanda",
+            "institution": "Indraprastha Institute of Information Technology Delhi",
+            "country": ""
+        },
+        {
+            "name": "Craig Knoblock",
+            "institution": "USC Information Sciences Institute",
+            "country": ""
+        },
+        {
+            "name": "Haridimos Kondylakis",
+            "institution": "Institute of Computer Science, FORTH",
+            "country": ""
+        },
+        {
+            "name": "Roman Kontchakov",
+            "institution": "Birkbeck, University of London",
+            "country": ""
+        },
+        {
+            "name": "Manolis Koubarakis",
+            "institution": "National and Kapodistrian University of Athens",
+            "country": ""
+        },
+        {
+            "name": "Sébastien Laborie",
+            "institution": "LIUPPA - Université de Pau et des Pays de l'Adour",
+            "country": ""
+        },
+        {
+            "name": "Jose Emilio Labra Gayo",
+            "institution": "Universidad de Oviedo",
+            "country": ""
+        },
+        {
+            "name": "Christoph Lange",
+            "institution": "Fraunhofer Institute for Applied Information Technology FIT and RWTH Aachen University, Germany",
+            "country": ""
+        },
+        {
+            "name": "Davide Lanti",
+            "institution": "Free University of Bozen-Bolzano",
+            "country": ""
+        },
+        {
+            "name": "Huanyu Li",
+            "institution": "Linköping University, Sweden",
+            "country": ""
+        },
+        {
+            "name": "Daxin Liu",
+            "institution": "Nanjing University",
+            "country": ""
+        },
+        {
+            "name": "Xiaoze Liu",
+            "institution": "Purdue University",
+            "country": ""
+        },
+        {
+            "name": "Ioanna Lytra",
+            "institution": "Semantic Web Company",
+            "country": ""
+        },
+        {
+            "name": "Jose L. Martinez-Rodriguez",
+            "institution": "Autonomous University of Tamaulipas",
+            "country": ""
+        },
+        {
+            "name": "Margherita Martorana",
+            "institution": "Vrije Universiteit Amsterdam",
+            "country": ""
+        },
+        {
+            "name": "Simon Mayer",
+            "institution": "University of St.Gallen",
+            "country": ""
+        },
+        {
+            "name": "Marc Maynou",
+            "institution": "Universitat Politècnica de Catalunya",
+            "country": ""
+        },
+        {
+            "name": "Albert Meroño-Peñuela",
+            "institution": "King's College London",
+            "country": ""
+        },
+        {
+            "name": "Thomas Meyer",
+            "institution": "University of Cape Town and CAIR",
+            "country": ""
+        },
+        {
+            "name": "Nandana Mihindukulasooriya",
+            "institution": "IBM Research",
+            "country": ""
+        },
+        {
+            "name": "Seyedreza Mohseni",
+            "institution": "Program Committee member",
+            "country": ""
+        },
+        {
+            "name": "Pascal Molli",
+            "institution": "University of Nantes - LS2N",
+            "country": ""
+        },
+        {
+            "name": "Pierre Monnin",
+            "institution": "Université Côte d'Azur, Inria, CNRS, I3S, Sophia Antipolis, France",
+            "country": ""
+        },
+        {
+            "name": "Ummara Mumtaz",
+            "institution": "University of the Cumberlands",
+            "country": ""
+        },
+        {
+            "name": "Summaya Mumtaz",
+            "institution": "University of Oslo",
+            "country": ""
+        },
+        {
+            "name": "Raghava Mutharaju",
+            "institution": "IIIT-Delhi, India",
+            "country": ""
+        },
+        {
+            "name": "Muhammad Raza Naqvi",
+            "institution": "Mines Saint-Etienne, Saint-Etienne, France",
+            "country": ""
+        },
+        {
+            "name": "Hien D. Nguyen",
+            "institution": "University of Information Technology, VNU-HCM, Vietnam",
+            "country": ""
+        },
+        {
+            "name": "Sapan Pandya",
+            "institution": "Independent Researcher, United States",
+            "country": ""
+        },
+        {
+            "name": "Peter Patel-Schneider",
+            "institution": "NONE",
+            "country": ""
+        },
+        {
+            "name": "Evan Patton",
+            "institution": "Massachusetts Institute of Technology",
+            "country": ""
+        },
+        {
+            "name": "Heiko Paulheim",
+            "institution": "University of Mannheim",
+            "country": ""
+        },
+        {
+            "name": "Bernardo Pereira Nunes",
+            "institution": "Australian National University",
+            "country": ""
+        },
+        {
+            "name": "Alina Petrova",
+            "institution": "University of Oxford",
+            "country": ""
+        },
+        {
+            "name": "Gerard Pons",
+            "institution": "Universitat Politècnica de Catalunya",
+            "country": ""
+        },
+        {
+            "name": "David Ratcliffe",
+            "institution": "Microsoft",
+            "country": ""
+        },
+        {
+            "name": "Juan Manuel Rodriguez",
+            "institution": "Aalborg University",
+            "country": ""
+        },
+        {
+            "name": "Philipp D. Rohde",
+            "institution": "TIB Leibniz Information Centre for Science and Technology",
+            "country": ""
+        },
+        {
+            "name": "Edelweis Rohrer",
+            "institution": "Facultad de Ingeniería - Universidad de la República, Uruguay",
+            "country": ""
+        },
+        {
+            "name": "Henry Rosales-Méndez",
+            "institution": "University of Chile",
+            "country": ""
+        },
+        {
+            "name": "Jože M. Rožanec",
+            "institution": "Jožef Stefan Institute / University of Twente",
+            "country": ""
+        },
+        {
+            "name": "Tomer Sagi",
+            "institution": "Aalborg Universitet",
+            "country": ""
+        },
+        {
+            "name": "Emanuel Sallinger",
+            "institution": "TU Wien",
+            "country": ""
+        },
+        {
+            "name": "Ralf Schenkel",
+            "institution": "Trier University",
+            "country": ""
+        },
+        {
+            "name": "Qing Shi",
+            "institution": "Nanjing University",
+            "country": ""
+        },
+        {
+            "name": "Sarah Binta Alam Shoilee",
+            "institution": "Vrije Universiteit Amsterdam",
+            "country": ""
+        },
+        {
+            "name": "Hala Skaf-Molli",
+            "institution": "University of Nantes - LS2N",
+            "country": ""
+        },
+        {
+            "name": "Martin G Skjæveland",
+            "institution": "University of Oslo",
+            "country": ""
+        },
+        {
+            "name": "Ahmet Soylu",
+            "institution": "OsloMet - Oslo Metropolitan University",
+            "country": ""
+        },
+        {
+            "name": "Lise Stork",
+            "institution": "University of Amsterdam",
+            "country": ""
+        },
+        {
+            "name": "Chang Sun",
+            "institution": "Institute of Data Science, Faculty of Science and Engineering, Maastricht University",
+            "country": ""
+        },
+        {
+            "name": "Danai Symeonidou",
+            "institution": "INRAE, University of Montpellier",
+            "country": ""
+        },
+        {
+            "name": "Steffen Thoma",
+            "institution": "FZI Research Center for Information Technology",
+            "country": ""
+        },
+        {
+            "name": "Ilaria Tiddi",
+            "institution": "Vrije Universiteit Amsterdam",
+            "country": ""
+        },
+        {
+            "name": "Dominik Tomaszuk",
+            "institution": "University of Bialystok",
+            "country": ""
+        },
+        {
+            "name": "Cassia Trojahn",
+            "institution": "Univ. Grenoble Alpes, Inria, CNRS, Grenoble INP, France",
+            "country": ""
+        },
+        {
+            "name": "Takanori Ugai",
+            "institution": "Fujitsu Limited",
+            "country": ""
+        },
+        {
+            "name": "Xiaxia Wang",
+            "institution": "University of Oxford",
+            "country": ""
+        },
+        {
+            "name": "Ruijie Wang",
+            "institution": "SIB Swiss Institute of Bioinformatics, University of Zurich",
+            "country": ""
+        },
+        {
+            "name": "Shuai Wang",
+            "institution": "Vrije University Amsterdam",
+            "country": ""
+        },
+        {
+            "name": "Xander Wilcke",
+            "institution": "Vrije Universiteit Amsterdam",
+            "country": ""
+        },
+        {
+            "name": "Tongtong Wu",
+            "institution": "Monash University",
+            "country": ""
+        },
+        {
+            "name": "Tianxing Wu",
+            "institution": "Southeast University",
+            "country": ""
+        },
+        {
+            "name": "Ran Yu",
+            "institution": "GESIS-Leibniz Institute for the Social Sciences",
+            "country": ""
+        },
+        {
+            "name": "Fouad Zablith",
+            "institution": "American University of Beirut",
+            "country": ""
+        },
+        {
+            "name": "Veruska Zamborlini",
+            "institution": "KNAW Humanities Cluster, Netherlands & Federal University of Espirito Santo, Brazil",
+            "country": ""
+        },
+        {
+            "name": "Ningyu Zhang",
+            "institution": "Zhejiang University",
+            "country": ""
+        }
+    ],
+    "Industry Track Program Committee": [
+        {
+            "name": "David     Chaves-Fraga",
+            "institution": "Universidad de Santiago de Compostela",
+            "country": "Spain"
+        },
+        {
+            "name": "Federico D'Asaro",
+            "institution": "LINKS Foundation",
+            "country": "Italy"
+        },
+        {
+            "name": "Ronald Denaux",
+            "institution": "Amazon",
+            "country": "Spain"
+        },
+        {
+            "name": "Peter Haase",
+            "institution": "metaphacts",
+            "country": "Germany"
+        },
+        {
+            "name": "Nico  Lavarini",
+            "institution": "Expert.ai",
+            "country": "Italy"
+        },
+        {
+            "name": "Suvodeep Mazumdar",
+            "institution": "University of Sheffield",
+            "country": "UK"
+        },
+        {
+            "name": "Nandana Mihindukulasooriya",
+            "institution": "IBM Research, US",
+            "country": "United States"
+        },
+        {
+            "name": "Natasha Mulligan",
+            "institution": "IBM Research Europe",
+            "country": "Ireland"
+        },
+        {
+            "name": "Paco Nathan",
+            "institution": "Senzing",
+            "country": "United States"
+        },
+        {
+            "name": "Lydia Pintscher",
+            "institution": "Wikimedia Deutschland",
+            "country": "Germany"
+        },
+        {
+            "name": "Juan Sequeda",
+            "institution": "ServiceNow",
+            "country": "United States"
+        },
+        {
+            "name": "Basel Shbita",
+            "institution": "IBM Research",
+            "country": "United States"
+        },
+        {
+            "name": "Josiane Xavier-Parreira",
+            "institution": "Siemens AG Österreich",
+            "country": "Austria"
+        },
+        {
+            "name": "Fouad Zablith",
+            "institution": "American University of Beirut",
+            "country": "Lebanon"
+        }
     ]
 };
 export default program_commitee_list;
